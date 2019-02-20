@@ -1,0 +1,19 @@
+#Start recording tcl command: 8/6/2018 19:37:24
+#Project Location: E:/fpgaproject/stepmxo2/swust/22.accum4; Project name: accum4
+prj_project open "E:/fpgaproject/stepmxo2/swust/22.accum4/accum4.ldf"
+file copy -force -- "E:/fpgaproject/stepmxo2/swust/13.jk_ff/jk_ff.v" "E:/fpgaproject/stepmxo2/swust/22.accum4/impl1/source"
+prj_src add "E:/fpgaproject/stepmxo2/swust/22.accum4/impl1/source/jk_ff.v"
+file copy -force -- "E:/fpgaproject/stepmxo2/swust/14.shift7/shift7.v" "E:/fpgaproject/stepmxo2/swust/22.accum4/impl1/source"
+prj_src add "E:/fpgaproject/stepmxo2/swust/22.accum4/impl1/source/shift7.v"
+file copy -force -- "E:/fpgaproject/stepmxo2/swust/2.adder1/adder1.v" "E:/fpgaproject/stepmxo2/swust/22.accum4/impl1/source"
+prj_src add "E:/fpgaproject/stepmxo2/swust/22.accum4/impl1/source/adder1.v"
+prj_src add "E:/fpgaproject/stepmxo2/swust/22.accum4/accum4.v"
+prj_src add "E:/fpgaproject/stepmxo2/swust/22.accum4/ahead.v"
+prj_src remove "E:/fpgaproject/stepmxo2/swust/22.accum4/impl1/source/shift7.v"
+prj_src add "E:/fpgaproject/stepmxo2/swust/22.accum4/impl1/source/shift.v"
+prj_src add "E:/fpgaproject/stepmxo2/swust/22.accum4/accum4_tb.v"
+prj_src syn_sim -src "E:/fpgaproject/stepmxo2/swust/22.accum4/accum4_tb.v" SimulateOnly
+prj_src add "E:/fpgaproject/stepmxo2/swust/22.accum4/sim/sim.spf"
+prj_run Synthesis -impl impl1
+prj_src add "E:/fpgaproject/stepmxo2/swust/22.accum4/sim/sim.spf"
+#Stop recording: 8/7/2018 10:00:17

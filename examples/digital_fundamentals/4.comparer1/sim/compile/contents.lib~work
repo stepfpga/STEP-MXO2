@@ -1,0 +1,7 @@
+2
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "./../../comparer1.v" 13 comparer1
+~A 1 "./../../comparer1.v" 13 comparer1
+~M 3 "./../../comparer1_tb.v" 14 halfadder_tb
+~A 1 "./../../comparer1_tb.v" 14 halfadder_tb

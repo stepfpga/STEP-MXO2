@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "parity4_impl1.log"
+-o "parity4_impl1.csv"
+-pr "parity4_impl1.prf"

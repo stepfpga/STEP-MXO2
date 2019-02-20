@@ -1,0 +1,15 @@
+----------------------------------------------------------------------
+Report for cell divide.TECH
+Register bits:  8 of 4635 (0.173%)
+I/O cells:      3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX         2          100.0
+                            FD1S3IX         6          100.0
+                                GSR         1          100.0
+                                 IB         2          100.0
+                                INV         1          100.0
+                               LUT4        11          100.0
+                                 OB         1          100.0
+                        VERIFIC_PWR         1          100.0
+                              TOTAL        25

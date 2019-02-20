@@ -1,0 +1,9 @@
+#Start recording tcl command: 8/7/2018 11:19:29
+#Project Location: E:/fpgaproject/stepmxo2/swust/7.mult4; Project name: mult4
+prj_project open "E:/fpgaproject/stepmxo2/swust/7.mult4/mult4.ldf"
+prj_src add "E:/fpgaproject/stepmxo2/swust/7.mult4/mult4_tb.v"
+prj_src syn_sim -src "E:/fpgaproject/stepmxo2/swust/7.mult4/mult4_tb.v" SimulateOnly
+prj_src add "E:/fpgaproject/stepmxo2/swust/7.mult4/sim/sim.spf"
+prj_project save
+prj_project close
+#Stop recording: 8/7/2018 11:27:12

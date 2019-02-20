@@ -1,0 +1,14 @@
+#Start recording tcl command: 8/4/2018 10:13:42
+#Project Location: E:/fpgaproject/stepmxo2/swust/4.comparer1; Project name: comparer1
+E:/fpgaproject/stepmxo2/swust/3.voter3
+voter3
+#Start recording tcl command: 8/4/2018 10:19:54
+#Project Location: E:/fpgaproject/stepmxo2/swust/3.voter3; Project name: voter3
+prj_project open "E:/fpgaproject/stepmxo2/swust/4.comparer1/comparer1.ldf"
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_project save
+prj_project close
+prj_project open "E:/fpgaproject/stepmxo2/swust/3.voter3/voter3.ldf"
+#Stop recording: 8/4/2018 10:19:55

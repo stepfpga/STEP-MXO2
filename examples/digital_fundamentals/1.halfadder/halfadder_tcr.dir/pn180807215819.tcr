@@ -1,0 +1,5 @@
+#Start recording tcl command: 8/7/2018 21:52:06
+#Project Location: E:/fpgaproject/stepmxo2/swust/1.halfadder; Project name: halfadder
+prj_project open "E:/fpgaproject/stepmxo2/swust/1.halfadder/halfadder.ldf"
+prj_project close
+#Stop recording: 8/7/2018 21:58:19

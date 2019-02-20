@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/21.answer/answer.v(18): </Dynamic>
+            <Dynamic>answer</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/21.answer/answer.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/21.answer/impl1/source/divide.v(18): </Dynamic>
+            <Dynamic>divide(WIDTH=24,N=12000000)</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/21.answer/impl1/source/divide.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/21.answer/judge.v(14): </Dynamic>
+            <Dynamic>judge</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/21.answer/judge.v</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/21.answer/score.v(13): </Dynamic>
+            <Dynamic>score</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/21.answer/score.v</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/21.answer/impl1/source/debounce.v(18): </Dynamic>
+            <Dynamic>debounce(KEY_WIDTH=3)</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/21.answer/impl1/source/debounce.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/21.answer/dseg.v(13): </Dynamic>
+            <Dynamic>dseg</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/21.answer/dseg.v</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/21.answer/impl1/source/segment_led.v(18): </Dynamic>
+            <Dynamic>segment_led</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/21.answer/impl1/source/segment_led.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/21.answer/impl1/source/segment_led.v(26): </Dynamic>
+            <Dynamic>seg</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/21.answer/impl1/source/segment_led.v</Navigation>
+            <Navigation>26</Navigation>
+        </Message>
+        <Message>
+            <ID>35931013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/21.answer/dseg.v(44): </Dynamic>
+            <Dynamic>seg_data_1[3]</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/21.answer/dseg.v</Navigation>
+            <Navigation>44</Navigation>
+        </Message>
+        <Message>
+            <ID>35931038</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/21.answer/impl1/source/segment_led.v(26): </Dynamic>
+            <Dynamic>seg_original_ramnet</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/21.answer/impl1/source/segment_led.v</Navigation>
+            <Navigation>26</Navigation>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>clk_c</Dynamic>
+            <Dynamic>Primary</Dynamic>
+            <Dynamic>clk</Dynamic>
+            <Dynamic>C1</Dynamic>
+            <Dynamic>Primary</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>

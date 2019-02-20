@@ -1,0 +1,15 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Sat Aug 04 12:23:33 2018 *
+NOTE DESIGN NAME: mult4 *
+NOTE DEVICE NAME: LCMXO2-4000HC-5CSBGA132 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS led : N13 : out *
+NOTE PINS a : M7 : in *
+NOTE PINS b : M8 : in *
+NOTE PINS c : M9 : in *
+NOTE PINS d : M10 : in *
+NOTE PINS sel[1] : M14 : in *
+NOTE PINS sel[0] : N14 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

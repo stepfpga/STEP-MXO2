@@ -1,0 +1,149 @@
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Sun Aug 05 23:02:52 2018
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design:     debounce
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 1000.000000 -name clk0 [get_nets clk_c]
+            258 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 993.392ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3IX    CK             cnt_29__i1  (from clk_c +)
+   Destination:    FD1P3AY    SP             key_jit[0]_24  (to clk_c +)
+
+   Delay:                   6.349ns  (34.6% logic, 65.4% route), 5 logic levels.
+
+ Constraint Details:
+
+      6.349ns data_path cnt_29__i1 to key_jit[0]_24 meets
+    1000.000ns delay constraint less
+      0.259ns LCE_S requirement (totaling 999.741ns) by 993.392ns
+
+ Path Details: cnt_29__i1 to key_jit[0]_24
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              cnt_29__i1 (from clk_c)
+Route         2   e 1.002                                  cnt[1]
+LUT4        ---     0.448              A to Z              i175_4_lut
+Route         1   e 0.788                                  n254
+LUT4        ---     0.448              B to Z              i181_4_lut
+Route         1   e 0.788                                  n260
+LUT4        ---     0.448              B to Z              i185_4_lut
+Route         1   e 0.788                                  n264
+LUT4        ---     0.448              A to Z              i190_4_lut
+Route         1   e 0.788                                  clk_c_enable_1
+                  --------
+                    6.349  (34.6% logic, 65.4% route), 5 logic levels.
+
+
+Passed:  The following path meets requirements by 993.392ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3IX    CK             cnt_29__i3  (from clk_c +)
+   Destination:    FD1P3AY    SP             key_jit[0]_24  (to clk_c +)
+
+   Delay:                   6.349ns  (34.6% logic, 65.4% route), 5 logic levels.
+
+ Constraint Details:
+
+      6.349ns data_path cnt_29__i3 to key_jit[0]_24 meets
+    1000.000ns delay constraint less
+      0.259ns LCE_S requirement (totaling 999.741ns) by 993.392ns
+
+ Path Details: cnt_29__i3 to key_jit[0]_24
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              cnt_29__i3 (from clk_c)
+Route         2   e 1.002                                  cnt[3]
+LUT4        ---     0.448              D to Z              i175_4_lut
+Route         1   e 0.788                                  n254
+LUT4        ---     0.448              B to Z              i181_4_lut
+Route         1   e 0.788                                  n260
+LUT4        ---     0.448              B to Z              i185_4_lut
+Route         1   e 0.788                                  n264
+LUT4        ---     0.448              A to Z              i190_4_lut
+Route         1   e 0.788                                  clk_c_enable_1
+                  --------
+                    6.349  (34.6% logic, 65.4% route), 5 logic levels.
+
+
+Passed:  The following path meets requirements by 993.392ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3IX    CK             cnt_29__i5  (from clk_c +)
+   Destination:    FD1P3AY    SP             key_jit[0]_24  (to clk_c +)
+
+   Delay:                   6.349ns  (34.6% logic, 65.4% route), 5 logic levels.
+
+ Constraint Details:
+
+      6.349ns data_path cnt_29__i5 to key_jit[0]_24 meets
+    1000.000ns delay constraint less
+      0.259ns LCE_S requirement (totaling 999.741ns) by 993.392ns
+
+ Path Details: cnt_29__i5 to key_jit[0]_24
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              cnt_29__i5 (from clk_c)
+Route         2   e 1.002                                  cnt[5]
+LUT4        ---     0.448              A to Z              i167_2_lut
+Route         1   e 0.788                                  n246
+LUT4        ---     0.448              C to Z              i181_4_lut
+Route         1   e 0.788                                  n260
+LUT4        ---     0.448              B to Z              i185_4_lut
+Route         1   e 0.788                                  n264
+LUT4        ---     0.448              A to Z              i190_4_lut
+Route         1   e 0.788                                  clk_c_enable_1
+                  --------
+                    6.349  (34.6% logic, 65.4% route), 5 logic levels.
+
+Report: 6.608 ns is the maximum delay for this constraint.
+
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk0 [get_nets clk_c]                   |  1000.000 ns|     6.608 ns|     5  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover  258 paths, 58 nets, and 118 connections (97.5% coverage)
+
+
+Peak memory: 57315328 bytes, TRCE: 790528 bytes, DLYMAN: 0 bytes
+CPU_TIME_REPORT: 0 secs 

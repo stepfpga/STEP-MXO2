@@ -1,0 +1,18 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Sat Aug 04 22:19:56 2018 *
+NOTE DESIGN NAME: ring *
+NOTE DEVICE NAME: LCMXO2-4000HC-5CSBGA132 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS cnt[7] : P9 : out *
+NOTE PINS cnt[5] : N10 : out *
+NOTE PINS cnt[6] : N9 : out *
+NOTE PINS cnt[4] : P11 : out *
+NOTE PINS cnt[3] : M11 : out *
+NOTE PINS cnt[2] : P12 : out *
+NOTE PINS cnt[1] : M12 : out *
+NOTE PINS cnt[0] : N13 : out *
+NOTE PINS clk : C1 : in *
+NOTE PINS rst : L14 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

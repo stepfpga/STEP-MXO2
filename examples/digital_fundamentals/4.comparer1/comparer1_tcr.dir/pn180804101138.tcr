@@ -1,0 +1,8 @@
+#Start recording tcl command: 8/4/2018 10:04:07
+#Project Location: E:/fpgaproject/stepmxo2/swust/4.comparer1; Project name: comparer1
+prj_project new -name "comparer1" -impl "impl1" -dev LCMXO2-4000HC-5MG132C -synthesis "lse"
+prj_project save
+prj_src add "E:/fpgaproject/stepmxo2/swust/4.comparer1/comparer1.v"
+prj_project save
+prj_project close
+#Stop recording: 8/4/2018 10:11:38

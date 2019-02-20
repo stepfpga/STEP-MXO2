@@ -1,0 +1,9 @@
+---------------------------------------------------
+Report for cell dff
+   Instance path: dff
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00        100.0
+                                  LUT4	       1.00        100.0
+                                 IOBUF	          5        100.0
+                                PFUREG	          1        100.0

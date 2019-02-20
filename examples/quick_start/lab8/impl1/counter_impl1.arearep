@@ -1,0 +1,42 @@
+----------------------------------------------------------------------
+Report for cell counter.TECH
+Register bits:  64 of 4635 (1.381%)
+I/O cells:      29
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        40          100.0
+                            FD1P3AX         1          100.0
+                            FD1P3AY         1          100.0
+                            FD1P3IX         5          100.0
+                            FD1S3AX         1          100.0
+                            FD1S3AY         5          100.0
+                            FD1S3IX        51          100.0
+                                GSR         1          100.0
+                                 IB         3          100.0
+                               LUT4        53          100.0
+                                 OB        26          100.0
+SUB MODULES
+                           debounce         1
+        divide(WIDTH=32,N=12000000)         1
+                              TOTAL       189
+----------------------------------------------------------------------
+Report for cell debounce.v1
+Instance Path : U2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        10           25.0
+                            FD1P3AY         1          100.0
+                            FD1S3AY         3           60.0
+                            FD1S3IX        18           35.3
+                               LUT4         9           17.0
+                              TOTAL        41
+----------------------------------------------------------------------
+Report for cell divide(WIDTH=32,N=12000000).v1
+Instance Path : U1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        30           75.0
+                            FD1S3AX         1          100.0
+                            FD1S3IX        32           62.7
+                               LUT4        14           26.4
+                              TOTAL        77

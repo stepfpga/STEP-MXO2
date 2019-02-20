@@ -1,0 +1,8 @@
+#Start recording tcl command: 8/4/2018 22:38:10
+#Project Location: E:/fpgaproject/stepmxo2/swust/17.divide; Project name: divide
+prj_project open "E:/fpgaproject/stepmxo2/swust/17.divide/divide.ldf"
+prj_src add "E:/fpgaproject/stepmxo2/swust/17.divide/divide_tb.v"
+prj_src syn_sim -src "E:/fpgaproject/stepmxo2/swust/17.divide/divide_tb.v" SimulateOnly
+prj_project save
+prj_project close
+#Stop recording: 8/4/2018 22:49:41

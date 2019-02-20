@@ -1,0 +1,38 @@
+timestamp=1533610169375
+
+[~A]
+E:/fpgaproject/stepmxo2/swust/2.adder1/adder1.v=0*346*785
+E:/fpgaproject/stepmxo2/swust/2.adder1/adder1_tb.v=0*1617*2139
+LastVerilogToplevel=adder1_tb
+ModifyID=2
+Version=74
+
+[$root]
+A/$root=22|||1*1981
+BinI32/$root=3*379
+SLP=3*483
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|c73a565f2ade592f8ac1c68f484c9216aad537014679d1619487613da3e03bc3
+
+[adder1]
+A/adder1=22|./../../adder1.v|13|1*374
+BinI32/adder1=3*172
+R=./../../adder1.v|13
+SLP=3*277
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|b5eacba28ec2415a510665ed39769ddab8bb162e3a8715ade1da4d1a7aeed1e4
+
+[adder1_tb]
+A/adder1_tb=22|./../../adder1_tb.v|14|1*2355
+BinI32/adder1_tb=3*551
+R=./../../adder1_tb.v|14
+SLP=3*1095
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|a7abc6d4736938a2d18d1845c742f08038fbb30d2f890fac5028972fc702166af1b8ac99e00ef517be72eb3cfb39097a
+
+[~MFT]
+0=4|0work.mgf|2139|0
+1=3|1work.mgf|2355|374
+3=6|3work.mgf|1095|172
+
+[~U]
+$root=12|0*1297|
+adder1=12|0*150||0x10
+adder1_tb=12|0*1463||0x10

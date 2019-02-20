@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "ring_impl1.log"
+-o "ring_impl1.csv"
+-pr "ring_impl1.prf"

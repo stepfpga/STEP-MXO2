@@ -1,0 +1,71 @@
+<top name = "mult4"  library = "work"  arch = ""  entry = "Verilog">
+
+<clocks>
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 0
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+<library name = "work">
+
+<unit name = "mult4">
+
+    <!--
+        Top Level Pins: 7
+    -->
+
+    <pins>
+        <pitem  name = "a"  direction = "in"  />
+        <pitem  name = "b"  direction = "in"  />
+        <pitem  name = "c"  direction = "in"  />
+        <pitem  name = "d"  direction = "in"  />
+        <pitem  name = "sel[1]"  direction = "in"  />
+        <pitem  name = "sel[0]"  direction = "in"  />
+        <pitem  name = "led"  direction = "out"  />
+    </pins>
+
+    <!--
+        Instances in netlist: 1
+    -->
+
+    <instance  name = "sel_1__I_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "sel[1]"  direction = "in"  />
+        <pitem  name = "sel[0]"  direction = "in"  />
+        <pitem  name = "data[3]"  direction = "in"  />
+        <pitem  name = "data[2]"  direction = "in"  />
+        <pitem  name = "data[1]"  direction = "in"  />
+        <pitem  name = "data[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "sel[1]"  />
+        <nitem  name = "sel[0]"  />
+        <nitem  name = "d"  />
+        <nitem  name = "c"  />
+        <nitem  name = "b"  />
+        <nitem  name = "a"  />
+        <nitem  name = "led"  />
+        </nets>
+    </instance>
+
+    <!--
+        Views in design "mult4": 0
+    -->
+
+    <views>
+    </views>
+
+</unit>
+
+</library>
+
+</top>

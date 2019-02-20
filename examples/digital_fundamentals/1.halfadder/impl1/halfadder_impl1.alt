@@ -1,0 +1,12 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Fri Aug 03 18:14:51 2018 *
+NOTE DESIGN NAME: halfadder *
+NOTE DEVICE NAME: LCMXO2-4000HC-4CSBGA132 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS sum : M12 : out *
+NOTE PINS b : M8 : in *
+NOTE PINS a : M7 : in *
+NOTE PINS cout : N13 : out *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

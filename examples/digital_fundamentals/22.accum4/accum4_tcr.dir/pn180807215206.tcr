@@ -1,0 +1,7 @@
+#Start recording tcl command: 8/7/2018 14:56:57
+#Project Location: E:/fpgaproject/stepmxo2/swust/22.accum4; Project name: accum4
+prj_project open "E:/fpgaproject/stepmxo2/swust/22.accum4/accum4.ldf"
+prj_src add "E:/fpgaproject/stepmxo2/swust/22.accum4/sim/sim.spf"
+prj_project save
+prj_project close
+#Stop recording: 8/7/2018 21:52:06

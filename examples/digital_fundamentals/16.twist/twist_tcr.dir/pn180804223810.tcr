@@ -1,0 +1,10 @@
+#Start recording tcl command: 8/4/2018 22:33:14
+#Project Location: E:/fpgaproject/stepmxo2/swust/16.twist; Project name: twist
+prj_project new -name "twist" -impl "impl1" -dev LCMXO2-4000HC-5MG132C -synthesis "lse"
+prj_project save
+prj_src add "E:/fpgaproject/stepmxo2/swust/16.twist/twist.v"
+prj_src add "E:/fpgaproject/stepmxo2/swust/16.twist/twist_tb.v"
+prj_src syn_sim -src "E:/fpgaproject/stepmxo2/swust/16.twist/twist_tb.v" SimulateOnly
+prj_project save
+prj_project close
+#Stop recording: 8/4/2018 22:38:10

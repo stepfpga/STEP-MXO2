@@ -1,0 +1,39 @@
+timestamp=1533612330649
+
+[~A]
+E:/fpgaproject/stepmxo2/swust/7.mult4/mult4.v=0*358*811
+E:/fpgaproject/stepmxo2/swust/7.mult4/mult4_tb.v=0*1639*2191
+E:/fpgaproject/stepmxo2/swust/7.mult4/sim/../mult4.v_mult4_tb.v=0*3230*3925
+LastVerilogToplevel=mult4_tb
+ModifyID=3
+Version=74
+
+[$root]
+A/$root=22|||1*3372
+BinI32/$root=3*2185
+SLP=3*2289
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c92163601875197f5727d05d3adb0401568ae
+
+[mult4]
+A/mult4=22|./../../mult4.v|13|1*3746
+BinI32/mult4=3*2357
+R=./../../mult4.v|13
+SLP=3*2866
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|82ddbc9ae8cd869683e86f26e5caeeceeab5a335072fbb5fc665f000f3976e50
+
+[mult4_tb]
+A/mult4_tb=22|./../../mult4_tb.v|14|1*4868
+BinI32/mult4_tb=3*3110
+R=./../../mult4_tb.v|14
+SLP=3*3708
+Version=10.3.3558.6081  (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|cb46f5741e69dee6eaeb428d552d171d9008907dfa4040ee1989c8ed5282fe948b5230e63484cfde984703eb3d340956
+
+[~MFT]
+0=5|0work.mgf|3925|0
+1=6|1work.mgf|4868|3372
+3=12|3work.mgf|3708|2185
+
+[~U]
+$root=12|0*2704|
+mult4=12|0*2870|
+mult4_tb=12|0*3078||0x10

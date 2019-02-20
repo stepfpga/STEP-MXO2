@@ -1,0 +1,219 @@
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Sat Nov 26 11:00:41 2016
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design:     STEP_V21_Test
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 1000.000000 -name clk0 [get_nets clk_in_c]
+            884 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 987.815ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3IX    CK             \clk_1Hz_uut/cnt1_151__i0  (from clk_in_c +)
+   Destination:    FD1P3AX    D              \Heart_beat_uut/heart_cnt_i0_i3  (to clk_in_c +)
+
+   Delay:                  12.025ns  (42.2% logic, 57.8% route), 17 logic levels.
+
+ Constraint Details:
+
+     12.025ns data_path \clk_1Hz_uut/cnt1_151__i0 to \Heart_beat_uut/heart_cnt_i0_i3 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 987.815ns
+
+ Path Details: \clk_1Hz_uut/cnt1_151__i0 to \Heart_beat_uut/heart_cnt_i0_i3
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \clk_1Hz_uut/cnt1_151__i0 (from clk_in_c)
+Route         2   e 1.198                                  cnt1[0]
+A1_TO_FCO   ---     0.827           A[2] to COUT           sub_84_add_2_2
+Route         1   e 0.020                                  n992
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_4
+Route         1   e 0.020                                  n993
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_6
+Route         1   e 0.020                                  n994
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_8
+Route         1   e 0.020                                  n995
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_10
+Route         1   e 0.020                                  n996
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_12
+Route         1   e 0.020                                  n997
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_14
+Route         1   e 0.020                                  n998
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_16
+Route         1   e 0.020                                  n999
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_18
+Route         1   e 0.020                                  n1000
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_20
+Route         1   e 0.020                                  n1001
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_22
+Route         1   e 0.020                                  n1002
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_24
+Route         1   e 0.020                                  n1003
+FCI_TO_F    ---     0.598            CIN to S[2]           sub_84_add_2_26
+Route         3   e 1.603                                  n241
+LUT4        ---     0.493              A to Z              i507_2_lut_rep_37
+Route        26   e 2.027                                  n1477
+LUT4        ---     0.493              A to Z              i1_4_lut
+Route         1   e 0.941                                  n1269
+LUT4        ---     0.493              B to Z              i1137_4_lut
+Route         1   e 0.941                                  n814
+                  --------
+                   12.025  (42.2% logic, 57.8% route), 17 logic levels.
+
+
+Passed:  The following path meets requirements by 987.815ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3IX    CK             \clk_1Hz_uut/cnt1_151__i1  (from clk_in_c +)
+   Destination:    FD1P3AX    D              \Heart_beat_uut/heart_cnt_i0_i3  (to clk_in_c +)
+
+   Delay:                  12.025ns  (42.2% logic, 57.8% route), 17 logic levels.
+
+ Constraint Details:
+
+     12.025ns data_path \clk_1Hz_uut/cnt1_151__i1 to \Heart_beat_uut/heart_cnt_i0_i3 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 987.815ns
+
+ Path Details: \clk_1Hz_uut/cnt1_151__i1 to \Heart_beat_uut/heart_cnt_i0_i3
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \clk_1Hz_uut/cnt1_151__i1 (from clk_in_c)
+Route         2   e 1.198                                  cnt1[1]
+A1_TO_FCO   ---     0.827           A[2] to COUT           sub_84_add_2_2
+Route         1   e 0.020                                  n992
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_4
+Route         1   e 0.020                                  n993
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_6
+Route         1   e 0.020                                  n994
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_8
+Route         1   e 0.020                                  n995
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_10
+Route         1   e 0.020                                  n996
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_12
+Route         1   e 0.020                                  n997
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_14
+Route         1   e 0.020                                  n998
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_16
+Route         1   e 0.020                                  n999
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_18
+Route         1   e 0.020                                  n1000
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_20
+Route         1   e 0.020                                  n1001
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_22
+Route         1   e 0.020                                  n1002
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_24
+Route         1   e 0.020                                  n1003
+FCI_TO_F    ---     0.598            CIN to S[2]           sub_84_add_2_26
+Route         3   e 1.603                                  n241
+LUT4        ---     0.493              A to Z              i507_2_lut_rep_37
+Route        26   e 2.027                                  n1477
+LUT4        ---     0.493              A to Z              i1_4_lut
+Route         1   e 0.941                                  n1269
+LUT4        ---     0.493              B to Z              i1137_4_lut
+Route         1   e 0.941                                  n814
+                  --------
+                   12.025  (42.2% logic, 57.8% route), 17 logic levels.
+
+
+Passed:  The following path meets requirements by 987.992ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3IX    CK             \clk_1Hz_uut/cnt1_151__i3  (from clk_in_c +)
+   Destination:    FD1P3AX    D              \Heart_beat_uut/heart_cnt_i0_i3  (to clk_in_c +)
+
+   Delay:                  11.848ns  (41.5% logic, 58.5% route), 16 logic levels.
+
+ Constraint Details:
+
+     11.848ns data_path \clk_1Hz_uut/cnt1_151__i3 to \Heart_beat_uut/heart_cnt_i0_i3 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 987.992ns
+
+ Path Details: \clk_1Hz_uut/cnt1_151__i3 to \Heart_beat_uut/heart_cnt_i0_i3
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \clk_1Hz_uut/cnt1_151__i3 (from clk_in_c)
+Route         2   e 1.198                                  cnt1[3]
+A1_TO_FCO   ---     0.827           A[2] to COUT           sub_84_add_2_4
+Route         1   e 0.020                                  n993
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_6
+Route         1   e 0.020                                  n994
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_8
+Route         1   e 0.020                                  n995
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_10
+Route         1   e 0.020                                  n996
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_12
+Route         1   e 0.020                                  n997
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_14
+Route         1   e 0.020                                  n998
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_16
+Route         1   e 0.020                                  n999
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_18
+Route         1   e 0.020                                  n1000
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_20
+Route         1   e 0.020                                  n1001
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_22
+Route         1   e 0.020                                  n1002
+FCI_TO_FCO  ---     0.157            CIN to COUT           sub_84_add_2_24
+Route         1   e 0.020                                  n1003
+FCI_TO_F    ---     0.598            CIN to S[2]           sub_84_add_2_26
+Route         3   e 1.603                                  n241
+LUT4        ---     0.493              A to Z              i507_2_lut_rep_37
+Route        26   e 2.027                                  n1477
+LUT4        ---     0.493              A to Z              i1_4_lut
+Route         1   e 0.941                                  n1269
+LUT4        ---     0.493              B to Z              i1137_4_lut
+Route         1   e 0.941                                  n814
+                  --------
+                   11.848  (41.5% logic, 58.5% route), 16 logic levels.
+
+Report: 12.185 ns is the maximum delay for this constraint.
+
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk0 [get_nets clk_in_c]                |  1000.000 ns|    12.185 ns|    17  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover  1725 paths, 217 nets, and 535 connections (66.5% coverage)
+
+
+Peak memory: 65982464 bytes, TRCE: 2482176 bytes, DLYMAN: 0 bytes
+CPU_TIME_REPORT: 0 secs 

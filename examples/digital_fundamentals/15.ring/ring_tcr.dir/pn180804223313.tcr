@@ -1,0 +1,13 @@
+#Start recording tcl command: 8/4/2018 22:02:39
+#Project Location: E:/fpgaproject/stepmxo2/swust/15.ring; Project name: ring
+prj_project new -name "ring" -impl "impl1" -dev LCMXO2-4000HC-5MG132C -synthesis "lse"
+prj_project save
+prj_src add "E:/fpgaproject/stepmxo2/swust/15.ring/ring.v"
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1
+prj_src add "E:/fpgaproject/stepmxo2/swust/15.ring/ring_tb.v"
+prj_src syn_sim -src "E:/fpgaproject/stepmxo2/swust/15.ring/ring_tb.v" SimulateOnly
+prj_src add "E:/fpgaproject/stepmxo2/swust/15.ring/sim/sim.spf"
+prj_project save
+prj_project close
+#Stop recording: 8/4/2018 22:33:13

@@ -1,0 +1,5 @@
+#Start recording tcl command: 8/4/2018 16:18:25
+#Project Location: E:/fpgaproject/stepmxo2/swust/9.coded_lock; Project name: coded_lock
+prj_project open "E:/fpgaproject/stepmxo2/swust/9.coded_lock/coded_lock.ldf"
+prj_project close
+#Stop recording: 8/4/2018 16:18:30

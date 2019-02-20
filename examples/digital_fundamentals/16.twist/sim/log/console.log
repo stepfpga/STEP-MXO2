@@ -1,0 +1,76 @@
+# Design Explorer: Shortcut to "E:\fpgaproject\stepmxo2\swust\16.twist\sim\sim.aws" design added.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_machxo2
+designverdefinemacro -clear
+addfile E:/fpgaproject/stepmxo2/swust/16.twist/twist.v
+# Adding file E:\fpgaproject\stepmxo2\swust\16.twist\twist.v ... Done
+addfile E:/fpgaproject/stepmxo2/swust/16.twist/twist_tb.v
+# Adding file E:\fpgaproject\stepmxo2\swust\16.twist\twist_tb.v ... Done
+vlib E:/fpgaproject/stepmxo2/swust/16.twist/sim/work
+# Adding library O.K.
+adel -all
+# Library contents cleared.
+vlog -dbg -work work E:/fpgaproject/stepmxo2/swust/16.twist/twist.v
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Unit top modules: twist.
+# $root top modules: twist.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work E:/fpgaproject/stepmxo2/swust/16.twist/twist_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module twist found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: twist_tb.
+# $root top modules: twist_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+module twist_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'twist' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r twist_tb -PL pmi_work -L ovi_machxo2
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'twist' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 100ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.1 [s]
+# SLP: Finished : 1.2 [s]
+# SLP: 0 primitives and 3 (100.00%) other processes in SLP
+# SLP: 6 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 1.3 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5527 kB (elbread=1280 elab2=4102 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location E:\fpgaproject\stepmxo2\swust\16.twist\sim\src\wave.asdb
+#  22:59, 2018Äê8ÔÂ7ÈÕ
+#  Simulation has been initialized
+add wave *
+# 3 signal(s) traced.
+run 1000ns
+# Waveform file 'untitled.awc' connected to 'E:/fpgaproject/stepmxo2/swust/16.twist/sim/src/wave.asdb'.
+# KERNEL: stopped at time: 1 us

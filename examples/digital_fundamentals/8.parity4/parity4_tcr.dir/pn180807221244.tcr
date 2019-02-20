@@ -1,0 +1,5 @@
+#Start recording tcl command: 8/7/2018 22:09:08
+#Project Location: E:/fpgaproject/stepmxo2/swust/8.parity4; Project name: parity4
+prj_project open "E:/fpgaproject/stepmxo2/swust/8.parity4/parity4.ldf"
+prj_project close
+#Stop recording: 8/7/2018 22:12:44

@@ -1,0 +1,26 @@
+PAR: Place And Route Diamond (64-bit) 3.6.0.83.4.
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Sat Nov 26 11:01:41 2016
+
+C:/lscc/diamond/3.6_x64/ispfpga\bin\nt64\par -f STEP_V21_Code_impl1.p2t
+STEP_V21_Code_impl1_map.ncd STEP_V21_Code_impl1.dir STEP_V21_Code_impl1.prf
+-gui -msgset F:/Workspace/fpgaproject/STEP_V21_Code/promote.xml
+
+
+Preference file: STEP_V21_Code_impl1.prf.
+
+Level/      Number      Worst       Timing      Worst       Timing      Run         NCD
+Cost [ncd]  Unrouted    Slack       Score       Slack(hold) Score(hold) Time        Status
+----------  --------    -----       ------      ----------- ----------- -----       ------
+5_1   *     0           -           -           -           -           07          Complete        
+
+
+* : Design saved.
+
+Total (real) run time for 1-seed: 7 secs 
+
+par done!

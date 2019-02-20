@@ -1,0 +1,117 @@
+<top name = "adder1"  library = "work"  arch = ""  entry = "Verilog">
+
+<clocks>
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 0
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+<library name = "work">
+
+<unit name = "adder1">
+
+    <!--
+        Top Level Pins: 5
+    -->
+
+    <pins>
+        <pitem  name = "a"  direction = "in"  />
+        <pitem  name = "b"  direction = "in"  />
+        <pitem  name = "cin"  direction = "in"  />
+        <pitem  name = "sum"  direction = "out"  />
+        <pitem  name = "cout"  direction = "out"  />
+    </pins>
+
+    <!--
+        Instances in netlist: 5
+    -->
+
+    <instance  name = "a_I_0_14"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "a"  />
+        <nitem  name = "b"  />
+        <nitem  name = "s1"  />
+        </nets>
+    </instance>
+
+    <instance  name = "s1_I_0_15"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "s1"  />
+        <nitem  name = "cin"  />
+        <nitem  name = "sum"  />
+        </nets>
+    </instance>
+
+    <instance  name = "a_I_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "a"  />
+        <nitem  name = "b"  />
+        <nitem  name = "s2"  />
+        </nets>
+    </instance>
+
+    <instance  name = "s1_I_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "s1"  />
+        <nitem  name = "cin"  />
+        <nitem  name = "s3"  />
+        </nets>
+    </instance>
+
+    <instance  name = "s2_I_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "s2"  />
+        <nitem  name = "s3"  />
+        <nitem  name = "cout"  />
+        </nets>
+    </instance>
+
+    <!--
+        Views in design "adder1": 0
+    -->
+
+    <views>
+    </views>
+
+</unit>
+
+</library>
+
+</top>

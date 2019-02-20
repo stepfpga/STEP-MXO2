@@ -1,0 +1,12 @@
+#Start recording tcl command: 12/13/2018 11:41:25
+#Project Location: E:/fpgaproject/stepmxo2/workshop/lab8; Project name: counter
+prj_project open "E:/fpgaproject/stepmxo2/workshop/lab8/counter.ldf"
+prj_src enable "E:/fpgaproject/stepmxo2/workshop/lab8/impl1/source/debounce.v"
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 12/13/2018 15:13:54

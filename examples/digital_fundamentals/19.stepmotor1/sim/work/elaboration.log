@@ -1,0 +1,25 @@
+Active-HDL 10.3.3558.6081  2018-08-07 14:12:23
+
+Elaboration top modules:
+Verilog Module                stepmotor1_tb
+
+
+-------------------------------------------------------------------------------------------
+Verilog Module          | Library | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------
+stepmotor1_tb           | work    |      | 10.3.3558.6081  (Windows) | -dbg
+stepmotor1              | work    |      | 10.3.3558.6081  (Windows) | -dbg
+divide                  | work    |      | 10.3.3558.6081  (Windows) | -dbg
+-------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------
+Library                 | Comment
+-------------------------------------------------------------------------------------------
+work                    | None
+-------------------------------------------------------------------------------------------
+
+
+Simulation Options: vsim +access +r stepmotor1_tb -PL pmi_work -L ovi_machxo2
+
+
+The performance of simulation is reduced. Version Lattice Edition

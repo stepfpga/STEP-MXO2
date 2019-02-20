@@ -1,0 +1,8 @@
+---------------------------------------------------
+Report for cell ring
+   Instance path: ring
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.00        100.0
+                                 IOBUF	         10        100.0
+                                PFUREG	          8        100.0

@@ -1,0 +1,152 @@
+<top name = "segment"  library = "work"  arch = ""  entry = "Verilog">
+
+<clocks>
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 0
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+<library name = "work">
+
+<unit name = "segment">
+
+    <!--
+        Top Level Pins: 26
+    -->
+
+    <pins>
+        <pitem  name = "seg_data_1[3]"  direction = "in"  />
+        <pitem  name = "seg_data_1[2]"  direction = "in"  />
+        <pitem  name = "seg_data_1[1]"  direction = "in"  />
+        <pitem  name = "seg_data_1[0]"  direction = "in"  />
+        <pitem  name = "seg_data_2[3]"  direction = "in"  />
+        <pitem  name = "seg_data_2[2]"  direction = "in"  />
+        <pitem  name = "seg_data_2[1]"  direction = "in"  />
+        <pitem  name = "seg_data_2[0]"  direction = "in"  />
+        <pitem  name = "segment_led_1[8]"  direction = "out"  />
+        <pitem  name = "segment_led_1[7]"  direction = "out"  />
+        <pitem  name = "segment_led_1[6]"  direction = "out"  />
+        <pitem  name = "segment_led_1[5]"  direction = "out"  />
+        <pitem  name = "segment_led_1[4]"  direction = "out"  />
+        <pitem  name = "segment_led_1[3]"  direction = "out"  />
+        <pitem  name = "segment_led_1[2]"  direction = "out"  />
+        <pitem  name = "segment_led_1[1]"  direction = "out"  />
+        <pitem  name = "segment_led_1[0]"  direction = "out"  />
+        <pitem  name = "segment_led_2[8]"  direction = "out"  />
+        <pitem  name = "segment_led_2[7]"  direction = "out"  />
+        <pitem  name = "segment_led_2[6]"  direction = "out"  />
+        <pitem  name = "segment_led_2[5]"  direction = "out"  />
+        <pitem  name = "segment_led_2[4]"  direction = "out"  />
+        <pitem  name = "segment_led_2[3]"  direction = "out"  />
+        <pitem  name = "segment_led_2[2]"  direction = "out"  />
+        <pitem  name = "segment_led_2[1]"  direction = "out"  />
+        <pitem  name = "segment_led_2[0]"  direction = "out"  />
+    </pins>
+
+    <!--
+        Instances in netlist: 2
+    -->
+
+    <instance  name = "seg_data_1_3__I_0"  library = "work"  arch = ""  type = "seq">
+        <pins>
+        <pitem  name = "read_enable"  direction = "in"  />
+        <pitem  name = "read_address[3]"  direction = "in"  />
+        <pitem  name = "read_address[2]"  direction = "in"  />
+        <pitem  name = "read_address[1]"  direction = "in"  />
+        <pitem  name = "read_address[0]"  direction = "in"  />
+        <pitem  name = "read_data[8]"  direction = "out"  />
+        <pitem  name = "read_data[7]"  direction = "out"  />
+        <pitem  name = "read_data[6]"  direction = "out"  />
+        <pitem  name = "read_data[5]"  direction = "out"  />
+        <pitem  name = "read_data[4]"  direction = "out"  />
+        <pitem  name = "read_data[3]"  direction = "out"  />
+        <pitem  name = "read_data[2]"  direction = "out"  />
+        <pitem  name = "read_data[1]"  direction = "out"  />
+        <pitem  name = "read_data[0]"  direction = "out"  />
+        <pitem  name = "Ram"  direction = "in"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "pwr"  />
+        <nitem  name = "seg_data_1[3]"  />
+        <nitem  name = "seg_data_1[2]"  />
+        <nitem  name = "seg_data_1[1]"  />
+        <nitem  name = "seg_data_1[0]"  />
+        <nitem  name = "segment_led_1[8]"  />
+        <nitem  name = "segment_led_1[7]"  />
+        <nitem  name = "segment_led_1[6]"  />
+        <nitem  name = "segment_led_1[5]"  />
+        <nitem  name = "segment_led_1[4]"  />
+        <nitem  name = "segment_led_1[3]"  />
+        <nitem  name = "segment_led_1[2]"  />
+        <nitem  name = "segment_led_1[1]"  />
+        <nitem  name = "segment_led_1[0]"  />
+        <nitem  name = "seg"  />
+        </nets>
+    </instance>
+
+    <instance  name = "seg_data_2_3__I_0"  library = "work"  arch = ""  type = "seq">
+        <pins>
+        <pitem  name = "read_enable"  direction = "in"  />
+        <pitem  name = "read_address[3]"  direction = "in"  />
+        <pitem  name = "read_address[2]"  direction = "in"  />
+        <pitem  name = "read_address[1]"  direction = "in"  />
+        <pitem  name = "read_address[0]"  direction = "in"  />
+        <pitem  name = "read_data[8]"  direction = "out"  />
+        <pitem  name = "read_data[7]"  direction = "out"  />
+        <pitem  name = "read_data[6]"  direction = "out"  />
+        <pitem  name = "read_data[5]"  direction = "out"  />
+        <pitem  name = "read_data[4]"  direction = "out"  />
+        <pitem  name = "read_data[3]"  direction = "out"  />
+        <pitem  name = "read_data[2]"  direction = "out"  />
+        <pitem  name = "read_data[1]"  direction = "out"  />
+        <pitem  name = "read_data[0]"  direction = "out"  />
+        <pitem  name = "Ram"  direction = "in"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "pwr"  />
+        <nitem  name = "seg_data_2[3]"  />
+        <nitem  name = "seg_data_2[2]"  />
+        <nitem  name = "seg_data_2[1]"  />
+        <nitem  name = "seg_data_2[0]"  />
+        <nitem  name = "segment_led_2[8]"  />
+        <nitem  name = "segment_led_2[7]"  />
+        <nitem  name = "segment_led_2[6]"  />
+        <nitem  name = "segment_led_2[5]"  />
+        <nitem  name = "segment_led_2[4]"  />
+        <nitem  name = "segment_led_2[3]"  />
+        <nitem  name = "segment_led_2[2]"  />
+        <nitem  name = "segment_led_2[1]"  />
+        <nitem  name = "segment_led_2[0]"  />
+        <nitem  name = "seg"  />
+        </nets>
+    </instance>
+
+    <!--
+        ROM nets in netlist: 1
+    -->
+
+    <romnets>
+        <romnet  name = "seg"  />
+    </romnets>
+
+    <!--
+        Views in design "segment": 0
+    -->
+
+    <views>
+    </views>
+
+</unit>
+
+</library>
+
+</top>

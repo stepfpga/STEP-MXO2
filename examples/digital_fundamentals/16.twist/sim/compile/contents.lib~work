@@ -1,0 +1,7 @@
+2
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "./../../twist.v" 13 twist
+~A 1 "./../../twist.v" 13 twist
+~M 3 "./../../twist_tb.v" 14 twist_tb
+~A 1 "./../../twist_tb.v" 14 twist_tb

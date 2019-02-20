@@ -1,0 +1,14 @@
+----------------------------------------------------------------------
+Report for cell jk_ff.TECH
+Register bits:  3 of 4635 (0.065%)
+I/O cells:      7
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             FD1S1A         1          100.0
+                            FD1S3AX         1          100.0
+                            FD1S3BX         1          100.0
+                                GSR         1          100.0
+                                 IB         5          100.0
+                               LUT4         5          100.0
+                                 OB         2          100.0
+                              TOTAL        16

@@ -1,0 +1,17 @@
+----------------------------------------------------------------------
+Report for cell breath_led.TECH
+Register bits:  38 of 4635 (0.820%)
+I/O cells:      3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        21          100.0
+                            FD1P3AX        25          100.0
+                            FD1S3AX         1          100.0
+                            FD1S3IX        12          100.0
+                                GSR         1          100.0
+                                 IB         2          100.0
+                            L6MUX21         1          100.0
+                               LUT4        50          100.0
+                                 OB         1          100.0
+                              PFUMX         2          100.0
+                              TOTAL       116

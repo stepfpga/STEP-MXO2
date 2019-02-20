@@ -1,0 +1,6 @@
+---------------------------------------------------
+Report for cell rgbled
+   Instance path: rgbled
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	          6        100.0

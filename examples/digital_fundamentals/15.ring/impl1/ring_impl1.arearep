@@ -1,0 +1,13 @@
+----------------------------------------------------------------------
+Report for cell ring.TECH
+Register bits:  8 of 4635 (0.173%)
+I/O cells:      10
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3IX         7          100.0
+                            FD1S3JX         1          100.0
+                                GSR         1          100.0
+                                 IB         2          100.0
+                               LUT4         1          100.0
+                                 OB         8          100.0
+                              TOTAL        20

@@ -1,0 +1,16 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Tue Aug 14 10:14:31 2018 *
+NOTE DESIGN NAME: stepmotor1 *
+NOTE DEVICE NAME: LCMXO2-4000HC-5CSBGA132 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS led[4] : N3 : out *
+NOTE PINS led[5] : P4 : out *
+NOTE PINS led[3] : M3 : out *
+NOTE PINS led[2] : P2 : out *
+NOTE PINS led[1] : N2 : out *
+NOTE PINS led[0] : M2 : out *
+NOTE PINS clk : C1 : in *
+NOTE PINS rst : L14 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

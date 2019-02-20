@@ -1,0 +1,94 @@
+----------------------------------------------------------------------
+Report for cell answer.TECH
+Register bits:  84 of 4635 (1.812%)
+I/O cells:      23
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        23          100.0
+                            FD1P3AX        11          100.0
+                            FD1P3AY         3          100.0
+                            FD1P3IX         8          100.0
+                            FD1P3JX         2          100.0
+                            FD1S3AX         1          100.0
+                            FD1S3AY         8          100.0
+                            FD1S3IX        51          100.0
+                                GSR         1          100.0
+                                 IB         9          100.0
+                               LUT4       142          100.0
+                                 OB        14          100.0
+                              PFUMX        13          100.0
+                        VERIFIC_PWR         1          100.0
+SUB MODULES
+              debounce(KEY_WIDTH=3)         1
+        divide(WIDTH=24,N=12000000)         1
+                               dseg         1
+                              judge         1
+                              score         1
+                        segment_led         1
+                              TOTAL       293
+----------------------------------------------------------------------
+Report for cell judge.v1
+Instance Path : u2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3AX         3           27.3
+                            FD1P3JX         2          100.0
+                            FD1S3IX         8           15.7
+                               LUT4        46           32.4
+                              PFUMX         1            7.7
+                              TOTAL        60
+----------------------------------------------------------------------
+Report for cell score.v1
+Instance Path : u3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        10           43.5
+                            FD1P3AX         8           72.7
+                            FD1P3AY         3          100.0
+                            FD1P3IX         8          100.0
+                            FD1S3AY         8          100.0
+                            FD1S3IX        19           37.3
+                               LUT4        66           46.5
+                              PFUMX         3           23.1
+SUB MODULES
+              debounce(KEY_WIDTH=3)         1
+                              TOTAL       126
+----------------------------------------------------------------------
+Report for cell debounce(KEY_WIDTH=3).v1
+Instance Path : u3.u1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        10           43.5
+                            FD1P3AY         3          100.0
+                            FD1S3AY         8          100.0
+                            FD1S3IX        19           37.3
+                               LUT4        40           28.2
+                              TOTAL        80
+----------------------------------------------------------------------
+Report for cell divide(WIDTH=24,N=12000000).v1
+Instance Path : u1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        13           56.5
+                            FD1S3AX         1          100.0
+                            FD1S3IX        24           47.1
+                               LUT4        14            9.9
+                              TOTAL        52
+----------------------------------------------------------------------
+Report for cell dseg.v1
+Instance Path : u4
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4        16           11.3
+                              PFUMX         9           69.2
+SUB MODULES
+                        segment_led         1
+                              TOTAL        26
+----------------------------------------------------------------------
+Report for cell segment_led.v1
+Instance Path : u4.u1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4        11            7.7
+                              PFUMX         6           46.2
+                              TOTAL        17

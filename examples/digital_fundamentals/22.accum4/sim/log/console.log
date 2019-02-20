@@ -1,0 +1,140 @@
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_machxo2
+designverdefinemacro -clear
+addfile E:/fpgaproject/stepmxo2/swust/22.accum4/impl1/source/shift.v
+# Adding file E:\fpgaproject\stepmxo2\swust\22.accum4\impl1\source\shift.v ... Done
+addfile E:/fpgaproject/stepmxo2/swust/22.accum4/impl1/source/jk_ff.v
+# Adding file E:\fpgaproject\stepmxo2\swust\22.accum4\impl1\source\jk_ff.v ... Done
+addfile E:/fpgaproject/stepmxo2/swust/22.accum4/ahead.v
+# Adding file E:\fpgaproject\stepmxo2\swust\22.accum4\ahead.v ... Done
+addfile E:/fpgaproject/stepmxo2/swust/22.accum4/impl1/source/adder1.v
+# Adding file E:\fpgaproject\stepmxo2\swust\22.accum4\impl1\source\adder1.v ... Done
+addfile E:/fpgaproject/stepmxo2/swust/22.accum4/accum4.v
+# Adding file E:\fpgaproject\stepmxo2\swust\22.accum4\accum4.v ... Done
+addfile E:/fpgaproject/stepmxo2/swust/22.accum4/accum4_tb.v
+# Adding file E:\fpgaproject\stepmxo2\swust\22.accum4\accum4_tb.v ... Done
+vlib E:/fpgaproject/stepmxo2/swust/22.accum4/sim/work
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vlog -dbg -work work E:/fpgaproject/stepmxo2/swust/22.accum4/impl1/source/shift.v
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Unit top modules: shift.
+# $root top modules: shift.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work E:/fpgaproject/stepmxo2/swust/22.accum4/impl1/source/jk_ff.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: jk_ff.
+# $root top modules: shift jk_ff.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work E:/fpgaproject/stepmxo2/swust/22.accum4/ahead.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module jk_ff found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: ahead.
+# $root top modules: shift ahead.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work E:/fpgaproject/stepmxo2/swust/22.accum4/impl1/source/adder1.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: adder1.
+# $root top modules: shift ahead adder1.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work E:/fpgaproject/stepmxo2/swust/22.accum4/accum4.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module shift found in current working library.
+# Info: VCP2113 Module adder1 found in current working library.
+# Info: VCP2113 Module ahead found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: accum4.
+# $root top modules: accum4.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work E:/fpgaproject/stepmxo2/swust/22.accum4/accum4_tb.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module accum4 found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Warning: VCP5200 accum4_tb.v : (38, 33): Only a sized object can be concatenated - assuming 32 bit: 0.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: accum4_tb.
+# $root top modules: accum4_tb.
+# Compile success 0 Errors 1 Warnings  Analysis time: 0[s].
+# done
+module accum4_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'accum4' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'shift' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'adder1' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'ahead' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'jk_ff' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r accum4_tb -PL pmi_work -L ovi_machxo2
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'accum4' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'shift' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'adder1' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'ahead' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: Module 'jk_ff' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 100ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.1 [s]
+# SLP: Finished : 1.1 [s]
+# SLP: 5 (29.41%) primitives and 12 (70.59%) other processes in SLP
+# SLP: 45 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 1.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5530 kB (elbread=1280 elab2=4105 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location E:\fpgaproject\stepmxo2\swust\22.accum4\sim\src\wave.asdb
+#  17:57, 2018Äê8ÔÂ20ÈÕ
+#  Simulation has been initialized
+add wave *
+# 5 signal(s) traced.
+run 1000ns
+# Waveform file 'untitled.awc' connected to 'E:/fpgaproject/stepmxo2/swust/22.accum4/sim/src/wave.asdb'.
+# KERNEL: stopped at time: 1 us

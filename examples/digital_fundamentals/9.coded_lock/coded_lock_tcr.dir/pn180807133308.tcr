@@ -1,0 +1,10 @@
+#Start recording tcl command: 8/7/2018 13:19:32
+#Project Location: E:/fpgaproject/stepmxo2/swust/9.coded_lock; Project name: coded_lock
+prj_project open "E:/fpgaproject/stepmxo2/swust/9.coded_lock/coded_lock.ldf"
+prj_src add "E:/fpgaproject/stepmxo2/swust/9.coded_lock/coded_lock_tb.v"
+prj_src add "E:/fpgaproject/stepmxo2/swust/9.coded_lock/sim/sim.spf"
+prj_src syn_sim -src "E:/fpgaproject/stepmxo2/swust/9.coded_lock/coded_lock_tb.v" SimulateOnly
+prj_run Export -impl impl1
+prj_project save
+prj_project close
+#Stop recording: 8/7/2018 13:33:08

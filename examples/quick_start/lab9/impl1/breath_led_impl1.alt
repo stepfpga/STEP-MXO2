@@ -1,0 +1,11 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Thu Dec 13 15:34:37 2018 *
+NOTE DESIGN NAME: breath_led *
+NOTE DEVICE NAME: LCMXO2-4000HC-4CSBGA132 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS led : N13 : out *
+NOTE PINS clk : C1 : in *
+NOTE PINS rst : L14 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

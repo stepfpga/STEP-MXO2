@@ -1,0 +1,9 @@
+---------------------------------------------------
+Report for cell divide
+   Instance path: divide
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       6.00        100.0
+                                  LUT4	      11.00        100.0
+                                 IOBUF	          3        100.0
+                                PFUREG	          8        100.0

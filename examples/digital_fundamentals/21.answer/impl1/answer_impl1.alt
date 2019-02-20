@@ -1,0 +1,31 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Mon Aug 06 02:08:20 2018 *
+NOTE DESIGN NAME: answer *
+NOTE DEVICE NAME: LCMXO2-4000HC-5CSBGA132 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS led2 : M12 : out *
+NOTE PINS led3 : P12 : out *
+NOTE PINS led1 : N13 : out *
+NOTE PINS led4 : M11 : out *
+NOTE PINS buzz : P9 : out *
+NOTE PINS segment_led[8] : A12 : out *
+NOTE PINS segment_led[7] : K1 : out *
+NOTE PINS segment_led[6] : A11 : out *
+NOTE PINS segment_led[5] : B12 : out *
+NOTE PINS segment_led[4] : H2 : out *
+NOTE PINS segment_led[3] : H1 : out *
+NOTE PINS segment_led[2] : J1 : out *
+NOTE PINS segment_led[1] : B14 : out *
+NOTE PINS segment_led[0] : C12 : out *
+NOTE PINS clk : C1 : in *
+NOTE PINS rst : L14 : in *
+NOTE PINS k1 : M7 : in *
+NOTE PINS k2 : M8 : in *
+NOTE PINS k3 : M9 : in *
+NOTE PINS k4 : M10 : in *
+NOTE PINS reset : N14 : in *
+NOTE PINS add : M13 : in *
+NOTE PINS sub : M14 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

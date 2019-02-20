@@ -1,0 +1,17 @@
+[COMPILESTATUS|.\..\dff.v]
+FileTimeLow=30682061
+Status=Compiled
+
+[COMPILESTATUS|.\..\dff_tb.v]
+FileTimeLow=30682641
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\sim.adf|]
+Path=/dff_tb
+
+[Gui config]
+RunFor=100 ns
+

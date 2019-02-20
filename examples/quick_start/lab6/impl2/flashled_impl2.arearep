@@ -1,0 +1,27 @@
+----------------------------------------------------------------------
+Report for cell flashled.TECH
+Register bits:  41 of 4635 (0.885%)
+I/O cells:      10
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        30          100.0
+                            FD1S3AX         2          100.0
+                            FD1S3AY         7          100.0
+                            FD1S3IX        32          100.0
+                                GSR         1          100.0
+                                 IB         2          100.0
+                               LUT4        12          100.0
+                                 OB         8          100.0
+SUB MODULES
+        divide(WIDTH=32,N=12000000)         1
+                              TOTAL        95
+----------------------------------------------------------------------
+Report for cell divide(WIDTH=32,N=12000000).v1
+Instance Path : u2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        30          100.0
+                            FD1S3AX         1           50.0
+                            FD1S3IX        32          100.0
+                               LUT4        12          100.0
+                              TOTAL        75

@@ -1,0 +1,38 @@
+timestamp=1533652877928
+
+[~A]
+E:/fpgaproject/stepmxo2/swust/12.dff/dff.v=0*344*778
+E:/fpgaproject/stepmxo2/swust/12.dff/dff_tb.v=0*1599*2100
+LastVerilogToplevel=dff_tb
+ModifyID=2
+Version=74
+
+[$root]
+A/$root=22|||1*1458
+BinI32/$root=3*881
+SLP=3*985
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|c73a565f2ade592f8ac1c68f484c9216a994105b2ce6614c2ea39f10a70918ad
+
+[dff]
+A/dff=22|./../../dff.v|12|1*374
+BinI32/dff=3*172
+R=./../../dff.v|12
+SLP=3*673
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|6a4f0a87167aa7fed99534ff2dffab1b36dc406d0478a58385153429a28a03d7
+
+[dff_tb]
+A/dff_tb=22|./../../dff_tb.v|14|1*1832
+BinI32/dff_tb=3*1053
+R=./../../dff_tb.v|14
+SLP=3*1628
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|ed8a83c587987adc69b29cf6ce17cb1574c57de1750d5c852c57e09927de7c01
+
+[~MFT]
+0=4|0work.mgf|2100|0
+1=3|1work.mgf|1832|374
+3=6|3work.mgf|1628|172
+
+[~U]
+$root=12|0*1285|
+dff=12|0*150||0x10
+dff_tb=12|0*1451||0x10

@@ -1,0 +1,7 @@
+2
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "./../../shift7.v" 13 shift7
+~A 1 "./../../shift7.v" 13 shift7
+~M 3 "./../../shift7_tb.v" 14 shift7_tb
+~A 1 "./../../shift7_tb.v" 14 shift7_tb

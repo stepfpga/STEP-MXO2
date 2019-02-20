@@ -1,0 +1,75 @@
+---------------------------------------------------
+Report for cell STEP_V21_Test
+   Instance path: STEP_V21_Test
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      96.00        100.0
+                                  LUT4	      97.00        100.0
+                                 IOBUF	         77        100.0
+                                PFUREG	         86        100.0
+                                RIPPLE	         47        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                             Water_led	          1         4.4
+                           Segment_led	          1         1.0
+                             Lightness	          1        13.0
+                            Heart_beat	          1         1.0
+                              Debounce	          1        18.4
+                             Clock_div	          1        28.5
+                             Color_led	          1         3.5
+---------------------------------------------------
+Report for cell Debounce
+   Instance path: STEP_V21_Test/Debounce_uut
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      17.67        18.4
+                                  LUT4	      11.00        11.3
+                                PFUREG	         29        33.7
+                                RIPPLE	         10        21.3
+---------------------------------------------------
+Report for cell Lightness
+   Instance path: STEP_V21_Test/Lightness_uut
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      12.50        13.0
+                                  LUT4	      27.00        27.8
+                                PFUREG	         13        15.1
+---------------------------------------------------
+Report for cell Water_led
+   Instance path: STEP_V21_Test/Water_led_uut
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       4.25         4.4
+                                  LUT4	       9.00         9.3
+                                PFUREG	          8         9.3
+---------------------------------------------------
+Report for cell Segment_led
+   Instance path: STEP_V21_Test/Segment_led_uut
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         1.0
+                                  LUT4	       2.00         2.1
+---------------------------------------------------
+Report for cell Heart_beat
+   Instance path: STEP_V21_Test/Heart_beat_uut
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00         1.0
+                                PFUREG	          4         4.7
+---------------------------------------------------
+Report for cell Clock_div
+   Instance path: STEP_V21_Test/clk_1Hz_uut
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      27.33        28.5
+                                  LUT4	       6.00         6.2
+                                PFUREG	         26        30.2
+                                RIPPLE	         24        51.1
+---------------------------------------------------
+Report for cell Color_led
+   Instance path: STEP_V21_Test/Color_led_uut
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.33         3.5
+                                  LUT4	       6.00         6.2
+                                PFUREG	          6         7.0

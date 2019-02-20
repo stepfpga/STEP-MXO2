@@ -1,0 +1,12 @@
+----------------------------------------------------------------------
+Report for cell segment.TECH
+Register bits:  0 of 4635 (0.000%)
+I/O cells:      26
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                GSR         1          100.0
+                                 IB         8          100.0
+                               LUT4        14          100.0
+                                 OB        18          100.0
+                        VERIFIC_PWR         1          100.0
+                              TOTAL        42

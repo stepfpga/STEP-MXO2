@@ -1,0 +1,17 @@
+[COMPILESTATUS|.\..\coded_lock.v]
+FileTimeLow=30682054
+Status=Compiled
+
+[COMPILESTATUS|.\..\coded_lock_tb.v]
+FileTimeLow=30682638
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\sim.adf|]
+Path=/coded_lock_tb
+
+[Gui config]
+RunFor=100 ns
+

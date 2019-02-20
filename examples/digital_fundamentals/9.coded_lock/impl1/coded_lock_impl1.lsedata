@@ -1,0 +1,141 @@
+<top name = "coded_lock"  library = "work"  arch = ""  entry = "Verilog">
+
+<clocks>
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 0
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+<library name = "work">
+
+<unit name = "coded_lock">
+
+    <!--
+        Top Level Pins: 7
+    -->
+
+    <pins>
+        <pitem  name = "q"  direction = "in"  />
+        <pitem  name = "u"  direction = "in"  />
+        <pitem  name = "n"  direction = "in"  />
+        <pitem  name = "b"  direction = "in"  />
+        <pitem  name = "d"  direction = "in"  />
+        <pitem  name = "led1"  direction = "out"  />
+        <pitem  name = "led2"  direction = "out"  />
+    </pins>
+
+    <!--
+        Instances in netlist: 6
+    -->
+
+    <instance  name = "q_I_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a[3]"  direction = "in"  />
+        <pitem  name = "a[2]"  direction = "in"  />
+        <pitem  name = "a[1]"  direction = "in"  />
+        <pitem  name = "a[0]"  direction = "in"  />
+        <pitem  name = "b[3]"  direction = "in"  />
+        <pitem  name = "b[2]"  direction = "in"  />
+        <pitem  name = "b[1]"  direction = "in"  />
+        <pitem  name = "b[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q"  />
+        <nitem  name = "u"  />
+        <nitem  name = "n"  />
+        <nitem  name = "b"  />
+        <nitem  name = "gnd"  />
+        <nitem  name = "pwr"  />
+        <nitem  name = "open_N_2"  />
+        </nets>
+    </instance>
+
+    <instance  name = "open_N_2_I_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "i"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "open_N_2"  />
+        <nitem  name = "open_N_5"  />
+        </nets>
+    </instance>
+
+    <instance  name = "open_I_0_11"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "c"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "gnd"  />
+        <nitem  name = "open_N_2"  />
+        <nitem  name = "d"  />
+        <nitem  name = "open"  />
+        </nets>
+    </instance>
+
+    <instance  name = "alarm_I_0_12"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "c"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "gnd"  />
+        <nitem  name = "open_N_5"  />
+        <nitem  name = "d"  />
+        <nitem  name = "alarm"  />
+        </nets>
+    </instance>
+
+    <instance  name = "open_I_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "i"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "open"  />
+        <nitem  name = "open_N_1"  />
+        </nets>
+    </instance>
+
+    <instance  name = "alarm_I_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "i"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "alarm"  />
+        <nitem  name = "alarm_N_3"  />
+        </nets>
+    </instance>
+
+    <!--
+        Views in design "coded_lock": 0
+    -->
+
+    <views>
+    </views>
+
+</unit>
+
+</library>
+
+</top>

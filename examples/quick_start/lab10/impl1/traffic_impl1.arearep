@@ -1,0 +1,29 @@
+----------------------------------------------------------------------
+Report for cell traffic.TECH
+Register bits:  44 of 4635 (0.949%)
+I/O cells:      8
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        30          100.0
+                            FD1S3AX         4          100.0
+                            FD1S3AY         4          100.0
+                            FD1S3IX        32          100.0
+                            FD1S3JX         4          100.0
+                                GSR         1          100.0
+                                 IB         2          100.0
+                               LUT4        27          100.0
+                                 OB         6          100.0
+                              PFUMX         2          100.0
+SUB MODULES
+        divide(WIDTH=32,N=12000000)         1
+                              TOTAL       113
+----------------------------------------------------------------------
+Report for cell divide(WIDTH=32,N=12000000).v1
+Instance Path : CLK1H
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        30          100.0
+                            FD1S3AX         1           25.0
+                            FD1S3IX        32          100.0
+                               LUT4        12           44.4
+                              TOTAL        75

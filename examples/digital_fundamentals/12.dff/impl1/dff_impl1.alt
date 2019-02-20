@@ -1,0 +1,13 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Sat Aug 04 16:29:46 2018 *
+NOTE DESIGN NAME: dff *
+NOTE DEVICE NAME: LCMXO2-4000HC-5CSBGA132 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS q : N13 : out *
+NOTE PINS qb : M12 : out *
+NOTE PINS clk : C1 : in *
+NOTE PINS rst : L14 : in *
+NOTE PINS d : M7 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

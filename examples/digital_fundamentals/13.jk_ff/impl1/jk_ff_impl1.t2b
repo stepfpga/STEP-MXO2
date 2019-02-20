@@ -1,0 +1,5 @@
+
+
+-g RamCfg:Reset
+
+-path "E:/fpgaproject/stepmxo2/swust/12.jk_ff"  

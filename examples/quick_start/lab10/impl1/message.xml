@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/workshop/lab10/traffic.v(19): </Dynamic>
+            <Dynamic>traffic</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/workshop/lab10/traffic.v</Navigation>
+            <Navigation>19</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/workshop/lab10/impl1/source/divide.v(18): </Dynamic>
+            <Dynamic>divide(WIDTH=32,N=12000000)</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/workshop/lab10/impl1/source/divide.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/workshop/lab10/traffic.v(117): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/workshop/lab10/traffic.v</Navigation>
+            <Navigation>117</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/workshop/lab10/traffic.v(125): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/workshop/lab10/traffic.v</Navigation>
+            <Navigation>125</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/workshop/lab10/traffic.v(133): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/workshop/lab10/traffic.v</Navigation>
+            <Navigation>133</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/workshop/lab10/traffic.v(141): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/workshop/lab10/traffic.v</Navigation>
+            <Navigation>141</Navigation>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>clk_c</Dynamic>
+            <Dynamic>Primary</Dynamic>
+            <Dynamic>clk</Dynamic>
+            <Dynamic>C1</Dynamic>
+            <Dynamic>Primary</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>

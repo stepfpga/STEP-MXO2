@@ -1,0 +1,5 @@
+#Start recording tcl command: 8/4/2018 16:14:45
+#Project Location: E:/fpgaproject/stepmxo2/swust/11.dff; Project name: dff
+prj_project open "E:/fpgaproject/stepmxo2/swust/11.dff/dff.ldf"
+prj_project close
+#Stop recording: 8/4/2018 16:14:58

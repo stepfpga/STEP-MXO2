@@ -1,0 +1,38 @@
+timestamp=1533653407408
+
+[~A]
+E:/fpgaproject/stepmxo2/swust/14.shift7/shift7.v=0*351*887
+E:/fpgaproject/stepmxo2/swust/14.shift7/shift7_tb.v=0*1720*2275
+LastVerilogToplevel=shift7_tb
+ModifyID=2
+Version=74
+
+[$root]
+A/$root=22|||1*1711
+BinI32/$root=3*1234
+SLP=3*1338
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|c73a565f2ade592f8ac1c68f484c9216c24be0bf55fa2230f88a16da7b224457
+
+[shift7]
+A/shift7=22|./../../shift7.v|13|1*374
+BinI32/shift7=3*172
+R=./../../shift7.v|13
+SLP=3*844
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|9512e47cb46997a2131b4de65d19bad26e915d19b25e694b51b3997b0115bb37
+
+[shift7_tb]
+A/shift7_tb=22|./../../shift7_tb.v|14|1*2085
+BinI32/shift7_tb=3*1406
+R=./../../shift7_tb.v|14
+SLP=3*1998
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|78c9f2a37882acfcc78a6713ad59b81666996ddebf3a7057b084f0b99be7c8e0dfeb3e07c336c8ffbbe4c75a4105b2d7
+
+[~MFT]
+0=4|0work.mgf|2275|0
+1=3|1work.mgf|2085|374
+3=6|3work.mgf|1998|172
+
+[~U]
+$root=12|0*1400|
+shift7=12|0*150||0x10
+shift7_tb=12|0*1566||0x10

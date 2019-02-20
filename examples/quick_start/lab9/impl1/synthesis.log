@@ -1,0 +1,163 @@
+synthesis:  version Diamond (64-bit) 3.8.0.115.3
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+Thu Dec 13 15:33:31 2018
+
+
+Command Line:  synthesis -f breath_led_impl1_lattice.synproj -gui 
+
+Synthesis options:
+The -a option is MachXO2.
+The -s option is 4.
+The -t option is CSBGA132.
+The -d option is LCMXO2-4000HC.
+Using package CSBGA132.
+Using performance grade 4.
+                                                          
+
+##########################################################
+
+### Lattice Family : MachXO2
+
+### Device  : LCMXO2-4000HC
+
+### Package : CSBGA132
+
+### Speed   : 4
+
+##########################################################
+
+                                                          
+
+Optimization goal = Balanced
+Top-level module name = breath_led.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p E:/fpgaproject/stepmxo2/workshop/lab9 (searchpath added)
+-p E:/Iscc/diamond/3.8_x64/ispfpga/xo2c00/data (searchpath added)
+-p E:/fpgaproject/stepmxo2/workshop/lab9/impl1 (searchpath added)
+-p E:/fpgaproject/stepmxo2/workshop/lab9 (searchpath added)
+Verilog design file = E:/fpgaproject/stepmxo2/workshop/lab9/breath_led.v
+NGD file = breath_led_impl1.ngd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file E:/Iscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file e:/fpgaproject/stepmxo2/workshop/lab9/breath_led.v. VERI-1482
+Analyzing Verilog file E:/Iscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Top module name (Verilog): breath_led
+INFO - synthesis: e:/fpgaproject/stepmxo2/workshop/lab9/breath_led.v(17): compiling module breath_led. VERI-1018
+Loading NGL library 'E:/Iscc/diamond/3.8_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'E:/Iscc/diamond/3.8_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'E:/Iscc/diamond/3.8_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'E:/Iscc/diamond/3.8_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'xo2c4000.nph' in environment: E:/Iscc/diamond/3.8_x64/ispfpga.
+Package Status:                     Final          Version 1.44.
+Top-level module name = breath_led.
+
+
+
+GSR instance connected to net rst_c.
+Applying 1.000000 MHz constraint to all clocks
+
+WARNING - synthesis: No user .sdc file.
+Results of NGD DRC are available in breath_led_drc.log.
+Loading NGL library 'E:/Iscc/diamond/3.8_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'E:/Iscc/diamond/3.8_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'E:/Iscc/diamond/3.8_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'E:/Iscc/diamond/3.8_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file breath_led_impl1.ngd.
+
+################### Begin Area Report (breath_led)######################
+Number of register bits => 38 of 4635 (0 % )
+CCU2D => 21
+FD1P3AX => 25
+FD1S3AX => 1
+FD1S3IX => 12
+GSR => 1
+IB => 2
+L6MUX21 => 1
+LUT4 => 50
+OB => 1
+PFUMX => 2
+################### End Area Report ##################
+
+################### Begin BlackBox Report ######################
+TSALL => 1
+################### End BlackBox Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 1
+  Net : clk_c, loads : 38
+Clock Enable Nets
+Number of Clock Enables: 1
+Top 1 highest fanout Clock Enables:
+  Net : clk_c_enable_25, loads : 25
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : flag, loads : 28
+  Net : n975, loads : 28
+  Net : clk_c_enable_25, loads : 25
+  Net : n973, loads : 24
+  Net : cnt1_24__N_78, loads : 12
+  Net : cnt2_11, loads : 9
+  Net : cnt1_11, loads : 7
+  Net : cnt2_5, loads : 6
+  Net : cnt1_8, loads : 5
+  Net : cnt1_7, loads : 5
+################### End Clock Report ##################
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk0 [get_nets clk_c]                   |    1.000 MHz|   74.912 MHz|    18  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Peak Memory Usage: 61.574  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 0.781  secs
+--------------------------------------------------------------

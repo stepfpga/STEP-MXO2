@@ -1,0 +1,148 @@
+<top name = "jk_ff"  library = "work"  arch = ""  entry = "Verilog">
+
+<clocks>
+    <clockitem name = "clk"  type = "port" />
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 1
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+<library name = "work">
+
+<unit name = "jk_ff">
+
+    <!--
+        Top Level Pins: 7
+    -->
+
+    <pins>
+        <pitem  name = "clk"  direction = "in"  />
+        <pitem  name = "j"  direction = "in"  />
+        <pitem  name = "k"  direction = "in"  />
+        <pitem  name = "rst"  direction = "in"  />
+        <pitem  name = "set"  direction = "in"  />
+        <pitem  name = "q"  direction = "out"  />
+        <pitem  name = "qb"  direction = "out"  />
+    </pins>
+
+    <!--
+        Instances in netlist: 6
+    -->
+
+    <instance  name = "set_I_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "i"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "set"  />
+        <nitem  name = "set_N_4"  />
+        </nets>
+    </instance>
+
+    <instance  name = "q_I_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "i"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q"  />
+        <nitem  name = "q_N_7"  />
+        </nets>
+    </instance>
+
+    <instance  name = "j_I_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "sel[1]"  direction = "in"  />
+        <pitem  name = "sel[0]"  direction = "in"  />
+        <pitem  name = "data[3]"  direction = "in"  />
+        <pitem  name = "data[2]"  direction = "in"  />
+        <pitem  name = "data[1]"  direction = "in"  />
+        <pitem  name = "data[0]"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "j"  />
+        <nitem  name = "k"  />
+        <nitem  name = "q_N_7"  />
+        <nitem  name = "pwr"  />
+        <nitem  name = "gnd"  />
+        <nitem  name = "q"  />
+        <nitem  name = "q_N_1"  />
+        </nets>
+    </instance>
+
+    <instance  name = "q_I_0_16"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "set_N_4"  />
+        <nitem  name = "rst"  />
+        <nitem  name = "q_N_2"  />
+        </nets>
+    </instance>
+
+    <instance  name = "rst_I_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "i"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "rst"  />
+        <nitem  name = "rst_N_6"  />
+        </nets>
+    </instance>
+
+    <instance  name = "q_15"  library = "work"  arch = ""  type = "reg">
+        <pins>
+        <pitem  name = "d"  direction = "in"  />
+        <pitem  name = "clk"  direction = "in"  />
+        <pitem  name = "s"  direction = "in"  />
+        <pitem  name = "r"  direction = "in"  />
+        <pitem  name = "q"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "q_N_1"  />
+        <nitem  name = "clk"  />
+        <nitem  name = "q_N_2"  />
+        <nitem  name = "rst_N_6"  />
+        <nitem  name = "q"  />
+        </nets>
+    </instance>
+
+    <!--
+        REG instances in netlist: 1
+    -->
+
+    <regs>
+        <reg  name = "q_15"  />
+    </regs>
+
+    <!--
+        Views in design "jk_ff": 0
+    -->
+
+    <views>
+    </views>
+
+</unit>
+
+</library>
+
+</top>

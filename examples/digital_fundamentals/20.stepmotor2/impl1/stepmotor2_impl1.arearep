@@ -1,0 +1,27 @@
+----------------------------------------------------------------------
+Report for cell stepmotor2.TECH
+Register bits:  30 of 4635 (0.647%)
+I/O cells:      7
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        13          100.0
+                            FD1S3AX         3          100.0
+                            FD1S3AY         2          100.0
+                            FD1S3IX        25          100.0
+                                GSR         1          100.0
+                                 IB         3          100.0
+                               LUT4        22          100.0
+                                 OB         4          100.0
+SUB MODULES
+        divide(WIDTH=24,N=12000000)         1
+                              TOTAL        74
+----------------------------------------------------------------------
+Report for cell divide(WIDTH=24,N=12000000).v1
+Instance Path : u1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        13          100.0
+                            FD1S3AX         1           33.3
+                            FD1S3IX        24           96.0
+                               LUT4        17           77.3
+                              TOTAL        55

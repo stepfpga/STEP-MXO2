@@ -1,0 +1,30 @@
+---------------------------------------------------
+Report for cell counter60
+   Instance path: counter60
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      37.00        100.0
+                                  LUT4	      48.00        100.0
+                                 IOBUF	         21        100.0
+                                PFUREG	         34        100.0
+                                RIPPLE	         13        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               segment	          1        21.6
+           divide(WIDTH=24,N=12000000)	          1        56.8
+---------------------------------------------------
+Report for cell segment
+   Instance path: counter60/u2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.00        21.6
+                                  LUT4	      17.00        35.4
+---------------------------------------------------
+Report for cell divide(WIDTH=24,N=12000000)
+   Instance path: counter60/u1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      21.00        56.8
+                                  LUT4	      16.00        33.3
+                                PFUREG	         25        73.5
+                                RIPPLE	         13        100.0

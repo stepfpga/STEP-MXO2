@@ -1,0 +1,17 @@
+[COMPILESTATUS|.\..\voter4.v]
+FileTimeLow=30682012
+Status=Compiled
+
+[COMPILESTATUS|.\..\voter4_tb.v]
+FileTimeLow=30682619
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\sim.adf|]
+Path=/voter4_tb
+
+[Gui config]
+RunFor=100 ns
+

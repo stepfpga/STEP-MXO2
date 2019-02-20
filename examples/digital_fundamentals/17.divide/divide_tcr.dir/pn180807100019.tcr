@@ -1,0 +1,4 @@
+#Start recording tcl command: 8/7/2018 09:57:25
+#Project Location: E:/fpgaproject/stepmxo2/swust/17.divide; Project name: divide
+prj_project open "E:/fpgaproject/stepmxo2/swust/17.divide/divide.ldf"
+#Stop recording: 8/7/2018 10:00:19

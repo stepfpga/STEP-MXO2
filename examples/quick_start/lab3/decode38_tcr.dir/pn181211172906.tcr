@@ -1,0 +1,6 @@
+#Start recording tcl command: 12/11/2018 17:28:39
+#Project Location: E:/fpgaproject/stepmxo2/workshop/lab3; Project name: decode38
+prj_project open "E:/fpgaproject/stepmxo2/workshop/lab3/decode38.ldf"
+prj_run Export -impl impl1
+prj_project close
+#Stop recording: 12/11/2018 17:29:06

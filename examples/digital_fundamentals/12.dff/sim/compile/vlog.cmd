@@ -1,0 +1,1 @@
+-o E:/fpgaproject/stepmxo2/swust/12.dff/sim/compile -lc E:/fpgaproject/stepmxo2/swust/12.dff/sim/library.cfg -fl E:/fpgaproject/stepmxo2/swust/12.dff/sim/projlib.cfg -pli "E:/Iscc/diamond/3.8_x64/active-hdl/bin/systf.dll" -epr E:/fpgaproject/stepmxo2/swust/12.dff/sim/compile/sim.epr -dbg -work work E:/fpgaproject/stepmxo2/swust/12.dff/dff_tb.v 

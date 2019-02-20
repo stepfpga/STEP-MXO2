@@ -1,0 +1,5 @@
+all messages logged in file hdlparser.log
+Analyzing Verilog file E:/Iscc/diamond/3.8_x64/cae_library/synthesis/verilog/machxo2.v (VERI-1482)
+Analyzing Verilog file E:/fpgaproject/stepmxo2/workshop/lab6/impl1/source/decode38.v (VERI-1482)
+Analyzing Verilog file E:/fpgaproject/stepmxo2/workshop/lab6/impl1/source/divide.v (VERI-1482)
+Analyzing Verilog file E:/fpgaproject/stepmxo2/workshop/lab6/flashled.v (VERI-1482)

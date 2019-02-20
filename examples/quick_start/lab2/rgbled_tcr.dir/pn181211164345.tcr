@@ -1,0 +1,10 @@
+#Start recording tcl command: 12/11/2018 16:19:23
+#Project Location: E:/fpgaproject/stepmxo2/workshop/lab2; Project name: rgbled
+prj_project new -name "rgbled" -impl "impl1" -dev LCMXO2-4000HC-4MG132C -synthesis "lse"
+prj_project save
+prj_src add "E:/fpgaproject/stepmxo2/workshop/lab2/led.v"
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1 -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 12/11/2018 16:43:45

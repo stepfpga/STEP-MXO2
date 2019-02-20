@@ -1,0 +1,142 @@
+synthesis:  version Diamond (64-bit) 3.8.0.115.3
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+Tue Aug 07 13:27:26 2018
+
+
+Command Line:  synthesis -f coded_lock_impl1_lattice.synproj -gui -msgset E:/fpgaproject/stepmxo2/swust/9.coded_lock/promote.xml 
+
+Synthesis options:
+The -a option is MachXO2.
+The -s option is 4.
+The -t option is CSBGA132.
+The -d option is LCMXO2-4000HC.
+Using package CSBGA132.
+Using performance grade 4.
+                                                          
+
+##########################################################
+
+### Lattice Family : MachXO2
+
+### Device  : LCMXO2-4000HC
+
+### Package : CSBGA132
+
+### Speed   : 4
+
+##########################################################
+
+                                                          
+
+Optimization goal = Balanced
+Top-level module name = coded_lock.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 1000.
+Timing path count = 3
+BRAM utilization = 100.000000 %
+DSP usage = true
+DSP utilization = 100.000000 %
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = Auto
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+force_gsr = auto
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p E:/fpgaproject/stepmxo2/swust/9.coded_lock (searchpath added)
+-p E:/Iscc/diamond/3.8_x64/ispfpga/xo2c00/data (searchpath added)
+-p E:/fpgaproject/stepmxo2/swust/9.coded_lock/impl1 (searchpath added)
+-p E:/fpgaproject/stepmxo2/swust/9.coded_lock (searchpath added)
+Verilog design file = E:/fpgaproject/stepmxo2/swust/9.coded_lock/coded_lock.v
+NGD file = coded_lock_impl1.ngd
+-sdc option: SDC file input not used.
+-lpf option: Output file option is ON.
+Hardtimer checking is enabled (default). The -dt option is not used.
+The -r option is OFF. [ Remove LOC Properties is OFF. ]
+Technology check ok...
+
+Analyzing Verilog file E:/Iscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file e:/fpgaproject/stepmxo2/swust/9.coded_lock/coded_lock.v. VERI-1482
+Analyzing Verilog file E:/Iscc/diamond/3.8_x64/ispfpga/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Top module name (Verilog): coded_lock
+INFO - synthesis: e:/fpgaproject/stepmxo2/swust/9.coded_lock/coded_lock.v(16): compiling module coded_lock. VERI-1018
+Loading NGL library 'E:/Iscc/diamond/3.8_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'E:/Iscc/diamond/3.8_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'E:/Iscc/diamond/3.8_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'E:/Iscc/diamond/3.8_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+Loading device for application map from file 'xo2c4000.nph' in environment: E:/Iscc/diamond/3.8_x64/ispfpga.
+Package Status:                     Final          Version 1.44.
+Top-level module name = coded_lock.
+
+
+
+GSR will not be inferred because no asynchronous signal was found in the netlist.
+Applying 1.000000 MHz constraint to all clocks
+
+WARNING - synthesis: No user .sdc file.
+Results of NGD DRC are available in coded_lock_drc.log.
+Loading NGL library 'E:/Iscc/diamond/3.8_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'E:/Iscc/diamond/3.8_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'E:/Iscc/diamond/3.8_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'E:/Iscc/diamond/3.8_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+WARNING - synthesis: logical net 'GND_net' has no load.
+WARNING - synthesis: DRC complete with 1 warnings.
+All blocks are expanded and NGD expansion is successful.
+Writing NGD file coded_lock_impl1.ngd.
+
+################### Begin Area Report (coded_lock)######################
+Number of register bits => 0 of 4635 (0 % )
+GSR => 1
+IB => 5
+LUT4 => 3
+OB => 2
+################### End Area Report ##################
+
+################### Begin BlackBox Report ######################
+TSALL => 1
+################### End BlackBox Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 0
+Clock Enable Nets
+Number of Clock Enables: 0
+Top 0 highest fanout Clock Enables:
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : d_c, loads : 2
+  Net : n7, loads : 2
+  Net : q_c, loads : 1
+  Net : u_c, loads : 1
+  Net : n_c, loads : 1
+  Net : b_c, loads : 1
+  Net : led1_c, loads : 1
+  Net : led2_c, loads : 1
+  Net : led2, loads : 0
+  Net : led1, loads : 0
+################### End Clock Report ##################
+
+Peak Memory Usage: 53.176  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 0.547  secs
+--------------------------------------------------------------

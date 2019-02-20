@@ -1,0 +1,159 @@
+<top name = "voter4"  library = "work"  arch = ""  entry = "Verilog">
+
+<clocks>
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 0
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+<library name = "work">
+
+<unit name = "voter4">
+
+    <!--
+        Top Level Pins: 5
+    -->
+
+    <pins>
+        <pitem  name = "a"  direction = "in"  />
+        <pitem  name = "b"  direction = "in"  />
+        <pitem  name = "c"  direction = "in"  />
+        <pitem  name = "d"  direction = "in"  />
+        <pitem  name = "led"  direction = "out"  />
+    </pins>
+
+    <!--
+        Instances in netlist: 8
+    -->
+
+    <instance  name = "a_I_0_12"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "a"  />
+        <nitem  name = "b"  />
+        <nitem  name = "led_N_3"  />
+        </nets>
+    </instance>
+
+    <instance  name = "a_I_0_13"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "a"  />
+        <nitem  name = "c"  />
+        <nitem  name = "led_N_4"  />
+        </nets>
+    </instance>
+
+    <instance  name = "led_I_2"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "led_N_3"  />
+        <nitem  name = "led_N_4"  />
+        <nitem  name = "led_N_2"  />
+        </nets>
+    </instance>
+
+    <instance  name = "a_I_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "a"  />
+        <nitem  name = "d"  />
+        <nitem  name = "led_N_5"  />
+        </nets>
+    </instance>
+
+    <instance  name = "led_I_1"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "led_N_2"  />
+        <nitem  name = "led_N_5"  />
+        <nitem  name = "led_N_1"  />
+        </nets>
+    </instance>
+
+    <instance  name = "b_I_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "b"  />
+        <nitem  name = "c"  />
+        <nitem  name = "led_N_7"  />
+        </nets>
+    </instance>
+
+    <instance  name = "led_I_3"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "led_N_7"  />
+        <nitem  name = "d"  />
+        <nitem  name = "led_N_6"  />
+        </nets>
+    </instance>
+
+    <instance  name = "led_I_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "a0"  direction = "in"  />
+        <pitem  name = "a1"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "led_N_1"  />
+        <nitem  name = "led_N_6"  />
+        <nitem  name = "led"  />
+        </nets>
+    </instance>
+
+    <!--
+        Views in design "voter4": 0
+    -->
+
+    <views>
+    </views>
+
+</unit>
+
+</library>
+
+</top>

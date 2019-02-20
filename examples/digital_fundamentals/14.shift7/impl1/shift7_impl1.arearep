@@ -1,0 +1,13 @@
+----------------------------------------------------------------------
+Report for cell shift7.TECH
+Register bits:  7 of 4635 (0.151%)
+I/O cells:      10
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3AX         6          100.0
+                            FD1S3IX         1          100.0
+                                GSR         1          100.0
+                                 IB         9          100.0
+                               LUT4         6          100.0
+                                 OB         1          100.0
+                              TOTAL        24

@@ -1,0 +1,9 @@
+#Start recording tcl command: 12/11/2018 17:31:59
+#Project Location: E:/fpgaproject/stepmxo2/workshop/lab7; Project name: top
+prj_project new -name "top" -impl "impl1" -dev LCMXO2-4000HC-4MG132C -synthesis "lse"
+prj_project save
+prj_src add "E:/fpgaproject/stepmxo2/workshop/lab7/top.v"
+prj_src add "E:/fpgaproject/stepmxo2/workshop/lab7/debounce.v"
+prj_project save
+prj_project close
+#Stop recording: 12/11/2018 17:38:15

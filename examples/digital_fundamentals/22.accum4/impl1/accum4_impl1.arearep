@@ -1,0 +1,65 @@
+----------------------------------------------------------------------
+Report for cell accum4.TECH
+Register bits:  11 of 4635 (0.237%)
+I/O cells:      7
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             FD1S1A         1          100.0
+                            FD1S3AX         1          100.0
+                            FD1S3BX         1          100.0
+                            FD1S3IX         8          100.0
+                                GSR         1          100.0
+                                 IB         3          100.0
+                               LUT4         5          100.0
+                                 OB         4          100.0
+                        VERIFIC_PWR         1          100.0
+SUB MODULES
+                             adder1         1
+                              ahead         1
+                              jk_ff         1
+                              shift         1
+                           shift_U0         1
+                              TOTAL        30
+----------------------------------------------------------------------
+Report for cell shift_U0.v1
+Instance Path : u1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3IX         4           50.0
+                              TOTAL         4
+----------------------------------------------------------------------
+Report for cell ahead.v1
+Instance Path : u3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             FD1S1A         1          100.0
+                            FD1S3AX         1          100.0
+                            FD1S3BX         1          100.0
+                               LUT4         3           60.0
+SUB MODULES
+                              jk_ff         1
+                              TOTAL         7
+----------------------------------------------------------------------
+Report for cell jk_ff.v1
+Instance Path : u3.u1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             FD1S1A         1          100.0
+                            FD1S3AX         1          100.0
+                            FD1S3BX         1          100.0
+                               LUT4         2           40.0
+                              TOTAL         5
+----------------------------------------------------------------------
+Report for cell adder1.v1
+Instance Path : u2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         1           20.0
+                              TOTAL         1
+----------------------------------------------------------------------
+Report for cell shift.v1
+Instance Path : u4
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3IX         4           50.0
+                              TOTAL         4

@@ -1,0 +1,7 @@
+2
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "./../../dff.v" 12 dff
+~A 1 "./../../dff.v" 12 dff
+~M 3 "./../../dff_tb.v" 14 dff_tb
+~A 1 "./../../dff_tb.v" 14 dff_tb

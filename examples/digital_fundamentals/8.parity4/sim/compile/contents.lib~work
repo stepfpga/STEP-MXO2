@@ -1,0 +1,7 @@
+2
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "./../../parity4.v" 14 parity4
+~A 1 "./../../parity4.v" 14 parity4
+~M 3 "./../../parity4_tb.v" 14 parity4_tb
+~A 1 "./../../parity4_tb.v" 14 parity4_tb

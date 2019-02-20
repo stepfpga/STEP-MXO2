@@ -1,0 +1,15 @@
+#Start recording tcl command: 8/4/2018 22:49:41
+#Project Location: E:/fpgaproject/stepmxo2/swust/18.counter60; Project name: counter60
+prj_project new -name "counter60" -impl "impl1" -dev LCMXO2-4000HC-5MG132C -synthesis "lse"
+file copy -force -- "E:/fpgaproject/stepmxo2/swust/10.segment/Segment.v" "E:/fpgaproject/stepmxo2/swust/17.divide/divide.v" "E:/fpgaproject/stepmxo2/swust/18.counter60/impl1/source"
+prj_src add "E:/fpgaproject/stepmxo2/swust/18.counter60/impl1/source/Segment.v" "E:/fpgaproject/stepmxo2/swust/18.counter60/impl1/source/divide.v"
+prj_project save
+prj_src add "E:/fpgaproject/stepmxo2/swust/18.counter60/counter60.v"
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_project save
+prj_project close
+#Stop recording: 8/5/2018 10:41:59

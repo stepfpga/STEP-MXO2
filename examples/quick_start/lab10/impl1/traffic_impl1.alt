@@ -1,0 +1,16 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Thu Dec 13 17:40:17 2018 *
+NOTE DESIGN NAME: traffic *
+NOTE DEVICE NAME: LCMXO2-4000HC-4CSBGA132 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS out[4] : N3 : out *
+NOTE PINS out[5] : M3 : out *
+NOTE PINS out[3] : P4 : out *
+NOTE PINS out[2] : M2 : out *
+NOTE PINS out[1] : N2 : out *
+NOTE PINS out[0] : P2 : out *
+NOTE PINS clk : C1 : in *
+NOTE PINS rst_n : L14 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

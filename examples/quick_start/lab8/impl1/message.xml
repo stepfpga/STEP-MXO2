@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/workshop/lab8/counter.v(18): </Dynamic>
+            <Dynamic>counter</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/workshop/lab8/counter.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/workshop/lab8/impl1/source/debounce.v(18): </Dynamic>
+            <Dynamic>debounce</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/workshop/lab8/impl1/source/debounce.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/workshop/lab8/impl1/source/divide.v(18): </Dynamic>
+            <Dynamic>divide(WIDTH=32,N=12000000)</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/workshop/lab8/impl1/source/divide.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/workshop/lab8/counter.v(108): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/workshop/lab8/counter.v</Navigation>
+            <Navigation>108</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/workshop/lab8/counter.v(110): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>4</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/workshop/lab8/counter.v</Navigation>
+            <Navigation>110</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/workshop/lab8/counter.v(38): </Dynamic>
+            <Dynamic>seg</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/workshop/lab8/counter.v</Navigation>
+            <Navigation>38</Navigation>
+        </Message>
+        <Message>
+            <ID>35931038</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/workshop/lab8/counter.v(38): </Dynamic>
+            <Dynamic>seg_original_ramnet</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/workshop/lab8/counter.v</Navigation>
+            <Navigation>38</Navigation>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>clk_c</Dynamic>
+            <Dynamic>Primary</Dynamic>
+            <Dynamic>clk</Dynamic>
+            <Dynamic>C1</Dynamic>
+            <Dynamic>Primary</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=hold_pulse loads=1 clock_loads=1</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=hold_pulse loads=1 clock_loads=1</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>

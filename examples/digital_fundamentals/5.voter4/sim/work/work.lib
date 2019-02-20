@@ -1,0 +1,38 @@
+timestamp=1533611277954
+
+[~A]
+E:/fpgaproject/stepmxo2/swust/5.voter4/voter4.v=0*340*747
+E:/fpgaproject/stepmxo2/swust/5.voter4/voter4_tb.v=0*1579*2085
+LastVerilogToplevel=voter4_tb
+ModifyID=2
+Version=74
+
+[$root]
+A/$root=22|||1*1325
+BinI32/$root=3*769
+SLP=3*873
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|c73a565f2ade592f8ac1c68f484c9216c1d0e60e1e11d0332cfd429807ccd0ab
+
+[voter4]
+A/voter4=22|./../../voter4.v|14|1*374
+BinI32/voter4=3*172
+R=./../../voter4.v|14
+SLP=3*595
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|d3ef2faa8e2661108d0afb9f021530af96b0931a0a5298131c960c1468e187f4
+
+[voter4_tb]
+A/voter4_tb=22|./../../voter4_tb.v|14|1*1699
+BinI32/voter4_tb=3*941
+R=./../../voter4_tb.v|14
+SLP=3*1535
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|5bb0ca05c31e0b0ea9428d51b5e7e80bd3659770e5fc3243b3cd144c3698101351be8e1c9857487ce50c27123eec7f27
+
+[~MFT]
+0=4|0work.mgf|2085|0
+1=3|1work.mgf|1699|374
+3=6|3work.mgf|1535|172
+
+[~U]
+$root=12|0*1259|
+voter4=12|0*150||0x10
+voter4_tb=12|0*1425||0x10

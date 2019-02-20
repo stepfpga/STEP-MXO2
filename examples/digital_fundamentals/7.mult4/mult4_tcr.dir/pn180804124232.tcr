@@ -1,0 +1,17 @@
+#Start recording tcl command: 8/4/2018 12:11:31
+#Project Location: E:/fpgaproject/stepmxo2/swust/7.mult4; Project name: mult4
+prj_project new -name "mult4" -impl "impl1" -dev LCMXO2-4000HC-5MG132C -synthesis "lse"
+prj_project save
+pwc_command new -project "E:/fpgaproject/stepmxo2/swust/7.mult4/mult4.pcf"
+prj_src add -exclude "E:/fpgaproject/stepmxo2/swust/7.mult4/mult4.pcf"
+prj_src enable "E:/fpgaproject/stepmxo2/swust/7.mult4/mult4.pcf"
+pwc_command exit
+prj_src add "E:/fpgaproject/stepmxo2/swust/7.mult4/mult4.v"
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_project save
+prj_project close
+#Stop recording: 8/4/2018 12:42:32

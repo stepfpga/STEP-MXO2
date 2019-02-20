@@ -1,0 +1,12 @@
+#Start recording tcl command: 8/7/2018 10:56:38
+#Project Location: E:/fpgaproject/stepmxo2/swust/4.comparer1; Project name: comparer1
+prj_project open "E:/fpgaproject/stepmxo2/swust/4.comparer1/comparer1.ldf"
+prj_src add -exclude "E:/fpgaproject/stepmxo2/swust/4.comparer1/comparer1_tb.ldc"
+prj_src enable "E:/fpgaproject/stepmxo2/swust/4.comparer1/comparer1_tb.ldc"
+prj_src remove "E:/fpgaproject/stepmxo2/swust/4.comparer1/comparer1_tb.ldc"
+prj_src add "E:/fpgaproject/stepmxo2/swust/4.comparer1/comparer1_tb.v"
+prj_src syn_sim -src "E:/fpgaproject/stepmxo2/swust/4.comparer1/comparer1_tb.v" SimulateOnly
+prj_src add "E:/fpgaproject/stepmxo2/swust/4.comparer1/sim/sim.spf"
+prj_project save
+prj_project close
+#Stop recording: 8/7/2018 11:06:00

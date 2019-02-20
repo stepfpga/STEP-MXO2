@@ -1,0 +1,22 @@
+---------------------------------------------------
+Report for cell flashled
+   Instance path: flashled
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      36.00        100.0
+                                  LUT4	      12.00        100.0
+                                 IOBUF	         10        100.0
+                                PFUREG	         41        100.0
+                                RIPPLE	         30        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+           divide(WIDTH=32,N=12000000)	          1        93.5
+---------------------------------------------------
+Report for cell divide(WIDTH=32,N=12000000)
+   Instance path: flashled/u2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      33.67        93.5
+                                  LUT4	      12.00        100.0
+                                PFUREG	         33        80.5
+                                RIPPLE	         30        100.0

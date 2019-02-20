@@ -1,0 +1,79 @@
+// --------------------------------------------------------------------
+// >>>>>>>>>>>>>>>>>>>>>>>>> COPYRIGHT NOTICE <<<<<<<<<<<<<<<<<<<<<<<<<
+// --------------------------------------------------------------------
+// Module: STEP_V21_Test
+// 
+// Author: Step
+// 
+// Description: STEP_V21_Test, Top module
+// 
+// Web: www.ecbcamp.com
+// 
+// --------------------------------------------------------------------
+// Code Revision History :
+// --------------------------------------------------------------------
+// Version: |Mod. Date:   |Changes Made:
+// V1.0     |2016/04/20   |Initial ver
+// --------------------------------------------------------------------
+module STEP_V21_Test
+(
+input clk_in,  //clk_in = 25mhz
+input rst_n_in,  //rst_n_in, active low
+output clk_out,  //clock output
+output clk_1Hz,  //clock output
+output [7:0] Water_led,  //Water_led output
+output [2:0] Color_led_1,  //Water_led output
+output [2:0] Color_led_2,  //Water_led output
+output [8:0] Segment_led_1,  //Segment_led output, MSB~LSB = SPGFEDCBA
+output [8:0] Segment_led_2  //Segment_led output, MSB~LSB = SPGFEDCBA
+);
+
+assign clk_out = clk_in;
+
+//wire clk_1Hz;
+Clock_div clk_1Hz_uut
+(
+.clk_in(clk_in),  //clk_in = 25mhz
+.rst_n_in(rst_n_in),  //rst_n_in, active low
+.clk_div_out(clk_1Hz)  //clock divide output
+);
+
+wire [3:0] heart_cnt;
+Heart_beat Heart_beat_uut
+(
+.clk_in(clk_in),  //clk_in = 25mhz
+.rst_n_in(rst_n_in),  //rst_n_in, active low
+.clk_1hz_in(clk_1Hz),  //clk_1hz_in
+.heart_cnt(heart_cnt)  //heart_cnt output
+);
+
+//wire [7:0] Water_led;
+Water_led Water_led_uut
+(
+.clk_in(clk_in),  //clk_in = 25mhz
+.rst_n_in(rst_n_in),  //rst_n_in, active low
+.heart_cnt(heart_cnt),  //heart_cnt input
+.Water_led(Water_led)  //Water_led output
+);
+
+//wire [2:0] Color_led_1;
+//wire [2:0] Color_led_2;
+Color_led Color_led_uut
+(
+.clk_in(clk_in),  //clk_in = 25mhz
+.rst_n_in(rst_n_in),  //rst_n_in, active low
+.heart_cnt(heart_cnt),  //heart_cnt input
+.Color_led_1(Color_led_1),  //Water_led output
+.Color_led_2(Color_led_2)  //Water_led output
+);
+	
+//wire [8:0] Segment_led_1;
+//wire [8:0] Segment_led_2;
+Segment_led Segment_led_uut
+(
+.heart_cnt(heart_cnt),  //heart_cnt input
+.Segment_led_1(Segment_led_1),  //Segment_led output, MSB~LSB = SPGFEDCBA
+.Segment_led_2(Segment_led_2)  //Segment_led output, MSB~LSB = SPGFEDCBA
+);
+	
+endmodule

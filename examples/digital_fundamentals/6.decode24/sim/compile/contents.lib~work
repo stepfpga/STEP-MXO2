@@ -1,0 +1,7 @@
+2
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "./../../decode24.v" 13 decode24
+~A 1 "./../../decode24.v" 13 decode24
+~M 3 "./../../decode24_tb.v" 14 decode24_tb
+~A 1 "./../../decode24_tb.v" 14 decode24_tb

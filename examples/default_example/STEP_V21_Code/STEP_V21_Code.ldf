@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="STEP_V21_Code" device="LCMXO2-4000HC-4MG132C" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="STEP_V21_Test"/>
+        <Source name="STEP_V21_Sim.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="STEP_V21_Test.v" type="Verilog" type_short="Verilog">
+            <Options top_module="STEP_V21_Test"/>
+        </Source>
+        <Source name="Clock_div.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Heart_beat.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Water_led.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Color_led.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Segment_led.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Debounce.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="Lightness.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl1/impl1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="STEP_V21_Code.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="STEP_V21_Sim/STEP_V21_Sim.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="STEP_V21_Code1.sty"/>
+</BaliProject>

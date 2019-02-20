@@ -1,0 +1,7 @@
+2
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "./../../ring.v" 13 ring
+~A 1 "./../../ring.v" 13 ring
+~M 3 "./../../ring_tb.v" 14 ring_tb
+~A 1 "./../../ring_tb.v" 14 ring_tb

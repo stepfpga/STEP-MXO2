@@ -1,0 +1,5 @@
+#Start recording tcl command: 12/11/2018 17:28:28
+#Project Location: E:/fpgaproject/stepmxo2/workshop/lab4; Project name: segment
+prj_project open "E:/fpgaproject/stepmxo2/workshop/lab4/segment.ldf"
+prj_project close
+#Stop recording: 12/11/2018 17:28:39

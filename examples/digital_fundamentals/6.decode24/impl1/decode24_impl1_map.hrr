@@ -1,0 +1,8 @@
+---------------------------------------------------
+Report for cell decode24
+   Instance path: decode24
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.00        100.0
+                                  LUT4	       4.00        100.0
+                                 IOBUF	          6        100.0

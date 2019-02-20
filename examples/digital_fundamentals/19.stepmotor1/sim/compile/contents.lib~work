@@ -1,0 +1,9 @@
+3
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "./../../impl1/source/divide.v" 18 divide
+~A 1 "./../../impl1/source/divide.v" 18 divide
+~M 3 "./../../stepmotor1.v" 17 stepmotor1
+~A 1 "./../../stepmotor1.v" 17 stepmotor1
+~M 3 "./../../stepmotor1_tb.v" 15 stepmotor1_tb
+~A 1 "./../../stepmotor1_tb.v" 15 stepmotor1_tb

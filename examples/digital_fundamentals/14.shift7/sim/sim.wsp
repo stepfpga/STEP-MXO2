@@ -1,0 +1,17 @@
+[COMPILESTATUS|.\..\shift7.v]
+FileTimeLow=30682073
+Status=Compiled
+
+[COMPILESTATUS|.\..\shift7_tb.v]
+FileTimeLow=30682643
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\sim.adf|]
+Path=/shift7_tb
+
+[Gui config]
+RunFor=100 ns
+

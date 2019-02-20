@@ -1,0 +1,5 @@
+
+
+-g RamCfg:Reset
+
+-path "E:/fpgaproject/stepmxo2/swust/20.stepmotor2"  

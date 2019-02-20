@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="answer" device="LCMXO2-4000HC-5MG132C" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="answer" top="answer"/>
+        <Source name="answer.v" type="Verilog" type_short="Verilog">
+            <Options top_module="answer"/>
+        </Source>
+        <Source name="judge.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="score.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl1/source/debounce.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="dseg.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl1/source/segment_led.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl1/source/divide.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="answer.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="answer1.sty"/>
+</BaliProject>

@@ -1,0 +1,5 @@
+#Start recording tcl command: 8/7/2018 22:03:54
+#Project Location: E:/fpgaproject/stepmxo2/swust/6.decode24; Project name: decode24
+prj_project open "E:/fpgaproject/stepmxo2/swust/6.decode24/decode24.ldf"
+prj_project close
+#Stop recording: 8/7/2018 22:04:39

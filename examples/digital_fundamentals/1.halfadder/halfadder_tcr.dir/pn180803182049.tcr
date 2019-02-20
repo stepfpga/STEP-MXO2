@@ -1,0 +1,9 @@
+#Start recording tcl command: 8/3/2018 18:03:34
+#Project Location: E:/fpgaproject/stepmxo2/swust/halfadder; Project name: halfadder
+prj_project new -name "halfadder" -impl "impl1" -dev LCMXO2-4000HC-4MG132C -synthesis "lse"
+prj_project save
+prj_src add "E:/fpgaproject/stepmxo2/swust/halfadder/halfadder.v"
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+#Stop recording: 8/3/2018 18:20:49

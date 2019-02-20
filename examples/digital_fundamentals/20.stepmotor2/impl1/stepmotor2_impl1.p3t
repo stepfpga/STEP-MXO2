@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "stepmotor2_impl1.log"
+-o "stepmotor2_impl1.csv"
+-pr "stepmotor2_impl1.prf"

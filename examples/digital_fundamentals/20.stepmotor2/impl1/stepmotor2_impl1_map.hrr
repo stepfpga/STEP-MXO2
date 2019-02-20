@@ -1,0 +1,22 @@
+---------------------------------------------------
+Report for cell stepmotor2
+   Instance path: stepmotor2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      25.00        100.0
+                                  LUT4	      21.00        100.0
+                                 IOBUF	          7        100.0
+                                PFUREG	         30        100.0
+                                RIPPLE	         13        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+           divide(WIDTH=24,N=12000000)	          1        84.0
+---------------------------------------------------
+Report for cell divide(WIDTH=24,N=12000000)
+   Instance path: stepmotor2/u1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      21.00        84.0
+                                  LUT4	      16.00        76.2
+                                PFUREG	         25        83.3
+                                RIPPLE	         13        100.0

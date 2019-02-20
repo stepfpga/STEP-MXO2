@@ -1,0 +1,5 @@
+#Start recording tcl command: 8/5/2018 10:41:59
+#Project Location: E:/fpgaproject/stepmxo2/swust/19.stepmotor; Project name: stepmotor1
+prj_project new -name "stepmotor1" -impl "impl1" -dev LCMXO2-4000HC-5MG132C -synthesis "lse"
+prj_project save
+#Stop recording: 8/5/2018 10:42:19

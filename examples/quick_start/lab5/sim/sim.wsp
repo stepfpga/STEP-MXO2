@@ -1,0 +1,17 @@
+[COMPILESTATUS|.\..\divide.v]
+FileTimeLow=30708018
+Status=Compiled
+
+[COMPILESTATUS|.\..\divide_tb.v]
+FileTimeLow=30708018
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\sim.adf|]
+Path=/divide_tb
+
+[Gui config]
+RunFor=100 ns
+

@@ -1,0 +1,11 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Tue Dec 11 17:28:20 2018 *
+NOTE DESIGN NAME: divide *
+NOTE DEVICE NAME: LCMXO2-4000HC-4CSBGA132 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS rst_n : L14 : in *
+NOTE PINS clk : C1 : in *
+NOTE PINS clkout : N13 : out *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

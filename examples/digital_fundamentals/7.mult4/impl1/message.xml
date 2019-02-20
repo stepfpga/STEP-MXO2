@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/7.mult4/mult4.v(13): </Dynamic>
+            <Dynamic>mult4</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/7.mult4/mult4.v</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/7.mult4/mult4.v(26): </Dynamic>
+            <Dynamic>a</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/7.mult4/mult4.v</Navigation>
+            <Navigation>26</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/7.mult4/mult4.v(27): </Dynamic>
+            <Dynamic>b</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/7.mult4/mult4.v</Navigation>
+            <Navigation>27</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/7.mult4/mult4.v(28): </Dynamic>
+            <Dynamic>c</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/7.mult4/mult4.v</Navigation>
+            <Navigation>28</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/7.mult4/mult4.v(29): </Dynamic>
+            <Dynamic>d</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/7.mult4/mult4.v</Navigation>
+            <Navigation>29</Navigation>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>GND_net</Dynamic>
+            <Navigation>GND_net</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>1</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>

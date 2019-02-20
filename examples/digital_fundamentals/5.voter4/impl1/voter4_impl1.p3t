@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "voter4_impl1.log"
+-o "voter4_impl1.csv"
+-pr "voter4_impl1.prf"

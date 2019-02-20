@@ -1,0 +1,5 @@
+#Start recording tcl command: 8/7/2018 22:02:03
+#Project Location: E:/fpgaproject/stepmxo2/swust/4.comparer1; Project name: comparer1
+prj_project open "E:/fpgaproject/stepmxo2/swust/4.comparer1/comparer1.ldf"
+prj_project close
+#Stop recording: 8/7/2018 22:03:08

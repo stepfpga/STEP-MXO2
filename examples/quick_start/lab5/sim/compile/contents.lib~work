@@ -1,0 +1,7 @@
+2
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "./../../divide.v" 18 divide
+~A 1 "./../../divide.v" 18 divide
+~M 3 "./../../divide_tb.v" 20 divide_tb
+~A 1 "./../../divide_tb.v" 20 divide_tb

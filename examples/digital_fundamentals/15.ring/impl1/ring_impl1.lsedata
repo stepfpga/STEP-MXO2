@@ -1,0 +1,184 @@
+<top name = "ring"  library = "work"  arch = ""  entry = "Verilog">
+
+<clocks>
+    <clockitem name = "clk"  type = "port" />
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 1
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+<library name = "work">
+
+<unit name = "ring">
+
+    <!--
+        Top Level Pins: 10
+    -->
+
+    <pins>
+        <pitem  name = "clk"  direction = "in"  />
+        <pitem  name = "rst"  direction = "in"  />
+        <pitem  name = "cnt[7]"  direction = "out"  />
+        <pitem  name = "cnt[6]"  direction = "out"  />
+        <pitem  name = "cnt[5]"  direction = "out"  />
+        <pitem  name = "cnt[4]"  direction = "out"  />
+        <pitem  name = "cnt[3]"  direction = "out"  />
+        <pitem  name = "cnt[2]"  direction = "out"  />
+        <pitem  name = "cnt[1]"  direction = "out"  />
+        <pitem  name = "cnt[0]"  direction = "out"  />
+    </pins>
+
+    <!--
+        Instances in netlist: 3
+    -->
+
+    <instance  name = "rst_I_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "i"  direction = "in"  />
+        <pitem  name = "o"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "rst"  />
+        <nitem  name = "rst_N_10"  />
+        </nets>
+    </instance>
+
+    <instance  name = "cnt_0__I_0"  library = "work"  arch = ""  type = "comb">
+        <pins>
+        <pitem  name = "d0[7]"  direction = "in"  />
+        <pitem  name = "d0[6]"  direction = "in"  />
+        <pitem  name = "d0[5]"  direction = "in"  />
+        <pitem  name = "d0[4]"  direction = "in"  />
+        <pitem  name = "d0[3]"  direction = "in"  />
+        <pitem  name = "d0[2]"  direction = "in"  />
+        <pitem  name = "d0[1]"  direction = "in"  />
+        <pitem  name = "d0[0]"  direction = "in"  />
+        <pitem  name = "d1[7]"  direction = "in"  />
+        <pitem  name = "d1[6]"  direction = "in"  />
+        <pitem  name = "d1[5]"  direction = "in"  />
+        <pitem  name = "d1[4]"  direction = "in"  />
+        <pitem  name = "d1[3]"  direction = "in"  />
+        <pitem  name = "d1[2]"  direction = "in"  />
+        <pitem  name = "d1[1]"  direction = "in"  />
+        <pitem  name = "d1[0]"  direction = "in"  />
+        <pitem  name = "cond"  direction = "in"  />
+        <pitem  name = "o[7]"  direction = "out"  />
+        <pitem  name = "o[6]"  direction = "out"  />
+        <pitem  name = "o[5]"  direction = "out"  />
+        <pitem  name = "o[4]"  direction = "out"  />
+        <pitem  name = "o[3]"  direction = "out"  />
+        <pitem  name = "o[2]"  direction = "out"  />
+        <pitem  name = "o[1]"  direction = "out"  />
+        <pitem  name = "o[0]"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "cnt[0]"  />
+        <nitem  name = "cnt[7]"  />
+        <nitem  name = "cnt[6]"  />
+        <nitem  name = "cnt[5]"  />
+        <nitem  name = "cnt[4]"  />
+        <nitem  name = "cnt[3]"  />
+        <nitem  name = "cnt[2]"  />
+        <nitem  name = "cnt[1]"  />
+        <nitem  name = "gnd"  />
+        <nitem  name = "pwr"  />
+        <nitem  name = "rst_N_10"  />
+        <nitem  name = "cnt_7__N_1[7]"  />
+        <nitem  name = "cnt_7__N_1[6]"  />
+        <nitem  name = "cnt_7__N_1[5]"  />
+        <nitem  name = "cnt_7__N_1[4]"  />
+        <nitem  name = "cnt_7__N_1[3]"  />
+        <nitem  name = "cnt_7__N_1[2]"  />
+        <nitem  name = "cnt_7__N_1[1]"  />
+        <nitem  name = "cnt_7__N_1[0]"  />
+        </nets>
+    </instance>
+
+    <instance  name = "cnt"  library = "work"  arch = ""  type = "reg">
+        <pins>
+        <pitem  name = "d[7]"  direction = "in"  />
+        <pitem  name = "d[6]"  direction = "in"  />
+        <pitem  name = "d[5]"  direction = "in"  />
+        <pitem  name = "d[4]"  direction = "in"  />
+        <pitem  name = "d[3]"  direction = "in"  />
+        <pitem  name = "d[2]"  direction = "in"  />
+        <pitem  name = "d[1]"  direction = "in"  />
+        <pitem  name = "d[0]"  direction = "in"  />
+        <pitem  name = "set[7]"  direction = "in"  />
+        <pitem  name = "set[6]"  direction = "in"  />
+        <pitem  name = "set[5]"  direction = "in"  />
+        <pitem  name = "set[4]"  direction = "in"  />
+        <pitem  name = "set[3]"  direction = "in"  />
+        <pitem  name = "set[2]"  direction = "in"  />
+        <pitem  name = "set[1]"  direction = "in"  />
+        <pitem  name = "set[0]"  direction = "in"  />
+        <pitem  name = "reset[7]"  direction = "in"  />
+        <pitem  name = "reset[6]"  direction = "in"  />
+        <pitem  name = "reset[5]"  direction = "in"  />
+        <pitem  name = "reset[4]"  direction = "in"  />
+        <pitem  name = "reset[3]"  direction = "in"  />
+        <pitem  name = "reset[2]"  direction = "in"  />
+        <pitem  name = "reset[1]"  direction = "in"  />
+        <pitem  name = "reset[0]"  direction = "in"  />
+        <pitem  name = "clock"  direction = "in"  />
+        <pitem  name = "q[7]"  direction = "out"  />
+        <pitem  name = "q[6]"  direction = "out"  />
+        <pitem  name = "q[5]"  direction = "out"  />
+        <pitem  name = "q[4]"  direction = "out"  />
+        <pitem  name = "q[3]"  direction = "out"  />
+        <pitem  name = "q[2]"  direction = "out"  />
+        <pitem  name = "q[1]"  direction = "out"  />
+        <pitem  name = "q[0]"  direction = "out"  />
+        </pins>
+
+        <nets>
+        <nitem  name = "cnt_7__N_1[7]"  />
+        <nitem  name = "cnt_7__N_1[6]"  />
+        <nitem  name = "cnt_7__N_1[5]"  />
+        <nitem  name = "cnt_7__N_1[4]"  />
+        <nitem  name = "cnt_7__N_1[3]"  />
+        <nitem  name = "cnt_7__N_1[2]"  />
+        <nitem  name = "cnt_7__N_1[1]"  />
+        <nitem  name = "cnt_7__N_1[0]"  />
+        <nitem  name = "gnd"  />
+        <nitem  name = "clk"  />
+        <nitem  name = "cnt[7]"  />
+        <nitem  name = "cnt[6]"  />
+        <nitem  name = "cnt[5]"  />
+        <nitem  name = "cnt[4]"  />
+        <nitem  name = "cnt[3]"  />
+        <nitem  name = "cnt[2]"  />
+        <nitem  name = "cnt[1]"  />
+        <nitem  name = "cnt[0]"  />
+        </nets>
+    </instance>
+
+    <!--
+        REG instances in netlist: 1
+    -->
+
+    <regs>
+        <reg  name = "cnt"  />
+    </regs>
+
+    <!--
+        Views in design "ring": 0
+    -->
+
+    <views>
+    </views>
+
+</unit>
+
+</library>
+
+</top>

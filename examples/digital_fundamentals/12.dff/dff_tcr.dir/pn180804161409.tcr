@@ -1,0 +1,8 @@
+#Start recording tcl command: 8/4/2018 16:13:37
+#Project Location: E:/fpgaproject/stepmxo2/swust/11.dff; Project name: dff
+prj_project new -name "dff" -impl "impl1" -dev LCMXO2-4000HC-5MG132C -synthesis "lse"
+prj_project save
+prj_src add "E:/fpgaproject/stepmxo2/swust/11.dff/dff.v"
+prj_project save
+prj_project close
+#Stop recording: 8/4/2018 16:14:09

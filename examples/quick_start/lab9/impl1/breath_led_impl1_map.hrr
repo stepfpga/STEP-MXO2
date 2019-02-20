@@ -1,0 +1,10 @@
+---------------------------------------------------
+Report for cell breath_led
+   Instance path: breath_led
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      46.00        100.0
+                                  LUT4	      50.00        100.0
+                                 IOBUF	          3        100.0
+                                PFUREG	         38        100.0
+                                RIPPLE	         21        100.0

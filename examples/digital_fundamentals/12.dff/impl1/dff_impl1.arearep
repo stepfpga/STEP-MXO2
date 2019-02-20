@@ -1,0 +1,12 @@
+----------------------------------------------------------------------
+Report for cell dff.TECH
+Register bits:  1 of 4635 (0.022%)
+I/O cells:      5
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3IX         1          100.0
+                                GSR         1          100.0
+                                 IB         3          100.0
+                               LUT4         2          100.0
+                                 OB         2          100.0
+                              TOTAL         9

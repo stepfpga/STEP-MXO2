@@ -1,0 +1,1 @@
+-o E:/fpgaproject/stepmxo2/swust/1.halfadder/sim/compile -lc E:/fpgaproject/stepmxo2/swust/1.halfadder/sim/library.cfg -fl E:/fpgaproject/stepmxo2/swust/1.halfadder/sim/projlib.cfg -pli "E:/Iscc/diamond/3.8_x64/active-hdl/bin/systf.dll" -epr E:/fpgaproject/stepmxo2/swust/1.halfadder/sim/compile/sim.epr -dbg -work work E:/fpgaproject/stepmxo2/swust/1.halfadder/halfadder_tb.v 

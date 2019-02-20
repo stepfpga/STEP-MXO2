@@ -1,0 +1,13 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Sat Aug 04 15:02:13 2018 *
+NOTE DESIGN NAME: parity4 *
+NOTE DEVICE NAME: LCMXO2-4000HC-5CSBGA132 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS led : N13 : out *
+NOTE PINS a : M7 : in *
+NOTE PINS b : M8 : in *
+NOTE PINS c : M9 : in *
+NOTE PINS d : M10 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

@@ -1,0 +1,7 @@
+2
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "./../../coded_lock.v" 16 coded_lock
+~A 1 "./../../coded_lock.v" 16 coded_lock
+~M 3 "./../../coded_lock_tb.v" 14 coded_lock_tb
+~A 1 "./../../coded_lock_tb.v" 14 coded_lock_tb

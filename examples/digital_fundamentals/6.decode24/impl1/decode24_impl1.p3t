@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "decode24_impl1.log"
+-o "decode24_impl1.csv"
+-pr "decode24_impl1.prf"

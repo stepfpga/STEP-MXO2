@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "halfadder_impl1.log"
+-o "halfadder_impl1.csv"
+-pr "halfadder_impl1.prf"

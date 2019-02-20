@@ -1,0 +1,32 @@
+---------------------------------------------------
+Report for cell counter
+   Instance path: counter
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      67.00        100.0
+                                  LUT4	      53.00        100.0
+                                 IOBUF	         29        100.0
+                                PFUREG	         64        100.0
+                                RIPPLE	         40        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              debounce	          1        22.9
+           divide(WIDTH=32,N=12000000)	          1        54.0
+---------------------------------------------------
+Report for cell debounce
+   Instance path: counter/U2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      15.33        22.9
+                                  LUT4	       9.00        17.0
+                                PFUREG	         22        34.4
+                                RIPPLE	         10        25.0
+---------------------------------------------------
+Report for cell divide(WIDTH=32,N=12000000)
+   Instance path: counter/U1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      36.17        54.0
+                                  LUT4	      13.00        24.5
+                                PFUREG	         33        51.6
+                                RIPPLE	         30        75.0

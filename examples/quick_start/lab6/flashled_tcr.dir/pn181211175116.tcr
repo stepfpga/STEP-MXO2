@@ -1,0 +1,14 @@
+#Start recording tcl command: 12/11/2018 17:38:15
+#Project Location: E:/fpgaproject/stepmxo2/workshop/lab6; Project name: flashled
+prj_project open "E:/fpgaproject/stepmxo2/workshop/lab6/flashled.ldf"
+prj_impl clone "impl2" -dir "impl2" -impl "impl1" -copyRef
+prj_impl active "impl2"
+prj_src remove "E:/fpgaproject/stepmxo2/workshop/lab6/impl2/source/decode38.v"
+prj_src remove "E:/fpgaproject/stepmxo2/workshop/lab6/impl2/source/divide.v"
+prj_src add "E:/fpgaproject/stepmxo2/workshop/lab6/impl2/source/divide.v"
+prj_run Synthesis -impl impl2
+prj_run Export -impl impl2 -task Jedecgen
+prj_impl active "impl1"
+prj_project save
+prj_project close
+#Stop recording: 12/11/2018 17:51:16

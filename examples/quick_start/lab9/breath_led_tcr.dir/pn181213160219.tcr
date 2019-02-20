@@ -1,0 +1,11 @@
+#Start recording tcl command: 12/13/2018 15:13:54
+#Project Location: E:/fpgaproject/stepmxo2/workshop/lab9; Project name: breath_led
+prj_project new -name "breath_led" -impl "impl1" -dev LCMXO2-4000HC-4MG132C -synthesis "lse"
+prj_project save
+prj_src add "E:/fpgaproject/stepmxo2/workshop/lab9/breath_led.v"
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 12/13/2018 16:02:19

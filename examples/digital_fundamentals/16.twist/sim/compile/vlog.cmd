@@ -1,0 +1,1 @@
+-o E:/fpgaproject/stepmxo2/swust/16.twist/sim/compile -lc E:/fpgaproject/stepmxo2/swust/16.twist/sim/library.cfg -fl E:/fpgaproject/stepmxo2/swust/16.twist/sim/projlib.cfg -pli "E:/Iscc/diamond/3.8_x64/active-hdl/bin/systf.dll" -epr E:/fpgaproject/stepmxo2/swust/16.twist/sim/compile/sim.epr -dbg -work work E:/fpgaproject/stepmxo2/swust/16.twist/twist_tb.v 

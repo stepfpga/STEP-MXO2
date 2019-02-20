@@ -1,0 +1,17 @@
+[COMPILESTATUS|.\..\halfadder.v]
+FileTimeLow=30682611
+Status=Compiled
+
+[COMPILESTATUS|.\..\halfadder_tb.v]
+FileTimeLow=30682616
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\sim.adf|]
+Path=/halfadder_tb
+
+[Gui config]
+RunFor=100 ns
+

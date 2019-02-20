@@ -1,0 +1,45 @@
+#Start recording tcl command: 8/5/2018 14:37:37
+#Project Location: E:/fpgaproject/stepmxo2/swust/21.answer; Project name: answer
+prj_project new -name "answer" -impl "impl1" -dev LCMXO2-4000HC-5MG132C -synthesis "lse"
+prj_project save
+prj_src add "E:/fpgaproject/stepmxo2/swust/21.answer/answer.v"
+prj_src add "E:/fpgaproject/stepmxo2/swust/21.answer/judge.v"
+prj_src add "E:/fpgaproject/stepmxo2/swust/21.answer/score.v"
+file copy -force -- "E:/fpgaproject/stepmxo2/swust/21.answer/debounce.v" "E:/fpgaproject/stepmxo2/swust/21.answer/impl1/source"
+prj_src add "E:/fpgaproject/stepmxo2/swust/21.answer/impl1/source/debounce.v"
+prj_src add "E:/fpgaproject/stepmxo2/swust/21.answer/dseg.v"
+prj_src add "E:/fpgaproject/stepmxo2/swust/21.answer/impl1/source/segment_led.v"
+prj_src add "E:/fpgaproject/stepmxo2/swust/21.answer/impl1/source/divide.v"
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_src exclude "E:/fpgaproject/stepmxo2/swust/21.answer/impl1/source/debounce.v"
+prj_run Synthesis -impl impl1
+prj_src enable "E:/fpgaproject/stepmxo2/swust/21.answer/impl1/source/debounce.v"
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+#Stop recording: 8/6/2018 09:03:35

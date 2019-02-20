@@ -1,0 +1,402 @@
+
+           Lattice Mapping Report File for Design Module 'counter'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-4000HC -t CSBGA132 -s 4 -oc Commercial
+     counter_impl1.ngd -o counter_impl1_map.ncd -pr counter_impl1.prf -mp
+     counter_impl1.mrp -lpf
+     E:/fpgaproject/stepmxo2/workshop/lab8/impl1/counter_impl1.lpf -lpf
+     E:/fpgaproject/stepmxo2/workshop/lab8/counter.lpf -c 0 -gui -msgset
+     E:/fpgaproject/stepmxo2/workshop/lab8/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-4000HCCSBGA132
+Target Performance:   4
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.8.0.115.3
+Mapped on:  12/13/18  14:32:28
+
+Design Summary
+--------------
+
+   Number of registers:     64 out of  4635 (1%)
+      PFU registers:           64 out of  4320 (1%)
+      PIO registers:            0 out of   315 (0%)
+   Number of SLICEs:        67 out of  2160 (3%)
+      SLICEs as Logic/ROM:     67 out of  2160 (3%)
+      SLICEs as RAM:            0 out of  1620 (0%)
+      SLICEs as Carry:         40 out of  2160 (2%)
+   Number of LUT4s:        133 out of  4320 (3%)
+      Number used as logic LUTs:         53
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       80
+      Number used as shift registers:     0
+   Number of PIO sites used: 29 + 4(JTAG) out of 105 (31%)
+   Number of block RAMs:  0 out of 10 (0%)
+   Number of GSRs:  1 out of 1 (100%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  3
+     Net clk_c: 31 loads, 31 rising, 0 falling (Driver: PIO clk )
+     Net hold_pulse: 1 loads, 1 rising, 0 falling (Driver:
+
+                                    Page 1
+
+
+
+
+Design:  counter                                       Date:  12/13/18  14:32:28
+
+Design Summary (cont)
+---------------------
+     U2/key_sec_pre_0__I_0_2_lut )
+     Net clk1h: 7 loads, 7 rising, 0 falling (Driver: U1/clk_p_29 )
+   Number of Clock Enables:  2
+     Net U2/clk_c_enable_1: 1 loads, 1 LSLICEs
+     Net hold_flag: 5 loads, 5 LSLICEs
+   Number of LSRs:  4
+     Net U2/key_edge_0: 10 loads, 10 LSLICEs
+     Net n990: 4 loads, 4 LSLICEs
+     Net U1/n477: 17 loads, 17 LSLICEs
+     Net rst_c: 1 loads, 1 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net U1/n477: 17 loads
+     Net cnt_ge_0: 12 loads
+     Net cnt_ge_1: 12 loads
+     Net cnt_ge_2: 12 loads
+     Net cnt_ge_3: 12 loads
+     Net cnt_shi_0: 11 loads
+     Net cnt_shi_1: 11 loads
+     Net cnt_shi_3: 11 loads
+     Net cnt_shi_2: 10 loads
+     Net hold_flag: 10 loads
+
+
+
+
+   Number of warnings:  0
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+   No errors or warnings present.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| seg_led_1[7]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led_1[8]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led_1[6]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led_1[5]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led_1[4]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led_1[3]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led_1[2]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+
+                                    Page 2
+
+
+
+
+Design:  counter                                       Date:  12/13/18  14:32:28
+
+IO (PIO) Attributes (cont)
+--------------------------
+| seg_led_1[1]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led_1[0]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led_2[8]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led_2[7]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led_2[6]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led_2[5]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led_2[4]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led_2[3]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led_2[2]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led_2[1]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| seg_led_2[0]        | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led[7]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led[6]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led[5]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led[4]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led[3]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led[2]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led[1]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| led[0]              | OUTPUT    | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| clk                 | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| rst                 | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+| hold                | INPUT     | LVCMOS33  |            |
++---------------------+-----------+-----------+------------+
+
+Removed logic
+-------------
+
+Block i763 undriven or does not drive anything - clipped.
+Signal n994 was merged into signal rst_c
+Signal VCC_net undriven or does not drive anything - clipped.
+Signal U1/add_603_cout/S1 undriven or does not drive anything - clipped.
+Signal U1/add_603_cout/CO undriven or does not drive anything - clipped.
+Signal U1/cnt_p_136_add_4_1/S0 undriven or does not drive anything - clipped.
+Signal U1/cnt_p_136_add_4_1/CI undriven or does not drive anything - clipped.
+Signal U1/cnt_p_136_add_4_33/S1 undriven or does not drive anything - clipped.
+
+                                    Page 3
+
+
+
+
+Design:  counter                                       Date:  12/13/18  14:32:28
+
+Removed logic (cont)
+--------------------
+Signal U1/cnt_p_136_add_4_33/CO undriven or does not drive anything - clipped.
+Signal U1/add_603_10/S1 undriven or does not drive anything - clipped.
+Signal U1/add_603_10/S0 undriven or does not drive anything - clipped.
+Signal U1/add_603_12/S1 undriven or does not drive anything - clipped.
+Signal U1/add_603_12/S0 undriven or does not drive anything - clipped.
+Signal U1/add_603_14/S1 undriven or does not drive anything - clipped.
+Signal U1/add_603_14/S0 undriven or does not drive anything - clipped.
+Signal U1/add_603_22/S1 undriven or does not drive anything - clipped.
+Signal U1/add_603_22/S0 undriven or does not drive anything - clipped.
+Signal U1/add_603_18/S1 undriven or does not drive anything - clipped.
+Signal U1/add_603_18/S0 undriven or does not drive anything - clipped.
+Signal U1/add_603_20/S1 undriven or does not drive anything - clipped.
+Signal U1/add_603_20/S0 undriven or does not drive anything - clipped.
+Signal U1/add_603_16/S1 undriven or does not drive anything - clipped.
+Signal U1/add_603_16/S0 undriven or does not drive anything - clipped.
+Signal U1/add_603_24/S1 undriven or does not drive anything - clipped.
+Signal U1/add_603_24/S0 undriven or does not drive anything - clipped.
+Signal U1/add_603_2/S1 undriven or does not drive anything - clipped.
+Signal U1/add_603_2/S0 undriven or does not drive anything - clipped.
+Signal U1/add_603_2/CI undriven or does not drive anything - clipped.
+Signal U1/add_603_4/S1 undriven or does not drive anything - clipped.
+Signal U1/add_603_4/S0 undriven or does not drive anything - clipped.
+Signal U1/add_603_6/S1 undriven or does not drive anything - clipped.
+Signal U1/add_603_6/S0 undriven or does not drive anything - clipped.
+Signal U1/add_603_8/S1 undriven or does not drive anything - clipped.
+Signal U1/add_603_8/S0 undriven or does not drive anything - clipped.
+Signal U2/cnt_135_add_4_19/S1 undriven or does not drive anything - clipped.
+Signal U2/cnt_135_add_4_19/CO undriven or does not drive anything - clipped.
+Signal U2/cnt_135_add_4_1/S0 undriven or does not drive anything - clipped.
+Signal U2/cnt_135_add_4_1/CI undriven or does not drive anything - clipped.
+Block U1/rst_I_0_1_lut_rep_14 was optimized away.
+
+Memory Usage
+------------
+
+
+     
+
+GSR Usage
+---------
+
+GSR Component:
+   The Global Set Reset (GSR) resource has been used to implement a global reset
+        of the design. The reset signal used for GSR control is 'rst_c'.
+        
+
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+     Components with disabled GSR Property
+-------------------------------------
+
+     These components have the GSR property set to DISABLED. The components will
+
+                                    Page 4
+
+
+
+
+Design:  counter                                       Date:  12/13/18  14:32:28
+
+GSR Usage (cont)
+----------------
+     not respond to the reset signal 'rst_c' via the GSR component.
+
+     Type and number of components of the type: 
+   Register = 1 
+
+     Type and instance name of component: 
+   Register : hold_flag_37
+
+     Components with synchronous local reset also reset by asynchronous GSR
+----------------------------------------------------------------------
+
+     These components have the GSR property set to ENABLED and the local reset
+     is synchronous. The components will respond to the synchronous local reset
+     and to the unrelated asynchronous reset signal 'rst_c' via the GSR
+     component.
+
+     Type and number of components of the type: 
+   Register = 55 
+
+     Type and instance name of component: 
+   Register : U2/cnt_135__i0
+   Register : U2/cnt_135__i17
+   Register : U2/cnt_135__i16
+   Register : U2/cnt_135__i15
+   Register : U2/cnt_135__i14
+   Register : U2/cnt_135__i13
+   Register : U2/cnt_135__i12
+   Register : U2/cnt_135__i11
+   Register : U2/cnt_135__i10
+   Register : U2/cnt_135__i9
+   Register : U2/cnt_135__i8
+   Register : U2/cnt_135__i7
+   Register : U2/cnt_135__i6
+   Register : U2/cnt_135__i5
+   Register : U2/cnt_135__i4
+   Register : U2/cnt_135__i3
+   Register : U2/cnt_135__i2
+   Register : U2/cnt_135__i1
+   Register : cnt_shi__i0
+   Register : U1/cnt_p_136__i31
+   Register : U1/cnt_p_136__i30
+   Register : U1/cnt_p_136__i29
+   Register : U1/cnt_p_136__i28
+   Register : U1/cnt_p_136__i27
+   Register : U1/cnt_p_136__i26
+   Register : U1/cnt_p_136__i25
+   Register : U1/cnt_p_136__i24
+   Register : U1/cnt_p_136__i23
+   Register : U1/cnt_p_136__i22
+   Register : U1/cnt_p_136__i21
+   Register : U1/cnt_p_136__i20
+   Register : U1/cnt_p_136__i19
+   Register : U1/cnt_p_136__i18
+   Register : U1/cnt_p_136__i17
+   Register : U1/cnt_p_136__i16
+   Register : U1/cnt_p_136__i15
+
+                                    Page 5
+
+
+
+
+Design:  counter                                       Date:  12/13/18  14:32:28
+
+GSR Usage (cont)
+----------------
+   Register : U1/cnt_p_136__i14
+   Register : U1/cnt_p_136__i13
+   Register : U1/cnt_p_136__i12
+   Register : U1/cnt_p_136__i11
+   Register : U1/cnt_p_136__i10
+   Register : U1/cnt_p_136__i9
+   Register : U1/cnt_p_136__i8
+   Register : U1/cnt_p_136__i7
+   Register : U1/cnt_p_136__i6
+   Register : U1/cnt_p_136__i5
+   Register : U1/cnt_p_136__i4
+   Register : U1/cnt_p_136__i3
+   Register : U1/cnt_p_136__i2
+   Register : U1/cnt_p_136__i1
+   Register : U1/cnt_p_136__i0
+   Register : cnt_ge__i3
+   Register : cnt_ge__i1
+   Register : cnt_shi__i3
+   Register : cnt_shi__i2
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 49 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 6
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights
+     reserved.

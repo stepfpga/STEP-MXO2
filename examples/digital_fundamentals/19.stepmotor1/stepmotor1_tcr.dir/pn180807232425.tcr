@@ -1,0 +1,5 @@
+#Start recording tcl command: 8/7/2018 23:22:31
+#Project Location: E:/fpgaproject/stepmxo2/swust/19.stepmotor1; Project name: stepmotor1
+prj_project open "E:/fpgaproject/stepmxo2/swust/19.stepmotor1/stepmotor1.ldf"
+prj_project close
+#Stop recording: 8/7/2018 23:24:25

@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "counter60_impl1.log"
+-o "counter60_impl1.csv"
+-pr "counter60_impl1.prf"

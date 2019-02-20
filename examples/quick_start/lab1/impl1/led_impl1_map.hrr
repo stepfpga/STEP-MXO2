@@ -1,0 +1,6 @@
+---------------------------------------------------
+Report for cell led
+   Instance path: led
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOBUF	         16        100.0

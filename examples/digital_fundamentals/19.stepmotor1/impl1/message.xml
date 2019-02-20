@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/19.stepmotor1/stepmotor1.v(17): </Dynamic>
+            <Dynamic>stepmotor1</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/19.stepmotor1/stepmotor1.v</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/19.stepmotor1/impl1/source/divide.v(18): </Dynamic>
+            <Dynamic>divide(WIDTH=24,N=12000000)</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/19.stepmotor1/impl1/source/divide.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901221</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/19.stepmotor1/stepmotor1.v(87): </Dynamic>
+            <Dynamic>next_state</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/19.stepmotor1/stepmotor1.v</Navigation>
+            <Navigation>87</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/19.stepmotor1/stepmotor1.v(105): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>6</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/19.stepmotor1/stepmotor1.v</Navigation>
+            <Navigation>105</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/19.stepmotor1/stepmotor1.v(112): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>6</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/19.stepmotor1/stepmotor1.v</Navigation>
+            <Navigation>112</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/19.stepmotor1/stepmotor1.v(119): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>6</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/19.stepmotor1/stepmotor1.v</Navigation>
+            <Navigation>119</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/19.stepmotor1/stepmotor1.v(126): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>6</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/19.stepmotor1/stepmotor1.v</Navigation>
+            <Navigation>126</Navigation>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>clk_c</Dynamic>
+            <Dynamic>Primary</Dynamic>
+            <Dynamic>clk</Dynamic>
+            <Dynamic>C1</Dynamic>
+            <Dynamic>Primary</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>

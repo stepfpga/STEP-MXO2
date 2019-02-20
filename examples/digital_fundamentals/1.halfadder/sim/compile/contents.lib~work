@@ -1,0 +1,7 @@
+2
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "./../../halfadder.v" 13 halfadder
+~A 1 "./../../halfadder.v" 13 halfadder
+~M 3 "./../../halfadder_tb.v" 14 halfadder_tb
+~A 1 "./../../halfadder_tb.v" 14 halfadder_tb

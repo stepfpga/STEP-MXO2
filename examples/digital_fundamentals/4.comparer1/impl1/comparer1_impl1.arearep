@@ -1,0 +1,11 @@
+----------------------------------------------------------------------
+Report for cell comparer1.TECH
+Register bits:  0 of 4635 (0.000%)
+I/O cells:      5
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                GSR         1          100.0
+                                 IB         2          100.0
+                               LUT4         3          100.0
+                                 OB         3          100.0
+                              TOTAL         9

@@ -1,0 +1,7 @@
+#Start recording tcl command: 1/7/2019 10:39:42
+#Project Location: E:/fpgaproject/stepmxo2/workshop/lab2; Project name: rgbled
+prj_project open "E:/fpgaproject/stepmxo2/workshop/lab2/rgbled.ldf"
+prj_run Export -impl impl1 -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 1/7/2019 10:40:37

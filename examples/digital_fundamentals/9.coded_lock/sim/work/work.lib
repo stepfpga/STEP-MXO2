@@ -1,0 +1,38 @@
+timestamp=1533619528059
+
+[~A]
+E:/fpgaproject/stepmxo2/swust/9.coded_lock/coded_lock.v=0*379*970
+E:/fpgaproject/stepmxo2/swust/9.coded_lock/coded_lock_tb.v=0*1818*2380
+LastVerilogToplevel=coded_lock_tb
+ModifyID=2
+Version=74
+
+[$root]
+A/$root=22|||1*2029
+BinI32/$root=3*1475
+SLP=3*1579
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|c73a565f2ade592f8ac1c68f484c9216ac9c42586bae673a6adbe6e75710da2f
+
+[coded_lock]
+A/coded_lock=22|./../../coded_lock.v|16|1*374
+BinI32/coded_lock=3*172
+R=./../../coded_lock.v|16
+SLP=3*1067
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|47461a3e4c73fb26e6e53a1e06fb1b99f00ffa3aedbf50baff33814fdee93082abae27386735777621ff3a8f8f6ece14
+
+[coded_lock_tb]
+A/coded_lock_tb=22|./../../coded_lock_tb.v|14|1*2403
+BinI32/coded_lock_tb=3*1647
+R=./../../coded_lock_tb.v|14
+SLP=3*2332
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|96d1c2dc7bf58dcd8c368848afbf55f0c7f9536e38eda524ae99f29736a5e078a432500f79cc398f50c7ce28ae1fd196
+
+[~MFT]
+0=4|0work.mgf|2380|0
+1=3|1work.mgf|2403|374
+3=6|3work.mgf|2332|172
+
+[~U]
+$root=12|0*1490|
+coded_lock=12|0*166||0x10
+coded_lock_tb=12|0*1656||0x10

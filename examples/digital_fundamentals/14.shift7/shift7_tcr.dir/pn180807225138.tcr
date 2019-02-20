@@ -1,0 +1,6 @@
+#Start recording tcl command: 8/7/2018 22:48:32
+#Project Location: E:/fpgaproject/stepmxo2/swust/14.shift7; Project name: shift7
+prj_project open "E:/fpgaproject/stepmxo2/swust/14.shift7/shift7.ldf"
+prj_src add "E:/fpgaproject/stepmxo2/swust/14.shift7/sim/sim.spf"
+prj_project close
+#Stop recording: 8/7/2018 22:51:38

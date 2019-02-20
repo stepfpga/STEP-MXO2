@@ -1,0 +1,6 @@
+#Start recording tcl command: 8/5/2018 20:18:08
+#Project Location: E:/fpgaproject/stepmxo2/swust/22.accum4; Project name: accum4
+prj_project new -name "accum4" -impl "impl1" -dev LCMXO2-4000HC-5MG132C -synthesis "lse"
+prj_project save
+prj_project close
+#Stop recording: 8/6/2018 09:33:30

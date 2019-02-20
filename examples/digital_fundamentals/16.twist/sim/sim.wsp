@@ -1,0 +1,17 @@
+[COMPILESTATUS|.\..\twist.v]
+FileTimeLow=30682112
+Status=Compiled
+
+[COMPILESTATUS|.\..\twist_tb.v]
+FileTimeLow=30682644
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\sim.adf|]
+Path=/twist_tb
+
+[Gui config]
+RunFor=100 ns
+

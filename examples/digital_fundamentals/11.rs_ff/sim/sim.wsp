@@ -1,0 +1,17 @@
+[COMPILESTATUS|.\..\rs_ff.v]
+FileTimeLow=30682059
+Status=Compiled
+
+[COMPILESTATUS|.\..\rs_ff_tb.v]
+FileTimeLow=30682641
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\sim.adf|]
+Path=/rs_ff_tb
+
+[Gui config]
+RunFor=100 ns
+

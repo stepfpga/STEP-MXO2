@@ -1,0 +1,10 @@
+#Start recording tcl command: 8/7/2018 13:46:51
+#Project Location: E:/fpgaproject/stepmxo2/swust/13.jk_ff; Project name: jk_ff
+prj_project open "E:/fpgaproject/stepmxo2/swust/13.jk_ff/jk_ff.ldf"
+prj_src add "E:/fpgaproject/stepmxo2/swust/13.jk_ff/jk_ff_tb.v"
+prj_src syn_sim -src "E:/fpgaproject/stepmxo2/swust/13.jk_ff/jk_ff_tb.v" SimulateOnly
+prj_src add "E:/fpgaproject/stepmxo2/swust/13.jk_ff/sim/sim.spf"
+prj_src add "E:/fpgaproject/stepmxo2/swust/13.jk_ff/sim/sim.spf"
+prj_project save
+prj_project close
+#Stop recording: 8/7/2018 13:57:18

@@ -1,0 +1,40 @@
+#Start recording tcl command: 12/12/2018 10:00:23
+#Project Location: E:/fpgaproject/stepmxo2/workshop/lab8; Project name: counter
+prj_project new -name "counter" -impl "impl1" -dev LCMXO2-4000HC-4MG132C -synthesis "lse"
+prj_project save
+prj_src add "E:/fpgaproject/stepmxo2/workshop/lab8/counter.v"
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1 -task Jedecgen
+file copy -force -- "E:/fpgaproject/stepmxo2/workshop/lab8/debounce.v" "E:/fpgaproject/stepmxo2/workshop/lab8/impl1/source"
+prj_src add "E:/fpgaproject/stepmxo2/workshop/lab8/impl1/source/debounce.v"
+prj_run Synthesis -impl impl1
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Synthesis -impl impl1
+prj_src exclude "E:/fpgaproject/stepmxo2/workshop/lab8/impl1/source/debounce.v"
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1 -task Jedecgen
+file copy -force -- "E:/fpgaproject/stepmxo2/workshop/lab8/divide.v" "E:/fpgaproject/stepmxo2/workshop/lab8/impl1/source"
+prj_src add "E:/fpgaproject/stepmxo2/workshop/lab8/impl1/source/divide.v"
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_src enable "E:/fpgaproject/stepmxo2/workshop/lab8/impl1/source/debounce.v"
+prj_src exclude "E:/fpgaproject/stepmxo2/workshop/lab8/impl1/source/debounce.v"
+prj_src exclude "E:/fpgaproject/stepmxo2/workshop/lab8/impl1/source/divide.v"
+prj_src enable "E:/fpgaproject/stepmxo2/workshop/lab8/impl1/source/divide.v"
+#Stop recording: 12/13/2018 11:39:27

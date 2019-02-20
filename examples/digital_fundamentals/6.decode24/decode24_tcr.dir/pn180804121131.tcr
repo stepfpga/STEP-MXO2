@@ -1,0 +1,11 @@
+#Start recording tcl command: 8/4/2018 10:51:38
+#Project Location: E:/fpgaproject/stepmxo2/swust/6.decode24; Project name: decode24
+prj_project new -name "decode24" -impl "impl1" -dev LCMXO2-4000HC-4MG132C -synthesis "lse"
+prj_project save
+prj_src add "E:/fpgaproject/stepmxo2/swust/6.decode24/decode24.v"
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_project save
+prj_project close
+#Stop recording: 8/4/2018 12:11:31

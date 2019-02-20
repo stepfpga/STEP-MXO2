@@ -1,0 +1,30 @@
+[COMPILESTATUS|.\..\impl1\source\divide.v]
+FileTimeLow=30682112
+Status=Compiled
+
+[COMPILESTATUS|.\..\stepmotor1.v]
+FileTimeLow=30682645
+Status=Compiled
+
+[COMPILESTATUS|.\..\stepmotor1_tb.v]
+FileTimeLow=30682645
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\sim.adf|]
+Path=/stepmotor1_tb
+
+[Gui config]
+RunFor=100 ns
+
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\..\stepmotor1.v|]
+CurrentLine=0
+CurrentColumn=0
+Bookmarks=-1
+BookmarksLength=3
+CurrentFontSize=-13
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAABAAAA/////////////////////8sAAAB6AAAAAAYAAAsDAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="
+

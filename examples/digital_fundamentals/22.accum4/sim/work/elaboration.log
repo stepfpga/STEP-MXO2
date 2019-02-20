@@ -1,0 +1,28 @@
+Active-HDL 10.3.3558.6081  2018-08-20 17:57:11
+
+Elaboration top modules:
+Verilog Module                accum4_tb
+
+
+-------------------------------------------------------------------------------------------
+Verilog Module          | Library | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------
+accum4_tb               | work    |      | 10.3.3558.6081  (Windows) | -dbg
+accum4                  | work    |      | 10.3.3558.6081  (Windows) | -dbg
+shift                   | work    |      | 10.3.3558.6081  (Windows) | -dbg
+adder1                  | work    |      | 10.3.3558.6081  (Windows) | -dbg
+ahead                   | work    |      | 10.3.3558.6081  (Windows) | -dbg
+jk_ff                   | work    |      | 10.3.3558.6081  (Windows) | -dbg
+-------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------
+Library                 | Comment
+-------------------------------------------------------------------------------------------
+work                    | None
+-------------------------------------------------------------------------------------------
+
+
+Simulation Options: vsim +access +r accum4_tb -PL pmi_work -L ovi_machxo2
+
+
+The performance of simulation is reduced. Version Lattice Edition

@@ -1,0 +1,8 @@
+---------------------------------------------------
+Report for cell comparer1
+   Instance path: comparer1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.00        100.0
+                                  LUT4	       3.00        100.0
+                                 IOBUF	          5        100.0

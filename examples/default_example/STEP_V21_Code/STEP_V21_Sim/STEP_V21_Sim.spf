@@ -1,0 +1,13 @@
+<BaliSimProject version="1.3" path="." stage="0" language="-1" name="STEP_V21_Sim" simType="ModelSim">
+    <Source worklib="work" path="STEP_V21_Sim/STEP_V21_Sim.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="STEP_V21_Sim/STEP_V21_Test.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="STEP_V21_Sim/Clock_div.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="STEP_V21_Sim/Heart_beat.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="STEP_V21_Sim/Water_led.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="STEP_V21_Sim/Color_led.v" type="VERILOG" include="none"/>
+    <Source worklib="work" path="STEP_V21_Sim/Segment_led.v" type="VERILOG" include="none"/>
+    <SimLib value="pmi_work ovi_machxo2"/>
+    <GlbInc value=""/>
+    <Macro value=""/>
+    <TopModule instance="" language="" name=""/>
+</BaliSimProject>

@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "comparer1_impl1.log"
+-o "comparer1_impl1.csv"
+-pr "comparer1_impl1.prf"

@@ -1,0 +1,1 @@
+E:/Iscc/diamond/3.8_x64/bin/nt64/moduleparser.exe -PROJ sim -pf E:/Iscc/diamond/3.8_x64/cae_library/synthesis/vhdl/machxo2.vhd -lib machxo2 -pkg E:/Iscc/diamond/3.8_x64/cae_library/vhdl_packages/vdbs -lst E:/fpgaproject/stepmxo2/swust/3.voter3/sim/source_files.lst

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/10.segment/segment.v(13): </Dynamic>
+            <Dynamic>segment</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/10.segment/segment.v</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/10.segment/segment.v(21): </Dynamic>
+            <Dynamic>seg</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/10.segment/segment.v</Navigation>
+            <Navigation>21</Navigation>
+        </Message>
+        <Message>
+            <ID>35931038</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/10.segment/segment.v(21): </Dynamic>
+            <Dynamic>seg_original_ramnet</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/10.segment/segment.v</Navigation>
+            <Navigation>21</Navigation>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+    </Task>
+</BaliMessageLog>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="counter" device="LCMXO2-4000HC-4MG132C" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="counter"/>
+        <Source name="counter.v" type="Verilog" type_short="Verilog">
+            <Options top_module="counter"/>
+        </Source>
+        <Source name="impl1/source/debounce.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl1/source/divide.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="counter.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="counter1.sty"/>
+</BaliProject>

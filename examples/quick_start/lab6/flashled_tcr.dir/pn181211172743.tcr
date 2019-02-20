@@ -1,0 +1,18 @@
+#Start recording tcl command: 12/11/2018 17:23:56
+#Project Location: E:/fpgaproject/stepmxo2/workshop/lab6; Project name: flashled
+E:/fpgaproject/stepmxo2/workshop/lab5
+divide
+#Start recording tcl command: 12/11/2018 17:27:43
+#Project Location: E:/fpgaproject/stepmxo2/workshop/lab5; Project name: divide
+prj_project new -name "flashled" -impl "impl1" -dev LCMXO2-4000HC-4MG132C -synthesis "lse"
+prj_project save
+file copy -force -- "E:/fpgaproject/stepmxo2/workshop/lab6/decode38.v" "E:/fpgaproject/stepmxo2/workshop/lab6/divide.v" "E:/fpgaproject/stepmxo2/workshop/lab6/impl1/source"
+prj_src add "E:/fpgaproject/stepmxo2/workshop/lab6/impl1/source/decode38.v" "E:/fpgaproject/stepmxo2/workshop/lab6/impl1/source/divide.v"
+prj_src add "E:/fpgaproject/stepmxo2/workshop/lab6/flashled.v"
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_project save
+prj_project close
+prj_project open "E:/fpgaproject/stepmxo2/workshop/lab5/divide.ldf"
+#Stop recording: 12/11/2018 17:27:43

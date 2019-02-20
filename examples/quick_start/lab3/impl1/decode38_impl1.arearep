@@ -1,0 +1,12 @@
+----------------------------------------------------------------------
+Report for cell decode38.TECH
+Register bits:  0 of 4635 (0.000%)
+I/O cells:      11
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                GSR         1          100.0
+                                 IB         3          100.0
+                               LUT4         8          100.0
+                                 OB         8          100.0
+                        VERIFIC_PWR         1          100.0
+                              TOTAL        21

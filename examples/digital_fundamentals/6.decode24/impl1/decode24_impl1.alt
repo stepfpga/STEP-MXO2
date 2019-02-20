@@ -1,0 +1,14 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Sat Aug 04 12:02:45 2018 *
+NOTE DESIGN NAME: decode24 *
+NOTE DEVICE NAME: LCMXO2-4000HC-4CSBGA132 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS led[3] : M11 : out *
+NOTE PINS led[2] : P12 : out *
+NOTE PINS led[1] : M12 : out *
+NOTE PINS led[0] : N13 : out *
+NOTE PINS a[1] : M8 : in *
+NOTE PINS a[0] : M7 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

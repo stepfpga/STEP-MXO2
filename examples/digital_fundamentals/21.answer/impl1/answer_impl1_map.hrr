@@ -1,0 +1,71 @@
+---------------------------------------------------
+Report for cell answer
+   Instance path: answer
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     100.00        100.0
+                                  LUT4	     151.00        100.0
+                                 IOBUF	         23        100.0
+                                PFUREG	         84        100.0
+                                RIPPLE	         23        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 score	          1        44.4
+                                 judge	          1        24.7
+           divide(WIDTH=24,N=12000000)	          1        20.0
+                                  dseg	          1        10.6
+---------------------------------------------------
+Report for cell judge
+   Instance path: answer/u2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      24.67        24.7
+                                  LUT4	      47.00        31.1
+                                PFUREG	         13        15.5
+---------------------------------------------------
+Report for cell score
+   Instance path: answer/u3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      44.42        44.4
+                                  LUT4	      64.00        42.4
+                                PFUREG	         46        54.8
+                                RIPPLE	         10        43.5
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                 debounce(KEY_WIDTH=3)	          1        22.6
+---------------------------------------------------
+Report for cell debounce(KEY_WIDTH=3)
+   Instance path: answer/u3/u1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      22.58        22.6
+                                  LUT4	      25.00        16.6
+                                PFUREG	         30        35.7
+                                RIPPLE	         10        43.5
+---------------------------------------------------
+Report for cell divide(WIDTH=24,N=12000000)
+   Instance path: answer/u1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      20.00        20.0
+                                  LUT4	      14.00         9.3
+                                PFUREG	         25        29.8
+                                RIPPLE	         13        56.5
+---------------------------------------------------
+Report for cell dseg
+   Instance path: answer/u4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      10.58        10.6
+                                  LUT4	      25.00        16.6
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           segment_led	          1         6.6
+---------------------------------------------------
+Report for cell segment_led
+   Instance path: answer/u4/u1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       6.58         6.6
+                                  LUT4	      16.00        10.6

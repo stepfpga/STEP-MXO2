@@ -1,0 +1,9 @@
+---------------------------------------------------
+Report for cell rs_ff
+   Instance path: rs_ff
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.00        100.0
+                                  LUT4	       2.00        100.0
+                                 IOBUF	          5        100.0
+                                PFUREG	          1        100.0

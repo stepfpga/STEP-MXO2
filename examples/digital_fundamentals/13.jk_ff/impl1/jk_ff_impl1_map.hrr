@@ -1,0 +1,9 @@
+---------------------------------------------------
+Report for cell jk_ff
+   Instance path: jk_ff
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.00        100.0
+                                  LUT4	       5.00        100.0
+                                 IOBUF	          7        100.0
+                                PFUREG	          3        100.0

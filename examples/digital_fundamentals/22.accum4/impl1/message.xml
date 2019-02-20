@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/22.accum4/accum4.v(13): </Dynamic>
+            <Dynamic>accum4</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/22.accum4/accum4.v</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/22.accum4/impl1/source/shift.v(13): </Dynamic>
+            <Dynamic>shift</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/22.accum4/impl1/source/shift.v</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/22.accum4/impl1/source/adder1.v(13): </Dynamic>
+            <Dynamic>adder1</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/22.accum4/impl1/source/adder1.v</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/22.accum4/ahead.v(15): </Dynamic>
+            <Dynamic>ahead</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/22.accum4/ahead.v</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/22.accum4/impl1/source/jk_ff.v(12): </Dynamic>
+            <Dynamic>jk_ff</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/22.accum4/impl1/source/jk_ff.v</Navigation>
+            <Navigation>12</Navigation>
+        </Message>
+        <Message>
+            <ID>35931013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/22.accum4/ahead.v(28): </Dynamic>
+            <Dynamic>set</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/22.accum4/ahead.v</Navigation>
+            <Navigation>28</Navigation>
+        </Message>
+        <Message>
+            <ID>35931013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/22.accum4/ahead.v(28): </Dynamic>
+            <Dynamic>set</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/22.accum4/ahead.v</Navigation>
+            <Navigation>28</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>e:/fpgaproject/stepmxo2/swust/22.accum4/impl1/source/jk_ff.v(14): </Dynamic>
+            <Dynamic>\u3/u1/set</Dynamic>
+            <Navigation>e:/fpgaproject/stepmxo2/swust/22.accum4/impl1/source/jk_ff.v</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>GND_net</Dynamic>
+            <Navigation>GND_net</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>1</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>
