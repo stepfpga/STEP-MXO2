@@ -20,7 +20,7 @@ At just 0.72 inch by 2.05 inch, it can be loaded in a standard socket and used i
 * Learning materials suitable for FPGA learners – A variety of learning materials, including QuickStart guide, user manual, schematic document and demos are provided. Introductory FPGA training courses are available to those who are new to the FPGA world.
 
 ## Overview
-* Lattice MachXO2 FPGA: LCMXO2-4000HE-4MG132
+* Lattice MachXO2 FPGA: LCMXO2-4000HC-4MG132
 * On board JTAG programming circuit
 * 2-character 7-segment display
 * Two RGB LEDs
