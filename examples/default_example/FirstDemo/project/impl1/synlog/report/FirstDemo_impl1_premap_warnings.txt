@@ -1,0 +1,1 @@
+@W: MT529 :"c:\users\pc\desktop\for step fpga\step fpga user manual\mxo2\firstdemo\source\debounce.v":37:0:37:5|Found inferred clock FirstDemo|clk_in which controls 83 sequential elements including Debounce_uut.cnt[18:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

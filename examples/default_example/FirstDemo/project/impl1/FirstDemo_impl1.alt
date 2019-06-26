@@ -1,0 +1,85 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed Jun 26 13:41:26 2019 *
+NOTE DESIGN NAME: FirstDemo *
+NOTE DEVICE NAME: LCMXO2-4000HC-4CSBGA132 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS Water_led[4] : P11 : out *
+NOTE PINS Water_led[3] : M11 : out *
+NOTE PINS Water_led[5] : N10 : out *
+NOTE PINS Water_led[6] : N9 : out *
+NOTE PINS Water_led[7] : P9 : out *
+NOTE PINS Water_led[2] : P12 : out *
+NOTE PINS Water_led[1] : M12 : out *
+NOTE PINS Water_led[0] : N13 : out *
+NOTE PINS Color_led_1[2] : P4 : out *
+NOTE PINS Color_led_1[1] : N3 : out *
+NOTE PINS Color_led_1[0] : M3 : out *
+NOTE PINS Color_led_2[2] : P2 : out *
+NOTE PINS Color_led_2[1] : N2 : out *
+NOTE PINS Color_led_2[0] : M2 : out *
+NOTE PINS Segment_led_1[8] : C9 : out *
+NOTE PINS Segment_led_1[7] : F1 : out *
+NOTE PINS Segment_led_1[6] : B9 : out *
+NOTE PINS Segment_led_1[5] : A9 : out *
+NOTE PINS Segment_led_1[4] : E2 : out *
+NOTE PINS Segment_led_1[3] : E1 : out *
+NOTE PINS Segment_led_1[2] : F2 : out *
+NOTE PINS Segment_led_1[1] : C11 : out *
+NOTE PINS Segment_led_1[0] : A10 : out *
+NOTE PINS Segment_led_2[8] : A12 : out *
+NOTE PINS Segment_led_2[7] : K1 : out *
+NOTE PINS Segment_led_2[6] : A11 : out *
+NOTE PINS Segment_led_2[5] : B12 : out *
+NOTE PINS Segment_led_2[4] : H2 : out *
+NOTE PINS Segment_led_2[3] : H1 : out *
+NOTE PINS Segment_led_2[2] : J1 : out *
+NOTE PINS Segment_led_2[1] : B14 : out *
+NOTE PINS Segment_led_2[0] : C12 : out *
+NOTE PINS GPIO[35] : N7 : out *
+NOTE PINS GPIO[34] : P7 : out *
+NOTE PINS GPIO[33] : N6 : out *
+NOTE PINS GPIO[32] : P6 : out *
+NOTE PINS GPIO[31] : N5 : out *
+NOTE PINS GPIO[30] : L3 : out *
+NOTE PINS GPIO[29] : K3 : out *
+NOTE PINS GPIO[28] : K2 : out *
+NOTE PINS GPIO[27] : J3 : out *
+NOTE PINS GPIO[26] : J2 : out *
+NOTE PINS GPIO[25] : H3 : out *
+NOTE PINS GPIO[24] : G3 : out *
+NOTE PINS GPIO[23] : F3 : out *
+NOTE PINS GPIO[22] : E3 : out *
+NOTE PINS GPIO[21] : P3 : out *
+NOTE PINS GPIO[20] : M4 : out *
+NOTE PINS GPIO[19] : N4 : out *
+NOTE PINS GPIO[18] : P13 : out *
+NOTE PINS GPIO[17] : E12 : out *
+NOTE PINS GPIO[16] : F12 : out *
+NOTE PINS GPIO[15] : G12 : out *
+NOTE PINS GPIO[14] : F13 : out *
+NOTE PINS GPIO[13] : F14 : out *
+NOTE PINS GPIO[12] : G13 : out *
+NOTE PINS GPIO[11] : G14 : out *
+NOTE PINS GPIO[10] : H12 : out *
+NOTE PINS GPIO[9] : J13 : out *
+NOTE PINS GPIO[8] : J14 : out *
+NOTE PINS GPIO[7] : K12 : out *
+NOTE PINS GPIO[6] : K14 : out *
+NOTE PINS GPIO[5] : K13 : out *
+NOTE PINS GPIO[4] : J12 : out *
+NOTE PINS GPIO[3] : N8 : out *
+NOTE PINS GPIO[2] : P8 : out *
+NOTE PINS GPIO[1] : B8 : out *
+NOTE PINS GPIO[0] : C8 : out *
+NOTE PINS clk_in : C1 : in *
+NOTE PINS rst_n_in : N14 : in *
+NOTE PINS SW[3] : M10 : in *
+NOTE PINS SW[2] : M9 : in *
+NOTE PINS SW[1] : M8 : in *
+NOTE PINS SW[0] : M7 : in *
+NOTE PINS BTN[2] : M14 : in *
+NOTE PINS BTN[1] : M13 : in *
+NOTE PINS BTN[0] : L14 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

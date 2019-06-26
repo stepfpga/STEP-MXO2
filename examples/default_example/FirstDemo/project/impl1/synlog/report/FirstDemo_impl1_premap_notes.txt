@@ -1,0 +1,3 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: BN115 :"c:\users\pc\desktop\for step fpga\step fpga user manual\mxo2\firstdemo\source\firstdemo.v":97:12:97:26|Removing instance Segment_led_uut (in view: work.FirstDemo(verilog)) of type view:work.Segment_led(verilog) because it does not drive other instances.

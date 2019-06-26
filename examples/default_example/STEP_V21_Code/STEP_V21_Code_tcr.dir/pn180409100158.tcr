@@ -1,5 +1,0 @@
-#Start recording tcl command: 4/9/2018 09:01:01
-#Project Location: E:/fpgaproject/stepmxo2/STEP_V21_Code; Project name: STEP_V21_Code
-prj_project open "E:/fpgaproject/stepmxo2/STEP_V21_Code/STEP_V21_Code.ldf"
-prj_project close
-#Stop recording: 4/9/2018 10:01:58

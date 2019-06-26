@@ -1,0 +1,42 @@
+Selecting top level module FirstDemo
+@N: CG364 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Debounce.v":18:7:18:14|Synthesizing module Debounce in library work.
+
+@N: CG179 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Debounce.v":65:19:65:27|Removing redundant assignment.
+@N: CG364 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Clock_div.v":9:7:9:15|Synthesizing module Clock_div in library work.
+
+@N: CG364 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Lightness.v":18:7:18:15|Synthesizing module Lightness in library work.
+
+@N: CG179 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Lightness.v":57:15:57:18|Removing redundant assignment.
+@N: CG364 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Heart_beat.v":18:7:18:16|Synthesizing module Heart_beat in library work.
+
+@N: CG364 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Water_led.v":18:7:18:15|Synthesizing module Water_led in library work.
+
+@N: CG364 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Color_led.v":18:7:18:15|Synthesizing module Color_led in library work.
+
+@N: CG364 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":18:7:18:17|Synthesizing module Segment_led in library work.
+
+@W: CG532 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":26:0:26:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_0_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_1_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_2_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_3_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_4_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_5_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_6_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_7_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_8_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_9_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_10_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_11_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_12_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_13_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_14_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_15_ is declared but not assigned. Either assign a value or remove the declaration.
+@W:"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Some of the address location in the memory "mem" are not assigned.
+@N: CG364 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\FirstDemo.v":18:7:18:15|Synthesizing module FirstDemo in library work.
+
+@N: CL159 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":20:12:20:20|Input heart_cnt is unused.
+@W: CL190 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Lightness.v":84:0:84:5|Optimizing register bit cnt1[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Lightness.v":84:0:84:5|Pruning register bit 3 of cnt1[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Clock_div.v":27:0:27:5|Optimizing register bit cnt1[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Clock_div.v":27:0:27:5|Pruning register bit 24 of cnt1[24:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.

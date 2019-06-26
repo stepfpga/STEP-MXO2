@@ -1,0 +1,85 @@
+----------------------------------------------------------------------
+Report for cell FirstDemo.TECH
+Register bits:  86 of 4635 (1.855%)
+I/O cells:      77
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        23          100.0
+                            FD1P3BX         3          100.0
+                            FD1S3BX        24          100.0
+                            FD1S3DX        59          100.0
+                                GSR         1          100.0
+                                 IB         9          100.0
+                               LUT4       138          100.0
+                                 OB        68          100.0
+                              PFUMX         4          100.0
+SUB MODULES
+                          Clock_div         1
+                          Color_led         1
+                           Debounce         1
+                         Heart_beat         1
+                          Lightness         1
+                        Segment_led         1
+                          Water_led         1
+                              TOTAL       336
+----------------------------------------------------------------------
+Report for cell Clock_div.v1
+Instance Path : clk_1Hz_uut
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        13           56.5
+                            FD1S3DX        26           44.1
+                               LUT4        25           18.1
+                              PFUMX         2           50.0
+                              TOTAL        66
+----------------------------------------------------------------------
+Report for cell Debounce.v1
+Instance Path : Debounce_uut
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        10           43.5
+                            FD1P3BX         3          100.0
+                            FD1S3BX         7           29.2
+                            FD1S3DX        19           32.2
+                               LUT4        10            7.2
+                              TOTAL        49
+----------------------------------------------------------------------
+Report for cell Lightness.v1
+Instance Path : Lightness_uut
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3BX         3           12.5
+                            FD1S3DX        10           16.9
+                               LUT4        27           19.6
+                              TOTAL        40
+----------------------------------------------------------------------
+Report for cell Water_led.v1
+Instance Path : Water_led_uut
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3BX         8           33.3
+                               LUT4        12            8.7
+                              TOTAL        20
+----------------------------------------------------------------------
+Report for cell Segment_led.v1
+Instance Path : Segment_led_uut
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         3            2.2
+                              TOTAL         3
+----------------------------------------------------------------------
+Report for cell Color_led.v1
+Instance Path : Color_led_uut
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3BX         6           25.0
+                               LUT4         3            2.2
+                              TOTAL         9
+----------------------------------------------------------------------
+Report for cell Heart_beat.v1
+Instance Path : Heart_beat_uut
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3DX         4            6.8
+                               LUT4         7            5.1
+                              TOTAL        11

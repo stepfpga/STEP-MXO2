@@ -1,0 +1,76 @@
+---------------------------------------------------
+Report for cell FirstDemo
+   Instance path: FirstDemo
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      94.00        100.0
+                                  LUT4	     138.00        100.0
+                                 IOBUF	         77        100.0
+                                PFUREG	         86        100.0
+                                RIPPLE	         23        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                             Water_led	          1         5.6
+                           Segment_led	          1         1.3
+                             Lightness	          1        14.6
+                            Heart_beat	          1         3.1
+                              Debounce	          1        18.8
+                             Clock_div	          1        27.2
+                             Color_led	          1         2.9
+---------------------------------------------------
+Report for cell Clock_div
+   Instance path: FirstDemo/clk_1Hz_uut
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      25.57        27.2
+                                  LUT4	      25.00        18.1
+                                PFUREG	         26        30.2
+                                RIPPLE	         13        56.5
+---------------------------------------------------
+Report for cell Debounce
+   Instance path: FirstDemo/Debounce_uut
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      17.67        18.8
+                                  LUT4	      10.00         7.2
+                                PFUREG	         29        33.7
+                                RIPPLE	         10        43.5
+---------------------------------------------------
+Report for cell Lightness
+   Instance path: FirstDemo/Lightness_uut
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      13.75        14.6
+                                  LUT4	      27.00        19.6
+                                PFUREG	         13        15.1
+---------------------------------------------------
+Report for cell Water_led
+   Instance path: FirstDemo/Water_led_uut
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       5.25         5.6
+                                  LUT4	      12.00         8.7
+                                PFUREG	          8         9.3
+---------------------------------------------------
+Report for cell Segment_led
+   Instance path: FirstDemo/Segment_led_uut
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       1.25         1.3
+                                  LUT4	       3.00         2.2
+---------------------------------------------------
+Report for cell Color_led
+   Instance path: FirstDemo/Color_led_uut
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.75         2.9
+                                  LUT4	       2.00         1.4
+                                PFUREG	          6         7.0
+---------------------------------------------------
+Report for cell Heart_beat
+   Instance path: FirstDemo/Heart_beat_uut
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       2.92         3.1
+                                  LUT4	       7.00         5.1
+                                PFUREG	          4         4.7

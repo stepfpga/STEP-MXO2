@@ -1,0 +1,14 @@
+#Start recording tcl command: 6/26/2019 13:37:00
+#Project Location: C:/Users/PC/Desktop/FOR STEP FPGA/step fpga user manual/MXO2/FirstDemo/project; Project name: FirstDemo
+prj_project new -name "FirstDemo" -impl "impl1" -dev LCMXO2-4000HC-4MG132C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/PC/Desktop/FOR STEP FPGA/step fpga user manual/MXO2/FirstDemo/source/Clock_div.v" "C:/Users/PC/Desktop/FOR STEP FPGA/step fpga user manual/MXO2/FirstDemo/source/Color_led.v" "C:/Users/PC/Desktop/FOR STEP FPGA/step fpga user manual/MXO2/FirstDemo/source/Debounce.v" "C:/Users/PC/Desktop/FOR STEP FPGA/step fpga user manual/MXO2/FirstDemo/source/FirstDemo.v" "C:/Users/PC/Desktop/FOR STEP FPGA/step fpga user manual/MXO2/FirstDemo/source/Heart_beat.v" "C:/Users/PC/Desktop/FOR STEP FPGA/step fpga user manual/MXO2/FirstDemo/source/Lightness.v" "C:/Users/PC/Desktop/FOR STEP FPGA/step fpga user manual/MXO2/FirstDemo/source/Segment_led.v" "C:/Users/PC/Desktop/FOR STEP FPGA/step fpga user manual/MXO2/FirstDemo/source/Water_led.v"
+prj_run Synthesis -impl impl1
+prj_run Export -impl impl1 -task Jedecgen
+pgr_project save "C:/Users/PC/Desktop/FOR STEP FPGA/step fpga user manual/MXO2/FirstDemo/project/impl1/impl1.xcf"
+prj_src add -exclude "C:/Users/PC/Desktop/FOR STEP FPGA/step fpga user manual/MXO2/FirstDemo/project/impl1/impl1.xcf"
+prj_src enable "C:/Users/PC/Desktop/FOR STEP FPGA/step fpga user manual/MXO2/FirstDemo/project/impl1/impl1.xcf"
+pgr_project save "C:/Users/PC/Desktop/FOR STEP FPGA/step fpga user manual/MXO2/FirstDemo/project/impl1/impl1.xcf"
+pgr_project close
+prj_run Export -impl impl1 -task Jedecgen
+#Stop recording: 6/26/2019 13:41:56

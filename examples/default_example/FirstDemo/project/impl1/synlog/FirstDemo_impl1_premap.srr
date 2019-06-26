@@ -1,0 +1,64 @@
+# Wed Jun 26 13:37:34 2019
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:33:02
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\project\impl1\FirstDemo_impl1_scck.rpt 
+Printing clock  summary report in "C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\project\impl1\FirstDemo_impl1_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 115MB)
+
+@N: BN115 :"c:\users\pc\desktop\for step fpga\step fpga user manual\mxo2\firstdemo\source\firstdemo.v":97:12:97:26|Removing instance Segment_led_uut (in view: work.FirstDemo(verilog)) of type view:work.Segment_led(verilog) because it does not drive other instances.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=10  set on top level netlist FirstDemo
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+
+Clock Summary
+*****************
+
+Start                                         Requested     Requested     Clock                               Clock                   Clock
+Clock                                         Frequency     Period        Type                                Group                   Load 
+-------------------------------------------------------------------------------------------------------------------------------------------
+Clock_div|clk_div_pulse_out_derived_clock     1.0 MHz       1000.000      derived (from FirstDemo|clk_in)     Inferred_clkgroup_0     4    
+FirstDemo|clk_in                              1.0 MHz       1000.000      inferred                            Inferred_clkgroup_0     83   
+===========================================================================================================================================
+
+@W: MT529 :"c:\users\pc\desktop\for step fpga\step fpga user manual\mxo2\firstdemo\source\debounce.v":37:0:37:5|Found inferred clock FirstDemo|clk_in which controls 83 sequential elements including Debounce_uut.cnt[18:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 142MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jun 26 13:37:34 2019
+
+###########################################################]

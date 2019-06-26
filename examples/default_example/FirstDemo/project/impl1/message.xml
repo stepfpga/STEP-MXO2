@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>51001030</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>rst_n_in_c</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001781</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35901875</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/firstdemo.v(32): </Dynamic>
+            <Dynamic>clk_1Hz</Dynamic>
+            <Navigation>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/firstdemo.v</Navigation>
+            <Navigation>32</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/firstdemo.v(18): </Dynamic>
+            <Dynamic>FirstDemo</Dynamic>
+            <Navigation>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/firstdemo.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/debounce.v(18): </Dynamic>
+            <Dynamic>Debounce</Dynamic>
+            <Navigation>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/debounce.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/debounce.v(33): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>1</Dynamic>
+            <Navigation>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/debounce.v</Navigation>
+            <Navigation>33</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/clock_div.v(9): </Dynamic>
+            <Dynamic>Clock_div</Dynamic>
+            <Navigation>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/clock_div.v</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35901209</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/clock_div.v(40): </Dynamic>
+            <Dynamic>32</Dynamic>
+            <Dynamic>25</Dynamic>
+            <Navigation>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/clock_div.v</Navigation>
+            <Navigation>40</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/lightness.v(18): </Dynamic>
+            <Dynamic>Lightness</Dynamic>
+            <Navigation>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/lightness.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/heart_beat.v(18): </Dynamic>
+            <Dynamic>Heart_beat</Dynamic>
+            <Navigation>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/heart_beat.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/water_led.v(18): </Dynamic>
+            <Dynamic>Water_led</Dynamic>
+            <Navigation>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/water_led.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/color_led.v(18): </Dynamic>
+            <Dynamic>Color_led</Dynamic>
+            <Navigation>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/color_led.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/segment_led.v(18): </Dynamic>
+            <Dynamic>Segment_led</Dynamic>
+            <Navigation>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/segment_led.v</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/segment_led.v(25): </Dynamic>
+            <Dynamic>mem</Dynamic>
+            <Navigation>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/segment_led.v</Navigation>
+            <Navigation>25</Navigation>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_PERIOD[24]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_PERIOD[23]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_PERIOD[22]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_PERIOD[21]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_PERIOD[20]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_PERIOD[19]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_PERIOD[18]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_PERIOD[17]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_PERIOD[16]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_PERIOD[15]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_PERIOD[14]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_PERIOD[13]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_PERIOD[12]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_PERIOD[11]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_PERIOD[10]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_PERIOD[9]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_PERIOD[8]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_PERIOD[7]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_PERIOD[6]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_PERIOD[5]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_PERIOD[4]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_PERIOD[3]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_PERIOD[2]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>PULSE_PERIOD[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35931038</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/segment_led.v(25): </Dynamic>
+            <Dynamic>mem_original_ramnet</Dynamic>
+            <Navigation>c:/users/pc/desktop/for step fpga/step fpga user manual/mxo2/firstdemo/source/segment_led.v</Navigation>
+            <Navigation>25</Navigation>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>clk_in_c</Dynamic>
+            <Dynamic>Primary</Dynamic>
+            <Dynamic>clk_in</Dynamic>
+            <Dynamic>C1</Dynamic>
+            <Dynamic>Primary</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=GPIO_c loads=39 clock_loads=2</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=GPIO_c loads=39 clock_loads=2</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Translate">
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CYCLE_THREE</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CYCLE_TWO</Dynamic>
+        </Message>
+        <Message>
+            <ID>1121028</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CYCLE_ONE</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Heart_beat_uut/un1_heart_cnt_1_s_3_0_COUT</Dynamic>
+            <Navigation>Heart_beat_uut/un1_heart_cnt_1_s_3_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Heart_beat_uut/un1_heart_cnt_1_s_3_0_S1</Dynamic>
+            <Navigation>Heart_beat_uut/un1_heart_cnt_1_s_3_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Heart_beat_uut/un1_heart_cnt_1_cry_0_0_S0</Dynamic>
+            <Navigation>Heart_beat_uut/un1_heart_cnt_1_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Heart_beat_uut/un1_heart_cnt_1_cry_0_0_S1</Dynamic>
+            <Navigation>Heart_beat_uut/un1_heart_cnt_1_cry_0_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Lightness_uut/un1_duty_2_cry_3_0_COUT</Dynamic>
+            <Navigation>Lightness_uut/un1_duty_2_cry_3_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Lightness_uut/un1_duty_2_cry_3_0_S0</Dynamic>
+            <Navigation>Lightness_uut/un1_duty_2_cry_3_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Lightness_uut/un1_duty_2_cry_1_0_S0</Dynamic>
+            <Navigation>Lightness_uut/un1_duty_2_cry_1_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Lightness_uut/un1_duty_2_cry_1_0_S1</Dynamic>
+            <Navigation>Lightness_uut/un1_duty_2_cry_1_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Lightness_uut/un1_duty_2_cry_0_0_S0</Dynamic>
+            <Navigation>Lightness_uut/un1_duty_2_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Lightness_uut/un1_duty_2_cry_0_0_S1</Dynamic>
+            <Navigation>Lightness_uut/un1_duty_2_cry_0_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Lightness_uut/un1_duty_cry_3_0_COUT</Dynamic>
+            <Navigation>Lightness_uut/un1_duty_cry_3_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Lightness_uut/un1_duty_cry_3_0_S0</Dynamic>
+            <Navigation>Lightness_uut/un1_duty_cry_3_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Lightness_uut/un1_duty_cry_1_0_S0</Dynamic>
+            <Navigation>Lightness_uut/un1_duty_cry_1_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Lightness_uut/un1_duty_cry_1_0_S1</Dynamic>
+            <Navigation>Lightness_uut/un1_duty_cry_1_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Lightness_uut/un1_duty_cry_0_0_S0</Dynamic>
+            <Navigation>Lightness_uut/un1_duty_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Lightness_uut/un1_duty_cry_0_0_S1</Dynamic>
+            <Navigation>Lightness_uut/un1_duty_cry_0_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Lightness_uut/un1_cnt_cry_3_0_COUT</Dynamic>
+            <Navigation>Lightness_uut/un1_cnt_cry_3_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Lightness_uut/un1_cnt_cry_3_0_S0</Dynamic>
+            <Navigation>Lightness_uut/un1_cnt_cry_3_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Lightness_uut/un1_cnt_cry_1_0_S0</Dynamic>
+            <Navigation>Lightness_uut/un1_cnt_cry_1_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Lightness_uut/un1_cnt_cry_1_0_S1</Dynamic>
+            <Navigation>Lightness_uut/un1_cnt_cry_1_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Lightness_uut/un1_cnt_cry_0_0_S0</Dynamic>
+            <Navigation>Lightness_uut/un1_cnt_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Lightness_uut/un1_cnt_cry_0_0_S1</Dynamic>
+            <Navigation>Lightness_uut/un1_cnt_cry_0_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Lightness_uut/un1_duty_3_s_3_0_COUT</Dynamic>
+            <Navigation>Lightness_uut/un1_duty_3_s_3_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Lightness_uut/un1_duty_3_s_3_0_S1</Dynamic>
+            <Navigation>Lightness_uut/un1_duty_3_s_3_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Lightness_uut/un1_duty_3_cry_0_0_S0</Dynamic>
+            <Navigation>Lightness_uut/un1_duty_3_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Lightness_uut/un1_duty_3_cry_0_0_S1</Dynamic>
+            <Navigation>Lightness_uut/un1_duty_3_cry_0_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/cnt1_s_0_COUT[23]</Dynamic>
+            <Navigation>clk_1Hz_uut/cnt1_s_0_COUT[23]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/cnt1_s_0_S1[23]</Dynamic>
+            <Navigation>clk_1Hz_uut/cnt1_s_0_S1[23]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/cnt1_cry_0_S0[0]</Dynamic>
+            <Navigation>clk_1Hz_uut/cnt1_cry_0_S0[0]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_23_0_COUT</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_23_0_COUT</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_23_0_S0</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_23_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_21_0_S0</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_21_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_21_0_S1</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_21_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_19_0_S0</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_19_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_19_0_S1</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_19_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_17_0_S0</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_17_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_17_0_S1</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_17_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_15_0_S0</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_15_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_15_0_S1</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_15_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_13_0_S0</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_13_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_13_0_S1</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_13_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_11_0_S0</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_11_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_11_0_S1</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_11_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_9_0_S0</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_9_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_9_0_S1</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_9_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_7_0_S0</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_7_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_7_0_S1</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_7_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_5_0_S0</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_5_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_5_0_S1</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_5_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_3_0_S0</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_3_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_3_0_S1</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_3_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_1_0_S0</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_1_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_1_0_S1</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_1_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_0_0_S0</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_0_0_S0</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>clk_1Hz_uut/un1_cnt1_cry_0_0_S1</Dynamic>
+            <Navigation>clk_1Hz_uut/un1_cnt1_cry_0_0_S1</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Debounce_uut/cnt_cry_0_COUT[17]</Dynamic>
+            <Navigation>Debounce_uut/cnt_cry_0_COUT[17]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>Debounce_uut/cnt_cry_0_S0[0]</Dynamic>
+            <Navigation>Debounce_uut/cnt_cry_0_S0[0]</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>57</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG532 :&quot;C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v&quot;:26:0:26:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.</Dynamic>
+            <Navigation>CG532</Navigation>
+            <Navigation>C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v&quot;:25:9:25:11|Object mem_0_ is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Object mem_0_ is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v&quot;:25:9:25:11|Object mem_1_ is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Object mem_1_ is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v&quot;:25:9:25:11|Object mem_2_ is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Object mem_2_ is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v&quot;:25:9:25:11|Object mem_3_ is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Object mem_3_ is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v&quot;:25:9:25:11|Object mem_4_ is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Object mem_4_ is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v&quot;:25:9:25:11|Object mem_5_ is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Object mem_5_ is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v&quot;:25:9:25:11|Object mem_6_ is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Object mem_6_ is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v&quot;:25:9:25:11|Object mem_7_ is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Object mem_7_ is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v&quot;:25:9:25:11|Object mem_8_ is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Object mem_8_ is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v&quot;:25:9:25:11|Object mem_9_ is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Object mem_9_ is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v&quot;:25:9:25:11|Object mem_10_ is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Object mem_10_ is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v&quot;:25:9:25:11|Object mem_11_ is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Object mem_11_ is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v&quot;:25:9:25:11|Object mem_12_ is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Object mem_12_ is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v&quot;:25:9:25:11|Object mem_13_ is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Object mem_13_ is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v&quot;:25:9:25:11|Object mem_14_ is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Object mem_14_ is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CG133 :&quot;C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v&quot;:25:9:25:11|Object mem_15_ is declared but not assigned. Either assign a value or remove the declaration.</Dynamic>
+            <Navigation>CG133</Navigation>
+            <Navigation>C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Object mem_15_ is declared but not assigned. Either assign a value or remove the declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>&quot;C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v&quot;:25:9:25:11|Some of the address location in the memory &quot;mem&quot; are not assigned.</Dynamic>
+            <Navigation></Navigation>
+            <Navigation>C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Some of the address location in the memory &quot;mem&quot; are not assigned.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Lightness.v&quot;:84:0:84:5|Optimizing register bit cnt1[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Lightness.v</Navigation>
+            <Navigation>84</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>84</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit cnt1[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Lightness.v&quot;:84:0:84:5|Pruning register bit 3 of cnt1[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Lightness.v</Navigation>
+            <Navigation>84</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>84</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bit 3 of cnt1[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL190 :&quot;C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Clock_div.v&quot;:27:0:27:5|Optimizing register bit cnt1[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Clock_div.v</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Optimizing register bit cnt1[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Clock_div.v&quot;:27:0:27:5|Pruning register bit 24 of cnt1[24:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Clock_div.v</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bit 24 of cnt1[24:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\pc\desktop\for step fpga\step fpga user manual\mxo2\firstdemo\source\debounce.v&quot;:37:0:37:5|Found inferred clock FirstDemo|clk_in which controls 83 sequential elements including Debounce_uut.cnt[18:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\pc\desktop\for step fpga\step fpga user manual\mxo2\firstdemo\source\debounce.v</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>37</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Found inferred clock FirstDemo|clk_in which controls 83 sequential elements including Debounce_uut.cnt[18:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock FirstDemo|clk_in with period 1000.00ns. Please declare a user-defined clock on object &quot;p:clk_in&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock FirstDemo|clk_in with period 1000.00ns. Please declare a user-defined clock on object &quot;p:clk_in&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

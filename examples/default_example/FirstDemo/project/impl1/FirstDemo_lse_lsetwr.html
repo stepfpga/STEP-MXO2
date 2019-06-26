@@ -1,0 +1,496 @@
+<HTML>
+<HEAD><TITLE>Lattice Synthesis Timing Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Map_Twr"></A><B><U><big>Lattice Synthesis Timing Report</big></U></B>
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Wed Jun 26 13:41:17 2019
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Design:     FirstDemo
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 1000.000000 -name clk1 [get_nets GPIO_c]
+            22 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 992.609ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3DX    CK             \Heart_beat_uut/heart_cnt_i0  (from GPIO_c +)
+   Destination:    FD1S3DX    D              \Heart_beat_uut/heart_cnt_i2  (to GPIO_c +)
+
+   Delay:                   7.231ns  (26.6% logic, 73.4% route), 4 logic levels.
+
+ Constraint Details:
+
+      7.231ns data_path \Heart_beat_uut/heart_cnt_i0 to \Heart_beat_uut/heart_cnt_i2 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 992.609ns
+
+ Path Details: \Heart_beat_uut/heart_cnt_i0 to \Heart_beat_uut/heart_cnt_i2
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \Heart_beat_uut/heart_cnt_i0 (from GPIO_c)
+Route        26   e 2.085                                  heart_cnt[0]
+LUT4        ---     0.493              C to Z              \Heart_beat_uut/heart_cnt[3]_bdd_4_lut_2064
+Route         2   e 1.141                                  \Heart_beat_uut/n2321
+LUT4        ---     0.493              B to Z              \Heart_beat_uut/heart_cnt[3]_bdd_2_lut
+Route         2   e 1.141                                  n152
+LUT4        ---     0.493              B to Z              \Heart_beat_uut/mux_59_i3_4_lut
+Route         1   e 0.941                                  \Heart_beat_uut/heart_cnt_3__N_175[2]
+                  --------
+                    7.231  (26.6% logic, 73.4% route), 4 logic levels.
+
+
+Passed:  The following path meets requirements by 992.609ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3DX    CK             \Heart_beat_uut/heart_cnt_i0  (from GPIO_c +)
+   Destination:    FD1S3DX    D              \Heart_beat_uut/heart_cnt_i1  (to GPIO_c +)
+
+   Delay:                   7.231ns  (26.6% logic, 73.4% route), 4 logic levels.
+
+ Constraint Details:
+
+      7.231ns data_path \Heart_beat_uut/heart_cnt_i0 to \Heart_beat_uut/heart_cnt_i1 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 992.609ns
+
+ Path Details: \Heart_beat_uut/heart_cnt_i0 to \Heart_beat_uut/heart_cnt_i1
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \Heart_beat_uut/heart_cnt_i0 (from GPIO_c)
+Route        26   e 2.085                                  heart_cnt[0]
+LUT4        ---     0.493              C to Z              \Heart_beat_uut/heart_cnt[3]_bdd_4_lut_2064
+Route         2   e 1.141                                  \Heart_beat_uut/n2321
+LUT4        ---     0.493              B to Z              \Heart_beat_uut/heart_cnt[3]_bdd_2_lut
+Route         2   e 1.141                                  n152
+LUT4        ---     0.493              D to Z              \Segment_led_uut/mux_59_i2_3_lut_4_lut
+Route         1   e 0.941                                  heart_cnt_3__N_175[1]
+                  --------
+                    7.231  (26.6% logic, 73.4% route), 4 logic levels.
+
+
+Passed:  The following path meets requirements by 992.609ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3DX    CK             \Heart_beat_uut/heart_cnt_i2  (from GPIO_c +)
+   Destination:    FD1S3DX    D              \Heart_beat_uut/heart_cnt_i2  (to GPIO_c +)
+
+   Delay:                   7.231ns  (26.6% logic, 73.4% route), 4 logic levels.
+
+ Constraint Details:
+
+      7.231ns data_path \Heart_beat_uut/heart_cnt_i2 to \Heart_beat_uut/heart_cnt_i2 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 992.609ns
+
+ Path Details: \Heart_beat_uut/heart_cnt_i2 to \Heart_beat_uut/heart_cnt_i2
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \Heart_beat_uut/heart_cnt_i2 (from GPIO_c)
+Route        26   e 2.085                                  heart_cnt[2]
+LUT4        ---     0.493              D to Z              \Heart_beat_uut/heart_cnt[3]_bdd_4_lut_2064
+Route         2   e 1.141                                  \Heart_beat_uut/n2321
+LUT4        ---     0.493              B to Z              \Heart_beat_uut/heart_cnt[3]_bdd_2_lut
+Route         2   e 1.141                                  n152
+LUT4        ---     0.493              B to Z              \Heart_beat_uut/mux_59_i3_4_lut
+Route         1   e 0.941                                  \Heart_beat_uut/heart_cnt_3__N_175[2]
+                  --------
+                    7.231  (26.6% logic, 73.4% route), 4 logic levels.
+
+Report: 7.391 ns is the maximum delay for this constraint.
+
+
+
+================================================================================
+Constraint: create_clock -period 1000.000000 -name clk0 [get_nets clk_in_c]
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 961.198ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3DX    CK             \clk_1Hz_uut/cnt1_138__i0  (from clk_in_c +)
+   Destination:    FD1S3DX    D              \clk_1Hz_uut/cnt1_138__i24  (to clk_in_c +)
+
+   Delay:                  38.642ns  (37.0% logic, 63.0% route), 35 logic levels.
+
+ Constraint Details:
+
+     38.642ns data_path \clk_1Hz_uut/cnt1_138__i0 to \clk_1Hz_uut/cnt1_138__i24 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 961.198ns
+
+ Path Details: \clk_1Hz_uut/cnt1_138__i0 to \clk_1Hz_uut/cnt1_138__i24
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \clk_1Hz_uut/cnt1_138__i0 (from clk_in_c)
+Route         2   e 1.198                                  cnt1[0]
+LUT4        ---     0.493              B to Z              i1983_2_lut
+Route         1   e 0.941                                  n2136
+LUT4        ---     0.493              A to Z              LessThan_68_i8_4_lut
+Route         1   e 0.941                                  n8
+LUT4        ---     0.493              B to Z              LessThan_68_i10_4_lut
+Route         1   e 0.941                                  n10
+LUT4        ---     0.493              A to Z              LessThan_68_i12_4_lut
+Route         1   e 0.941                                  n12
+LUT4        ---     0.493              A to Z              LessThan_68_i16_4_lut
+Route         1   e 0.941                                  n16
+LUT4        ---     0.493              B to Z              LessThan_68_i18_4_lut
+Route         1   e 0.941                                  n18
+LUT4        ---     0.493              B to Z              LessThan_68_i20_4_lut
+Route         1   e 0.941                                  n20
+LUT4        ---     0.493              B to Z              LessThan_68_i22_4_lut
+Route         1   e 0.941                                  n22
+LUT4        ---     0.493              B to Z              LessThan_68_i24_4_lut
+Route         1   e 0.941                                  n24
+LUT4        ---     0.493              B to Z              LessThan_68_i26_4_lut
+Route         1   e 0.941                                  n26
+LUT4        ---     0.493              B to Z              LessThan_68_i28_4_lut
+Route         1   e 0.941                                  n28
+LUT4        ---     0.493              B to Z              LessThan_68_i30_4_lut
+Route         1   e 0.941                                  n30
+LUT4        ---     0.493              B to Z              LessThan_68_i32_4_lut
+Route         1   e 0.941                                  n32
+LUT4        ---     0.493              B to Z              LessThan_68_i34_4_lut
+Route         1   e 0.941                                  n34
+LUT4        ---     0.493              B to Z              LessThan_68_i36_4_lut
+Route         1   e 0.941                                  n36
+LUT4        ---     0.493              D to Z              LessThan_68_i40_4_lut
+Route         1   e 0.941                                  n40
+LUT4        ---     0.493              B to Z              LessThan_68_i42_4_lut
+Route         1   e 0.941                                  n42
+LUT4        ---     0.493              B to Z              LessThan_68_i44_4_lut
+Route         1   e 0.941                                  n44
+LUT4        ---     0.493              B to Z              LessThan_68_i46_4_lut
+Route         1   e 0.941                                  n46
+LUT4        ---     0.493              A to Z              LessThan_68_i48_4_lut
+Route         1   e 0.941                                  n48
+LUT4        ---     0.493              B to Z              LessThan_68_i50_3_lut
+Route         4   e 1.340                                  n182
+LUT4        ---     0.493              A to Z              i942_2_lut
+Route        24   e 1.838                                  cnt1_24__N_112
+A1_TO_FCO   ---     0.827           B[2] to COUT           \clk_1Hz_uut/cnt1_138_add_4_3
+Route         1   e 0.020                                  \clk_1Hz_uut/n1690
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_5
+Route         1   e 0.020                                  \clk_1Hz_uut/n1691
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_7
+Route         1   e 0.020                                  \clk_1Hz_uut/n1692
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_9
+Route         1   e 0.020                                  \clk_1Hz_uut/n1693
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_11
+Route         1   e 0.020                                  \clk_1Hz_uut/n1694
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_13
+Route         1   e 0.020                                  \clk_1Hz_uut/n1695
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_15
+Route         1   e 0.020                                  \clk_1Hz_uut/n1696
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_17
+Route         1   e 0.020                                  \clk_1Hz_uut/n1697
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_19
+Route         1   e 0.020                                  \clk_1Hz_uut/n1698
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_21
+Route         1   e 0.020                                  \clk_1Hz_uut/n1699
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_23
+Route         1   e 0.020                                  \clk_1Hz_uut/n1700
+FCI_TO_F    ---     0.598            CIN to S[2]           \clk_1Hz_uut/cnt1_138_add_4_25
+Route         1   e 0.941                                  \clk_1Hz_uut/n133
+                  --------
+                   38.642  (37.0% logic, 63.0% route), 35 logic levels.
+
+
+Passed:  The following path meets requirements by 961.198ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3DX    CK             \clk_1Hz_uut/cnt1_138__i0  (from clk_in_c +)
+   Destination:    FD1S3DX    D              \clk_1Hz_uut/cnt1_138__i24  (to clk_in_c +)
+
+   Delay:                  38.642ns  (37.0% logic, 63.0% route), 35 logic levels.
+
+ Constraint Details:
+
+     38.642ns data_path \clk_1Hz_uut/cnt1_138__i0 to \clk_1Hz_uut/cnt1_138__i24 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 961.198ns
+
+ Path Details: \clk_1Hz_uut/cnt1_138__i0 to \clk_1Hz_uut/cnt1_138__i24
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \clk_1Hz_uut/cnt1_138__i0 (from clk_in_c)
+Route         2   e 1.198                                  cnt1[0]
+LUT4        ---     0.493              B to Z              i1983_2_lut
+Route         1   e 0.941                                  n2136
+LUT4        ---     0.493              A to Z              LessThan_68_i8_4_lut
+Route         1   e 0.941                                  n8
+LUT4        ---     0.493              B to Z              LessThan_68_i10_4_lut
+Route         1   e 0.941                                  n10
+LUT4        ---     0.493              A to Z              LessThan_68_i12_4_lut
+Route         1   e 0.941                                  n12
+LUT4        ---     0.493              A to Z              LessThan_68_i16_4_lut
+Route         1   e 0.941                                  n16
+LUT4        ---     0.493              B to Z              LessThan_68_i18_4_lut
+Route         1   e 0.941                                  n18
+LUT4        ---     0.493              B to Z              LessThan_68_i20_4_lut
+Route         1   e 0.941                                  n20
+LUT4        ---     0.493              B to Z              LessThan_68_i22_4_lut
+Route         1   e 0.941                                  n22
+LUT4        ---     0.493              B to Z              LessThan_68_i24_4_lut
+Route         1   e 0.941                                  n24
+LUT4        ---     0.493              B to Z              LessThan_68_i26_4_lut
+Route         1   e 0.941                                  n26
+LUT4        ---     0.493              B to Z              LessThan_68_i28_4_lut
+Route         1   e 0.941                                  n28
+LUT4        ---     0.493              B to Z              LessThan_68_i30_4_lut
+Route         1   e 0.941                                  n30
+LUT4        ---     0.493              B to Z              LessThan_68_i32_4_lut
+Route         1   e 0.941                                  n32
+LUT4        ---     0.493              B to Z              LessThan_68_i34_4_lut
+Route         1   e 0.941                                  n34
+LUT4        ---     0.493              B to Z              LessThan_68_i36_4_lut
+Route         1   e 0.941                                  n36
+LUT4        ---     0.493              D to Z              LessThan_68_i40_4_lut
+Route         1   e 0.941                                  n40
+LUT4        ---     0.493              B to Z              LessThan_68_i42_4_lut
+Route         1   e 0.941                                  n42
+LUT4        ---     0.493              B to Z              LessThan_68_i44_4_lut
+Route         1   e 0.941                                  n44
+LUT4        ---     0.493              B to Z              LessThan_68_i46_4_lut
+Route         1   e 0.941                                  n46
+LUT4        ---     0.493              A to Z              LessThan_68_i48_4_lut
+Route         1   e 0.941                                  n48
+LUT4        ---     0.493              B to Z              LessThan_68_i50_3_lut
+Route         4   e 1.340                                  n182
+LUT4        ---     0.493              A to Z              i942_2_lut
+Route        24   e 1.838                                  cnt1_24__N_112
+A1_TO_FCO   ---     0.827           B[2] to COUT           \clk_1Hz_uut/cnt1_138_add_4_3
+Route         1   e 0.020                                  \clk_1Hz_uut/n1690
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_5
+Route         1   e 0.020                                  \clk_1Hz_uut/n1691
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_7
+Route         1   e 0.020                                  \clk_1Hz_uut/n1692
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_9
+Route         1   e 0.020                                  \clk_1Hz_uut/n1693
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_11
+Route         1   e 0.020                                  \clk_1Hz_uut/n1694
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_13
+Route         1   e 0.020                                  \clk_1Hz_uut/n1695
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_15
+Route         1   e 0.020                                  \clk_1Hz_uut/n1696
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_17
+Route         1   e 0.020                                  \clk_1Hz_uut/n1697
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_19
+Route         1   e 0.020                                  \clk_1Hz_uut/n1698
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_21
+Route         1   e 0.020                                  \clk_1Hz_uut/n1699
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_23
+Route         1   e 0.020                                  \clk_1Hz_uut/n1700
+FCI_TO_F    ---     0.598            CIN to S[2]           \clk_1Hz_uut/cnt1_138_add_4_25
+Route         1   e 0.941                                  \clk_1Hz_uut/n133
+                  --------
+                   38.642  (37.0% logic, 63.0% route), 35 logic levels.
+
+
+Passed:  The following path meets requirements by 961.198ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3DX    CK             \clk_1Hz_uut/cnt1_138__i0  (from clk_in_c +)
+   Destination:    FD1S3DX    D              \clk_1Hz_uut/cnt1_138__i23  (to clk_in_c +)
+
+   Delay:                  38.642ns  (37.0% logic, 63.0% route), 35 logic levels.
+
+ Constraint Details:
+
+     38.642ns data_path \clk_1Hz_uut/cnt1_138__i0 to \clk_1Hz_uut/cnt1_138__i23 meets
+    1000.000ns delay constraint less
+      0.160ns L_S requirement (totaling 999.840ns) by 961.198ns
+
+ Path Details: \clk_1Hz_uut/cnt1_138__i0 to \clk_1Hz_uut/cnt1_138__i23
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.444             CK to Q              \clk_1Hz_uut/cnt1_138__i0 (from clk_in_c)
+Route         2   e 1.198                                  cnt1[0]
+LUT4        ---     0.493              B to Z              i1983_2_lut
+Route         1   e 0.941                                  n2136
+LUT4        ---     0.493              A to Z              LessThan_68_i8_4_lut
+Route         1   e 0.941                                  n8
+LUT4        ---     0.493              B to Z              LessThan_68_i10_4_lut
+Route         1   e 0.941                                  n10
+LUT4        ---     0.493              A to Z              LessThan_68_i12_4_lut
+Route         1   e 0.941                                  n12
+LUT4        ---     0.493              A to Z              LessThan_68_i16_4_lut
+Route         1   e 0.941                                  n16
+LUT4        ---     0.493              B to Z              LessThan_68_i18_4_lut
+Route         1   e 0.941                                  n18
+LUT4        ---     0.493              B to Z              LessThan_68_i20_4_lut
+Route         1   e 0.941                                  n20
+LUT4        ---     0.493              B to Z              LessThan_68_i22_4_lut
+Route         1   e 0.941                                  n22
+LUT4        ---     0.493              B to Z              LessThan_68_i24_4_lut
+Route         1   e 0.941                                  n24
+LUT4        ---     0.493              B to Z              LessThan_68_i26_4_lut
+Route         1   e 0.941                                  n26
+LUT4        ---     0.493              B to Z              LessThan_68_i28_4_lut
+Route         1   e 0.941                                  n28
+LUT4        ---     0.493              B to Z              LessThan_68_i30_4_lut
+Route         1   e 0.941                                  n30
+LUT4        ---     0.493              B to Z              LessThan_68_i32_4_lut
+Route         1   e 0.941                                  n32
+LUT4        ---     0.493              B to Z              LessThan_68_i34_4_lut
+Route         1   e 0.941                                  n34
+LUT4        ---     0.493              B to Z              LessThan_68_i36_4_lut
+Route         1   e 0.941                                  n36
+LUT4        ---     0.493              D to Z              LessThan_68_i40_4_lut
+Route         1   e 0.941                                  n40
+LUT4        ---     0.493              B to Z              LessThan_68_i42_4_lut
+Route         1   e 0.941                                  n42
+LUT4        ---     0.493              B to Z              LessThan_68_i44_4_lut
+Route         1   e 0.941                                  n44
+LUT4        ---     0.493              B to Z              LessThan_68_i46_4_lut
+Route         1   e 0.941                                  n46
+LUT4        ---     0.493              A to Z              LessThan_68_i48_4_lut
+Route         1   e 0.941                                  n48
+LUT4        ---     0.493              B to Z              LessThan_68_i50_3_lut
+Route         4   e 1.340                                  n182
+LUT4        ---     0.493              A to Z              i942_2_lut
+Route        24   e 1.838                                  cnt1_24__N_112
+A1_TO_FCO   ---     0.827           B[2] to COUT           \clk_1Hz_uut/cnt1_138_add_4_3
+Route         1   e 0.020                                  \clk_1Hz_uut/n1690
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_5
+Route         1   e 0.020                                  \clk_1Hz_uut/n1691
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_7
+Route         1   e 0.020                                  \clk_1Hz_uut/n1692
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_9
+Route         1   e 0.020                                  \clk_1Hz_uut/n1693
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_11
+Route         1   e 0.020                                  \clk_1Hz_uut/n1694
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_13
+Route         1   e 0.020                                  \clk_1Hz_uut/n1695
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_15
+Route         1   e 0.020                                  \clk_1Hz_uut/n1696
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_17
+Route         1   e 0.020                                  \clk_1Hz_uut/n1697
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_19
+Route         1   e 0.020                                  \clk_1Hz_uut/n1698
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_21
+Route         1   e 0.020                                  \clk_1Hz_uut/n1699
+FCI_TO_FCO  ---     0.157            CIN to COUT           \clk_1Hz_uut/cnt1_138_add_4_23
+Route         1   e 0.020                                  \clk_1Hz_uut/n1700
+FCI_TO_F    ---     0.598            CIN to S[2]           \clk_1Hz_uut/cnt1_138_add_4_25
+Route         1   e 0.941                                  \clk_1Hz_uut/n134
+                  --------
+                   38.642  (37.0% logic, 63.0% route), 35 logic levels.
+
+Report: 38.802 ns is the maximum delay for this constraint.
+
+
+<A name="mtw1_rs"></A><B><U><big>Timing Report Summary</big></U></B>
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk1 [get_nets GPIO_c]                  |  1000.000 ns|     7.391 ns|     4  
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk0 [get_nets clk_in_c]                |  1000.000 ns|    38.802 ns|    35  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+
+<A name="mtw1_ts"></A><B><U><big>Timing summary:</big></U></B>
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover  10535 paths, 210 nets, and 463 connections (50.9% coverage)
+
+
+Peak memory: 464732160 bytes, TRCE: 0 bytes, DLYMAN: 0 bytes
+CPU_TIME_REPORT: 0 secs 
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

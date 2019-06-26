@@ -1,0 +1,551 @@
+#Build: Synplify Pro L-2016.09L, Build 077R, Dec  2 2016
+#install: C:\lscc\diamond\3.9_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-NOOTTCCU
+
+# Wed Jun 26 13:37:32 2019
+
+#Implementation: impl1
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo2.v" (library work)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\diamond\3.9_x64\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Clock_div.v" (library work)
+@I::"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Color_led.v" (library work)
+@I::"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Debounce.v" (library work)
+@I::"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\FirstDemo.v" (library work)
+@I::"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Heart_beat.v" (library work)
+@I::"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Lightness.v" (library work)
+@I::"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v" (library work)
+@I::"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Water_led.v" (library work)
+Verilog syntax check successful!
+Selecting top level module FirstDemo
+@N: CG364 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Debounce.v":18:7:18:14|Synthesizing module Debounce in library work.
+
+@N: CG179 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Debounce.v":65:19:65:27|Removing redundant assignment.
+@N: CG364 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Clock_div.v":9:7:9:15|Synthesizing module Clock_div in library work.
+
+@N: CG364 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Lightness.v":18:7:18:15|Synthesizing module Lightness in library work.
+
+@N: CG179 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Lightness.v":57:15:57:18|Removing redundant assignment.
+@N: CG364 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Heart_beat.v":18:7:18:16|Synthesizing module Heart_beat in library work.
+
+@N: CG364 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Water_led.v":18:7:18:15|Synthesizing module Water_led in library work.
+
+@N: CG364 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Color_led.v":18:7:18:15|Synthesizing module Color_led in library work.
+
+@N: CG364 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":18:7:18:17|Synthesizing module Segment_led in library work.
+
+@W: CG532 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":26:0:26:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_0_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_1_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_2_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_3_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_4_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_5_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_6_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_7_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_8_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_9_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_10_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_11_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_12_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_13_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_14_ is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Object mem_15_ is declared but not assigned. Either assign a value or remove the declaration.
+@W:"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":25:9:25:11|Some of the address location in the memory "mem" are not assigned.
+@N: CG364 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\FirstDemo.v":18:7:18:15|Synthesizing module FirstDemo in library work.
+
+@N: CL159 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":20:12:20:20|Input heart_cnt is unused.
+@W: CL190 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Lightness.v":84:0:84:5|Optimizing register bit cnt1[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Lightness.v":84:0:84:5|Pruning register bit 3 of cnt1[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Clock_div.v":27:0:27:5|Optimizing register bit cnt1[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Clock_div.v":27:0:27:5|Pruning register bit 24 of cnt1[24:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 26 13:37:32 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 26 13:37:32 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 26 13:37:32 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Jun 26 13:37:34 2019
+
+###########################################################]
+Pre-mapping Report
+
+# Wed Jun 26 13:37:34 2019
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:33:02
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\project\impl1\FirstDemo_impl1_scck.rpt 
+Printing clock  summary report in "C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\project\impl1\FirstDemo_impl1_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 115MB)
+
+@N: BN115 :"c:\users\pc\desktop\for step fpga\step fpga user manual\mxo2\firstdemo\source\firstdemo.v":97:12:97:26|Removing instance Segment_led_uut (in view: work.FirstDemo(verilog)) of type view:work.Segment_led(verilog) because it does not drive other instances.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=10  set on top level netlist FirstDemo
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+
+Clock Summary
+*****************
+
+Start                                         Requested     Requested     Clock                               Clock                   Clock
+Clock                                         Frequency     Period        Type                                Group                   Load 
+-------------------------------------------------------------------------------------------------------------------------------------------
+Clock_div|clk_div_pulse_out_derived_clock     1.0 MHz       1000.000      derived (from FirstDemo|clk_in)     Inferred_clkgroup_0     4    
+FirstDemo|clk_in                              1.0 MHz       1000.000      inferred                            Inferred_clkgroup_0     83   
+===========================================================================================================================================
+
+@W: MT529 :"c:\users\pc\desktop\for step fpga\step fpga user manual\mxo2\firstdemo\source\debounce.v":37:0:37:5|Found inferred clock FirstDemo|clk_in which controls 83 sequential elements including Debounce_uut.cnt[18:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 142MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jun 26 13:37:34 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Wed Jun 26 13:37:34 2019
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:33:02
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 142MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 142MB)
+
+@N: MO231 :"c:\users\pc\desktop\for step fpga\step fpga user manual\mxo2\firstdemo\source\debounce.v":37:0:37:5|Found counter in view:work.Debounce(verilog) instance cnt[18:0] 
+@N: BN362 :"c:\users\pc\desktop\for step fpga\step fpga user manual\mxo2\firstdemo\source\debounce.v":60:0:60:5|Removing sequential instance key_state[2] (in view: work.Debounce(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\pc\desktop\for step fpga\step fpga user manual\mxo2\firstdemo\source\debounce.v":60:0:60:5|Removing sequential instance key_state[1] (in view: work.Debounce(verilog)) because it does not drive other instances.
+@N: MO231 :"c:\users\pc\desktop\for step fpga\step fpga user manual\mxo2\firstdemo\source\clock_div.v":27:0:27:5|Found counter in view:work.Clock_div(verilog) instance cnt1[23:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+@N: BN362 :"c:\users\pc\desktop\for step fpga\step fpga user manual\mxo2\firstdemo\source\lightness.v":94:0:94:5|Removing sequential instance Lightness_uut.Lightness_out1 (in view: work.FirstDemo(verilog)) because it does not drive other instances.
+@N: BN362 :"c:\users\pc\desktop\for step fpga\step fpga user manual\mxo2\firstdemo\source\lightness.v":73:0:73:5|Removing sequential instance Lightness_uut.Lightness_out (in view: work.FirstDemo(verilog)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		   989.76ns		  73 /        85
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+@N: MT611 :|Automatically generated clock Clock_div|clk_div_pulse_out_derived_clock is not used and is being removed
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 85 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+4 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+================================ Non-Gated/Non-Generated Clocks =================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance          
+-------------------------------------------------------------------------------------------------
+@K:CKID0001       clk_in              port                   85         Debounce_uut_key_rstio[0]
+=================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 142MB)
+
+Writing Analyst data base C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\project\impl1\synwork\FirstDemo_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\project\impl1\FirstDemo_impl1.edi
+L-2016.09L
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 145MB peak: 147MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 147MB)
+
+@W: MT420 |Found inferred clock FirstDemo|clk_in with period 1000.00ns. Please declare a user-defined clock on object "p:clk_in"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Jun 26 13:37:36 2019
+#
+
+
+Top view:               FirstDemo
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 989.185
+
+                     Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock       Frequency     Frequency     Period        Period        Slack       Type         Group              
+-------------------------------------------------------------------------------------------------------------------------
+FirstDemo|clk_in     1.0 MHz       92.5 MHz      1000.000      10.815        989.185     inferred     Inferred_clkgroup_0
+=========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                              |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------
+Starting          Ending            |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------
+FirstDemo|clk_in  FirstDemo|clk_in  |  1000.000    989.185  |  No paths    -      |  No paths    -      |  No paths    -    
+============================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: FirstDemo|clk_in
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                        Starting                                             Arrival            
+Instance                Reference            Type        Pin     Net         Time        Slack  
+                        Clock                                                                   
+------------------------------------------------------------------------------------------------
+clk_1Hz_uut.cnt1[0]     FirstDemo|clk_in     FD1S3DX     Q       cnt1[0]     1.044       989.185
+clk_1Hz_uut.cnt1[1]     FirstDemo|clk_in     FD1S3DX     Q       cnt1[1]     1.044       989.328
+clk_1Hz_uut.cnt1[2]     FirstDemo|clk_in     FD1S3DX     Q       cnt1[2]     1.044       989.328
+clk_1Hz_uut.cnt1[3]     FirstDemo|clk_in     FD1S3DX     Q       cnt1[3]     1.044       989.471
+clk_1Hz_uut.cnt1[4]     FirstDemo|clk_in     FD1S3DX     Q       cnt1[4]     1.044       989.471
+clk_1Hz_uut.cnt1[5]     FirstDemo|clk_in     FD1S3DX     Q       cnt1[5]     1.044       989.614
+clk_1Hz_uut.cnt1[6]     FirstDemo|clk_in     FD1S3DX     Q       cnt1[6]     1.044       989.614
+clk_1Hz_uut.cnt1[7]     FirstDemo|clk_in     FD1S3DX     Q       cnt1[7]     1.044       989.756
+clk_1Hz_uut.cnt1[8]     FirstDemo|clk_in     FD1S3DX     Q       cnt1[8]     1.044       989.756
+clk_1Hz_uut.cnt1[9]     FirstDemo|clk_in     FD1S3DX     Q       cnt1[9]     1.044       989.899
+================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                         Starting                                                Required            
+Instance                 Reference            Type        Pin     Net            Time         Slack  
+                         Clock                                                                       
+-----------------------------------------------------------------------------------------------------
+clk_1Hz_uut.cnt1[23]     FirstDemo|clk_in     FD1S3DX     D       cnt1_s[23]     999.894      989.185
+clk_1Hz_uut.cnt1[21]     FirstDemo|clk_in     FD1S3DX     D       cnt1_s[21]     999.894      989.328
+clk_1Hz_uut.cnt1[22]     FirstDemo|clk_in     FD1S3DX     D       cnt1_s[22]     999.894      989.328
+clk_1Hz_uut.cnt1[19]     FirstDemo|clk_in     FD1S3DX     D       cnt1_s[19]     999.894      989.471
+clk_1Hz_uut.cnt1[20]     FirstDemo|clk_in     FD1S3DX     D       cnt1_s[20]     999.894      989.471
+clk_1Hz_uut.cnt1[17]     FirstDemo|clk_in     FD1S3DX     D       cnt1_s[17]     999.894      989.614
+clk_1Hz_uut.cnt1[18]     FirstDemo|clk_in     FD1S3DX     D       cnt1_s[18]     999.894      989.614
+clk_1Hz_uut.cnt1[15]     FirstDemo|clk_in     FD1S3DX     D       cnt1_s[15]     999.894      989.756
+clk_1Hz_uut.cnt1[16]     FirstDemo|clk_in     FD1S3DX     D       cnt1_s[16]     999.894      989.756
+clk_1Hz_uut.cnt1[13]     FirstDemo|clk_in     FD1S3DX     D       cnt1_s[13]     999.894      989.899
+=====================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         999.894
+
+    - Propagation time:                      10.709
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     989.185
+
+    Number of logic level(s):                26
+    Starting point:                          clk_1Hz_uut.cnt1[0] / Q
+    Ending point:                            clk_1Hz_uut.cnt1[23] / D
+    The start point is clocked by            FirstDemo|clk_in [rising] on pin CK
+    The end   point is clocked by            FirstDemo|clk_in [rising] on pin CK
+
+Instance / Net                                Pin      Pin               Arrival     No. of    
+Name                              Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------
+clk_1Hz_uut.cnt1[0]               FD1S3DX     Q        Out     1.044     1.044       -         
+cnt1[0]                           Net         -        -       -         -           2         
+clk_1Hz_uut.un1_cnt1_cry_0_0      CCU2D       A1       In      0.000     1.044       -         
+clk_1Hz_uut.un1_cnt1_cry_0_0      CCU2D       COUT     Out     1.545     2.588       -         
+un1_cnt1_cry_0                    Net         -        -       -         -           1         
+clk_1Hz_uut.un1_cnt1_cry_1_0      CCU2D       CIN      In      0.000     2.588       -         
+clk_1Hz_uut.un1_cnt1_cry_1_0      CCU2D       COUT     Out     0.143     2.731       -         
+un1_cnt1_cry_2                    Net         -        -       -         -           1         
+clk_1Hz_uut.un1_cnt1_cry_3_0      CCU2D       CIN      In      0.000     2.731       -         
+clk_1Hz_uut.un1_cnt1_cry_3_0      CCU2D       COUT     Out     0.143     2.874       -         
+un1_cnt1_cry_4                    Net         -        -       -         -           1         
+clk_1Hz_uut.un1_cnt1_cry_5_0      CCU2D       CIN      In      0.000     2.874       -         
+clk_1Hz_uut.un1_cnt1_cry_5_0      CCU2D       COUT     Out     0.143     3.017       -         
+un1_cnt1_cry_6                    Net         -        -       -         -           1         
+clk_1Hz_uut.un1_cnt1_cry_7_0      CCU2D       CIN      In      0.000     3.017       -         
+clk_1Hz_uut.un1_cnt1_cry_7_0      CCU2D       COUT     Out     0.143     3.160       -         
+un1_cnt1_cry_8                    Net         -        -       -         -           1         
+clk_1Hz_uut.un1_cnt1_cry_9_0      CCU2D       CIN      In      0.000     3.160       -         
+clk_1Hz_uut.un1_cnt1_cry_9_0      CCU2D       COUT     Out     0.143     3.302       -         
+un1_cnt1_cry_10                   Net         -        -       -         -           1         
+clk_1Hz_uut.un1_cnt1_cry_11_0     CCU2D       CIN      In      0.000     3.302       -         
+clk_1Hz_uut.un1_cnt1_cry_11_0     CCU2D       COUT     Out     0.143     3.445       -         
+un1_cnt1_cry_12                   Net         -        -       -         -           1         
+clk_1Hz_uut.un1_cnt1_cry_13_0     CCU2D       CIN      In      0.000     3.445       -         
+clk_1Hz_uut.un1_cnt1_cry_13_0     CCU2D       COUT     Out     0.143     3.588       -         
+un1_cnt1_cry_14                   Net         -        -       -         -           1         
+clk_1Hz_uut.un1_cnt1_cry_15_0     CCU2D       CIN      In      0.000     3.588       -         
+clk_1Hz_uut.un1_cnt1_cry_15_0     CCU2D       COUT     Out     0.143     3.731       -         
+un1_cnt1_cry_16                   Net         -        -       -         -           1         
+clk_1Hz_uut.un1_cnt1_cry_17_0     CCU2D       CIN      In      0.000     3.731       -         
+clk_1Hz_uut.un1_cnt1_cry_17_0     CCU2D       COUT     Out     0.143     3.873       -         
+un1_cnt1_cry_18                   Net         -        -       -         -           1         
+clk_1Hz_uut.un1_cnt1_cry_19_0     CCU2D       CIN      In      0.000     3.873       -         
+clk_1Hz_uut.un1_cnt1_cry_19_0     CCU2D       COUT     Out     0.143     4.016       -         
+un1_cnt1_cry_20                   Net         -        -       -         -           1         
+clk_1Hz_uut.un1_cnt1_cry_21_0     CCU2D       CIN      In      0.000     4.016       -         
+clk_1Hz_uut.un1_cnt1_cry_21_0     CCU2D       COUT     Out     0.143     4.159       -         
+un1_cnt1_cry_22                   Net         -        -       -         -           1         
+clk_1Hz_uut.un1_cnt1_cry_23_0     CCU2D       CIN      In      0.000     4.159       -         
+clk_1Hz_uut.un1_cnt1_cry_23_0     CCU2D       S1       Out     1.886     6.045       -         
+cnt1                              Net         -        -       -         -           28        
+clk_1Hz_uut.cnt1_cry_0[0]         CCU2D       A1       In      0.000     6.045       -         
+clk_1Hz_uut.cnt1_cry_0[0]         CCU2D       COUT     Out     1.545     7.589       -         
+cnt1_cry[0]                       Net         -        -       -         -           1         
+clk_1Hz_uut.cnt1_cry_0[1]         CCU2D       CIN      In      0.000     7.589       -         
+clk_1Hz_uut.cnt1_cry_0[1]         CCU2D       COUT     Out     0.143     7.732       -         
+cnt1_cry[2]                       Net         -        -       -         -           1         
+clk_1Hz_uut.cnt1_cry_0[3]         CCU2D       CIN      In      0.000     7.732       -         
+clk_1Hz_uut.cnt1_cry_0[3]         CCU2D       COUT     Out     0.143     7.875       -         
+cnt1_cry[4]                       Net         -        -       -         -           1         
+clk_1Hz_uut.cnt1_cry_0[5]         CCU2D       CIN      In      0.000     7.875       -         
+clk_1Hz_uut.cnt1_cry_0[5]         CCU2D       COUT     Out     0.143     8.018       -         
+cnt1_cry[6]                       Net         -        -       -         -           1         
+clk_1Hz_uut.cnt1_cry_0[7]         CCU2D       CIN      In      0.000     8.018       -         
+clk_1Hz_uut.cnt1_cry_0[7]         CCU2D       COUT     Out     0.143     8.161       -         
+cnt1_cry[8]                       Net         -        -       -         -           1         
+clk_1Hz_uut.cnt1_cry_0[9]         CCU2D       CIN      In      0.000     8.161       -         
+clk_1Hz_uut.cnt1_cry_0[9]         CCU2D       COUT     Out     0.143     8.303       -         
+cnt1_cry[10]                      Net         -        -       -         -           1         
+clk_1Hz_uut.cnt1_cry_0[11]        CCU2D       CIN      In      0.000     8.303       -         
+clk_1Hz_uut.cnt1_cry_0[11]        CCU2D       COUT     Out     0.143     8.446       -         
+cnt1_cry[12]                      Net         -        -       -         -           1         
+clk_1Hz_uut.cnt1_cry_0[13]        CCU2D       CIN      In      0.000     8.446       -         
+clk_1Hz_uut.cnt1_cry_0[13]        CCU2D       COUT     Out     0.143     8.589       -         
+cnt1_cry[14]                      Net         -        -       -         -           1         
+clk_1Hz_uut.cnt1_cry_0[15]        CCU2D       CIN      In      0.000     8.589       -         
+clk_1Hz_uut.cnt1_cry_0[15]        CCU2D       COUT     Out     0.143     8.732       -         
+cnt1_cry[16]                      Net         -        -       -         -           1         
+clk_1Hz_uut.cnt1_cry_0[17]        CCU2D       CIN      In      0.000     8.732       -         
+clk_1Hz_uut.cnt1_cry_0[17]        CCU2D       COUT     Out     0.143     8.875       -         
+cnt1_cry[18]                      Net         -        -       -         -           1         
+clk_1Hz_uut.cnt1_cry_0[19]        CCU2D       CIN      In      0.000     8.875       -         
+clk_1Hz_uut.cnt1_cry_0[19]        CCU2D       COUT     Out     0.143     9.017       -         
+cnt1_cry[20]                      Net         -        -       -         -           1         
+clk_1Hz_uut.cnt1_cry_0[21]        CCU2D       CIN      In      0.000     9.017       -         
+clk_1Hz_uut.cnt1_cry_0[21]        CCU2D       COUT     Out     0.143     9.160       -         
+cnt1_cry[22]                      Net         -        -       -         -           1         
+clk_1Hz_uut.cnt1_s_0[23]          CCU2D       CIN      In      0.000     9.160       -         
+clk_1Hz_uut.cnt1_s_0[23]          CCU2D       S0       Out     1.549     10.709      -         
+cnt1_s[23]                        Net         -        -       -         -           1         
+clk_1Hz_uut.cnt1[23]              FD1S3DX     D        In      0.000     10.709      -         
+===============================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 147MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 147MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_4000hc-4
+
+Register bits: 85 of 4320 (2%)
+PIC Latch:       0
+I/O cells:       77
+
+
+Details:
+CCU2D:          51
+FD1P3BX:        4
+FD1P3DX:        3
+FD1S3BX:        18
+FD1S3DX:        57
+GSR:            1
+IB:             9
+IFS1P3BX:       3
+INV:            6
+OB:             68
+ORCALUT4:       67
+PUR:            1
+VHI:            7
+VLO:            6
+false:          1
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 31MB peak: 147MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jun 26 13:37:36 2019
+
+###########################################################]

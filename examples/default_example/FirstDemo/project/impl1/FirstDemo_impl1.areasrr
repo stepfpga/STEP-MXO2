@@ -1,0 +1,105 @@
+----------------------------------------------------------------------
+Report for cell FirstDemo.verilog
+
+Register bits: 85 of 4320 (2%)
+PIC Latch:       0
+I/O cells:       77
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       51       100.0
+                            FD1P3BX        4       100.0
+                            FD1P3DX        3       100.0
+                            FD1S3BX       18       100.0
+                            FD1S3DX       57       100.0
+                                GSR        1       100.0
+                                 IB        9       100.0
+                           IFS1P3BX        3       100.0
+                                INV        6       100.0
+                                 OB       68       100.0
+                           ORCALUT4       67       100.0
+                                PUR        1       100.0
+                                VHI        7       100.0
+                                VLO        6       100.0
+SUB MODULES 
+                          Clock_div        1       100.0
+                          Color_led        1       100.0
+                           Debounce        1       100.0
+                         Heart_beat        1       100.0
+                          Lightness        1       100.0
+                          Water_led        1       100.0
+                            
+                         TOTAL           307           
+----------------------------------------------------------------------
+Report for cell Color_led.netlist
+     Instance path:  Color_led_uut
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1S3BX        6        33.3
+                           ORCALUT4        6         9.0
+                                VHI        1        14.3
+                                VLO        1        16.7
+                            
+                         TOTAL            14           
+----------------------------------------------------------------------
+Report for cell Water_led.netlist
+     Instance path:  Water_led_uut
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1S3BX        8        44.4
+                           ORCALUT4        6         9.0
+                                VHI        1        14.3
+                            
+                         TOTAL            15           
+----------------------------------------------------------------------
+Report for cell Heart_beat.netlist
+     Instance path:  Heart_beat_uut
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        3         5.9
+                            FD1P3DX        3       100.0
+                            FD1S3DX        1         1.8
+                           ORCALUT4        7        10.4
+                                VHI        1        14.3
+                                VLO        1        16.7
+                            
+                         TOTAL            16           
+----------------------------------------------------------------------
+Report for cell Lightness.netlist
+     Instance path:  Lightness_uut
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       12        23.5
+                            FD1S3BX        1         5.6
+                            FD1S3DX       12        21.1
+                                INV        5        83.3
+                           ORCALUT4       21        31.3
+                                VHI        1        14.3
+                                VLO        1        16.7
+                            
+                         TOTAL            53           
+----------------------------------------------------------------------
+Report for cell Clock_div.netlist
+     Instance path:  clk_1Hz_uut
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       26        51.0
+                            FD1S3DX       25        43.9
+                           ORCALUT4        8        11.9
+                                VHI        1        14.3
+                                VLO        1        16.7
+                            
+                         TOTAL            61           
+----------------------------------------------------------------------
+Report for cell Debounce.netlist
+     Instance path:  Debounce_uut
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       10        19.6
+                            FD1P3BX        4       100.0
+                            FD1S3BX        3        16.7
+                            FD1S3DX       19        33.3
+                           ORCALUT4       11        16.4
+                                VHI        1        14.3
+                                VLO        1        16.7
+                            
+                         TOTAL            49           

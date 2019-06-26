@@ -1,0 +1,15 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Debounce.v":18:7:18:14|Synthesizing module Debounce in library work.
+@N: CG179 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Debounce.v":65:19:65:27|Removing redundant assignment.
+@N: CG364 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Clock_div.v":9:7:9:15|Synthesizing module Clock_div in library work.
+@N: CG364 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Lightness.v":18:7:18:15|Synthesizing module Lightness in library work.
+@N: CG179 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Lightness.v":57:15:57:18|Removing redundant assignment.
+@N: CG364 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Heart_beat.v":18:7:18:16|Synthesizing module Heart_beat in library work.
+@N: CG364 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Water_led.v":18:7:18:15|Synthesizing module Water_led in library work.
+@N: CG364 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Color_led.v":18:7:18:15|Synthesizing module Color_led in library work.
+@N: CG364 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":18:7:18:17|Synthesizing module Segment_led in library work.
+@N: CG364 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\FirstDemo.v":18:7:18:15|Synthesizing module FirstDemo in library work.
+@N: CL159 :"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v":20:12:20:20|Input heart_cnt is unused.
+@N|Running in 64-bit mode
+

@@ -1,0 +1,53 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\PC\\Desktop\\FOR STEP FPGA\\step fpga user manual\\MXO2\\FirstDemo\\project\\impl1\\synwork\\FirstDemo_impl1_comp.srs|-top|FirstDemo|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-I|C:\\Users\\PC\\Desktop\\FOR STEP FPGA\\step fpga user manual\\MXO2\\FirstDemo\\project|-I|C:\\Users\\PC\\Desktop\\FOR STEP FPGA\\step fpga user manual\\MXO2\\FirstDemo\\project\\impl1\\|-I|C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\machxo2.v|-devicelib|C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\pmi_def.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\bin64\\c_ver.exe":1480963140
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\machxo2.v":1480960424
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\lucent\\pmi_def.v":1480960424
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vlog\\hypermods.v":1480962754
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vlog\\umr_capim.v":1480962754
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vlog\\scemi_objects.v":1480962754
+#CUR:"C:\\lscc\\diamond\\3.9_x64\\synpbase\\lib\\vlog\\scemi_pipes.svh":1480962754
+#CUR:"C:\\Users\\PC\\Desktop\\FOR STEP FPGA\\step fpga user manual\\MXO2\\FirstDemo\\source\\Clock_div.v":1561526340
+#CUR:"C:\\Users\\PC\\Desktop\\FOR STEP FPGA\\step fpga user manual\\MXO2\\FirstDemo\\source\\Color_led.v":1561526270
+#CUR:"C:\\Users\\PC\\Desktop\\FOR STEP FPGA\\step fpga user manual\\MXO2\\FirstDemo\\source\\Debounce.v":1561526322
+#CUR:"C:\\Users\\PC\\Desktop\\FOR STEP FPGA\\step fpga user manual\\MXO2\\FirstDemo\\source\\FirstDemo.v":1561526226
+#CUR:"C:\\Users\\PC\\Desktop\\FOR STEP FPGA\\step fpga user manual\\MXO2\\FirstDemo\\source\\Heart_beat.v":1561526311
+#CUR:"C:\\Users\\PC\\Desktop\\FOR STEP FPGA\\step fpga user manual\\MXO2\\FirstDemo\\source\\Lightness.v":1561526305
+#CUR:"C:\\Users\\PC\\Desktop\\FOR STEP FPGA\\step fpga user manual\\MXO2\\FirstDemo\\source\\Segment_led.v":1561526299
+#CUR:"C:\\Users\\PC\\Desktop\\FOR STEP FPGA\\step fpga user manual\\MXO2\\FirstDemo\\source\\Water_led.v":1561526281
+#numinternalfiles:6
+#defaultlanguage:verilog
+0			"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Clock_div.v" verilog
+1			"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Color_led.v" verilog
+2			"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Debounce.v" verilog
+3			"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\FirstDemo.v" verilog
+4			"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Heart_beat.v" verilog
+5			"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Lightness.v" verilog
+6			"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Segment_led.v" verilog
+7			"C:\Users\PC\Desktop\FOR STEP FPGA\step fpga user manual\MXO2\FirstDemo\source\Water_led.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 2 0 5 4 7 1 6
+4 -1
+5 -1
+6 -1
+7 -1
+#Dependency Lists(Users Of)
+0 3
+1 3
+2 3
+3 -1
+4 3
+5 3
+6 3
+7 3
+#Design Unit to File Association
+module work Clock_div 0
+module work Color_led 1
+module work Debounce 2
+module work Lightness 5
+module work Heart_beat 4
+module work Water_led 7
+module work Segment_led 6
+module work FirstDemo 3
